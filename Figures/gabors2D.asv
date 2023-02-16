@@ -1,0 +1,54 @@
+function gabors2D
+
+params = thesisParams;
+
+%%
+showRatio = 0.5;
+width = 8.6; %cm
+orientations = 0:45:135;
+sf = [0.2,0.4,0.7,2]; 
+
+g = gabor(100,orientations, 'SpatialFrequencyBandwidth', sf,'SpatialAspectRatio', 1);
+h=figure;
+ax = tight_subplot(numel(sf), numel(orientations),[0.01,0.01], [0.1,0.1],[0.1,0.1]);
+for o = 1:numel(g)
+    axes(ax(o));
+    sz = ceil(size(g(o).SpatialKernel,1).*(showRatio/2));
+    
+    ims{o}=real(g(o).SpatialKernel(sz:end-sz, sz:end-sz));
+    imshow(ims{o});
+    if o<=numel(orientations)
+        title(['\theta = ' ,sprintf('%d', g(o).Orientation), char(176)])
+    end
+    if mod(o,numel(orientations))==1
+        ylabel(sprintf('SF = %.1f', 1/g(o).SpatialFrequencyBandwidth))
+    end
+end
+h.WindowStyle = 'normal';
+h.Units='centimeters';
+h.Position=[1,1,width,width*numel(sf)/numel(orientations)];
+
+
+exportgraphics(h, 'C:\Users\hscott\Documents\Thesis\Figures\gabor2D.pdf')
+
+%%
+
+for o = 1:numel(ims)
+    ims{o} = (ims{o}+min(ims{o},[],'all'))./max(ims{o},[],'all').*255;
+end
+
+h=figure;
+x=repmat(orientations',1,numel(sf)); x=x(:);
+y=repmat(1./sf,numel(orientations),1); y=y(:);% y=y.*max(x)./max(y);
+scatter(x, y,...
+    'filled', 'markerfacecolor', params.royalBlue);
+xlim([-10,360])
+ylim([0,10])
+axis square
+xlabel(['Orientation (\theta', char(176),')'])
+ylabel('Spatial Frequency (a.u.)')
+title('Stimulus Space')
+
+
+
+
