@@ -246,7 +246,12 @@
 
 \usepackage[dvipsnames]{xcolor} % Required for specifying custom colours
 
-\colorlet{mdtRed}{RoyalBlue!50!black}
+\colorlet{thesisBlue}{RoyalBlue!65!black}
+\colorlet{sectionBlue}{RoyalBlue!50!black}
+
+\definecolor{rouge}{RGB}{148, 49, 43}
+\definecolor{enhanced}{RGB}{128, 177, 211}
+\definecolor{suppressed}{RGB}{255, 170, 90}
 
 %----------------------------------------------------------------------------------------
 %	MARGINS

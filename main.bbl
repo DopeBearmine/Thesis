@@ -1,5 +1,5 @@
 % $ biblatex auxiliary file $
-% $ biblatex bbl format version 3.0 $
+% $ biblatex bbl format version 3.2 $
 % Do not modify the above lines!
 %
 % This is an auxiliary file used by the 'biblatex' package.
@@ -17,12 +17,74 @@
 \endgroup
 
 \datalist[entry]{nyt/global//global/global}
+  \entry{Albright1987}{article}{}
+    \name{author}{2}{}{%
+      {{hash=ATD}{%
+         family={Albright},
+         familyi={A\bibinitperiod},
+         given={T.\bibnamedelima D.},
+         giveni={T\bibinitperiod\bibinitdelim D\bibinitperiod},
+      }}%
+      {{hash=DR}{%
+         family={Desimone},
+         familyi={D\bibinitperiod},
+         given={R.},
+         giveni={R\bibinitperiod},
+      }}%
+    }
+    \keyw{Magnification factor,Modular organization,Point-image size,Receptive
+  field scatter,Receptive field size,Visual area MT}
+    \strng{namehash}{ATDDR1}
+    \strng{fullhash}{ATDDR1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{1987}
+    \field{labeldatesource}{}
+    \field{sortinit}{A}
+    \field{sortinithash}{A}
+    \field{abstract}{%
+    The representation of the visual field in the middle temporal area (MT) was
+  examined by recording from single neurons in anesthetized, immobilized
+  macaques. Measurements of receptive field size, variability of receptive
+  field position (scatter) and magnification factor were obtained within the
+  representation of the central 25°. Over at least short distances (less than
+  3 mm), the visual field representation in MT is surprisingly orderly.
+  Receptive field size increases as a linear function of eccentricity and is
+  about ten times larger than in V1 at all eccentricities. Scatter in receptive
+  field position at any point in the visual field representation is equal to
+  about one-third of the receptive field size at that location, the same
+  relationship that has been found in V1. Magnification factor in MT is only
+  about onefifth that reported in V1 within the central 5° but appears to
+  decline somewhat less steeply than in V1 with increasing eccentricity.
+  Because the smaller magnification factor in MT relative to V1 is complemented
+  by larger receptive field size and scatter, the point-image size (the
+  diameter of the region of cortex activated by a single point in the visual
+  field) is roughly comparable in the two areas. On the basis of these results,
+  as well as on our previous finding that 180° of axis of stimulus motion in
+  MT are represented in about the same amount of tissue as 180° of stimulus
+  orientation in V1, we suggest that a stimulus at one point in the visual
+  field activates at least as many functional "modules" in MT as in V1. © 1987
+  Springer-Verlag.%
+    }
+    \verb{doi}
+    \verb 10.1007/BF00235981
+    \endverb
+    \field{issn}{00144819}
+    \field{issue}{3}
+    \field{pages}{582\bibrangedash 592}
+    \field{title}{Local precision of visuotopic organization in the middle
+  temporal area (MT) of the macaque}
+    \field{volume}{65}
+    \field{journaltitle}{Experimental Brain Research}
+    \field{year}{1987}
+  \endentry
+
   \entry{Arandia-Romero2016}{article}{}
     \name{author}{5}{}{%
       {{hash=ARI}{%
          family={Arandia-Romero},
          familyi={A\bibinithyphendelim R\bibinitperiod},
-         given={I{\~{n}}igo},
+         given={Iñigo},
          giveni={I\bibinitperiod},
       }}%
       {{hash=TS}{%
@@ -46,7 +108,7 @@
       {{hash=MBR}{%
          family={Moreno-Bote},
          familyi={M\bibinithyphendelim B\bibinitperiod},
-         given={Rub{\'{e}}n},
+         given={Rubén},
          giveni={R\bibinitperiod},
       }}%
     }
@@ -55,7 +117,7 @@
     \field{labelnamesource}{author}
     \field{labeltitlesource}{title}
     \field{labelyear}{2016}
-    \field{labeldatesource}{year}
+    \field{labeldatesource}{}
     \field{sortinit}{A}
     \field{sortinithash}{A}
     \field{abstract}{%
@@ -78,16 +140,11 @@
     \verb 10.1016/j.neuron.2016.01.044
     \endverb
     \field{issn}{10974199}
-    \field{number}{6}
+    \field{issue}{6}
     \field{pages}{1305\bibrangedash 1316}
-    \field{title}{{Multiplicative and Additive Modulation of Neuronal Tuning
-  with Population Activity Affects Encoded Information}}
+    \field{title}{Multiplicative and Additive Modulation of Neuronal Tuning
+  with Population Activity Affects Encoded Information}
     \field{volume}{89}
-    \verb{file}
-    \verb :C$\backslash$:/Users/hscott/Documents/Articles/2016 Arandia-Romero M
-    \verb ultiplicative and Additive Modulation of Neuronal Tuning with Populat
-    \verb ion Activity Affects Encoded Information.pdf:pdf
-    \endverb
     \field{journaltitle}{Neuron}
     \field{year}{2016}
   \endentry
@@ -108,7 +165,7 @@
     \field{labelnamesource}{author}
     \field{labeltitlesource}{title}
     \field{labelyear}{1988}
-    \field{labeldatesource}{year}
+    \field{labeldatesource}{}
     \field{sortinit}{B}
     \field{sortinithash}{B}
     \field{abstract}{%
@@ -149,23 +206,18 @@
   corticocortical connections, including strong links with limbic cortices. In
   contrast, areas which showed the highest degree of architectonic
   differentiation within the basoventral (area 46) and the mediodorsal (area 8)
-  prefrontal cortices had restricted corticocortical connections. Copyright
-  {\textcopyright} 1988 Alan R. Liss, Inc.%
+  prefrontal cortices had restricted corticocortical connections. Copyright ©
+  1988 Alan R. Liss, Inc.%
     }
     \verb{doi}
     \verb 10.1002/cne.902760302
     \endverb
     \field{issn}{10969861}
-    \field{number}{3}
+    \field{issue}{3}
     \field{pages}{313\bibrangedash 342}
-    \field{title}{{Anatomic organization of basoventral and mediodorsal visual
-  recipient prefrontal regions in the rhesus monkey}}
+    \field{title}{Anatomic organization of basoventral and mediodorsal visual
+  recipient prefrontal regions in the rhesus monkey}
     \field{volume}{276}
-    \verb{file}
-    \verb :C$\backslash$:/Users/hscott/Documents/Articles/1988 Barbas Anatomic
-    \verb Organization of Basoventral and Mediodorsal Visual Recipient Prefront
-    \verb al Regions in the Rhesus Monkey.pdf:pdf
-    \endverb
     \field{journaltitle}{Journal of Comparative Neurology}
     \field{year}{1988}
   \endentry
@@ -204,7 +256,7 @@
     \field{labelnamesource}{author}
     \field{labeltitlesource}{title}
     \field{labelyear}{2000}
-    \field{labeldatesource}{year}
+    \field{labeldatesource}{}
     \field{sortinit}{B}
     \field{sortinithash}{B}
     \field{abstract}{%
@@ -219,35 +271,28 @@
   indication of the distance separating adjacent levels. Here we have attempted
   to determine a graded parameter describing the anatomical relationship of
   interconnected areas. We have investigated whether the precise percentage of
-  labeled supragranular layer neurons (SLN{\%}) in each afferent area after
+  labeled supragranular layer neurons (SLN%) in each afferent area after
   injection in either visual areas V1 or V4 determines its hierarchical
   position in the Felleman and Van Essen (1991) model. This shows that pathway
   directionality in the Felleman and Van Essen model is characterized by a
-  range of SLN{\%} values. The one exception is the projection of the frontal
-  eye field to area V4, which resembles a feedforward projection. Individual
-  areal differences in SLN{\%} values are highly significant, and the number of
+  range of SLN% values. The one exception is the projection of the frontal eye
+  field to area V4, which resembles a feedforward projection. Individual areal
+  differences in SLN% values are highly significant, and the number of
   hierarchical steps separating a target area from a source area is found to be
-  tightly correlated to SLN{\%}. The present results show that the hierarchical
-  rank of each afferent area is reliably indicated by SLN{\%}, and therefore
-  this constitutes a graded parameter that is related to hierarchical
-  distance.%
+  tightly correlated to SLN%. The present results show that the hierarchical
+  rank of each afferent area is reliably indicated by SLN%, and therefore this
+  constitutes a graded parameter that is related to hierarchical distance.%
     }
     \verb{doi}
     \verb 10.1523/jneurosci.20-09-03263.2000
     \endverb
     \field{issn}{02706474}
-    \field{number}{9}
+    \field{issue}{9}
     \field{pages}{3263\bibrangedash 3281}
-    \field{title}{{Laminar distribution of neurons in extrastriate areas
+    \field{title}{Laminar distribution of neurons in extrastriate areas
   projecting to visual areas V1 and V4 correlates with the hiearchical rank and
-  intimates the operation of a distance rule}}
+  intimates the operation of a distance rule}
     \field{volume}{20}
-    \verb{file}
-    \verb :C$\backslash$:/Users/hscott/Documents/Articles/2000 Barone Laminar D
-    \verb istribution of Neurons in Extrastriate Areas Projecting to Visual Are
-    \verb as V1 and V4 Correlates with the Hierarchical Rank and Indicates the
-    \verb Operation of a Distance Rule.pdf:pdf
-    \endverb
     \field{journaltitle}{Journal of Neuroscience}
     \field{year}{2000}
   \endentry
@@ -266,25 +311,25 @@
     \field{labelnamesource}{author}
     \field{labeltitlesource}{title}
     \field{labelyear}{2002}
-    \field{labeldatesource}{year}
+    \field{labeldatesource}{}
     \field{sortinit}{B}
     \field{sortinithash}{B}
     \field{abstract}{%
     The laminar organization of cortico-cortical projection neurons (expressed
-  by the percentage of supragranular projecting neurons - SLN{\%})
-  characterizes cortical pathways as feedforward (FF) or feedback (FB) and
-  determines the hierarchical ranking of cortical areas. There is evidence of a
-  developmental reduction in SLN{\%} of pathways to area V1. Here, by analyzing
-  pre- and postnatal projections to area V4, we have been able to address
-  whether developmental reductions of SLN{\%} impact on information processing
-  in the immature cortex. FB pathways to area V4 exhibit 28-84{\%} reduction of
-  SLN{\%}. This contrasts with the FF projections, which show little or no
-  SLN{\%} reduction. However, SLN{\%} values in the immature cortex allocated
-  cortical areas to the same hierarchical levels as in the adult. The
-  developmental reduction of SLN{\%} is a widespread phenomenon in the
-  neocortex and is a distinctive feature of FB pathways. Two mechanisms
-  contribute to developmental changes in SLN{\%}: (i) delayed ingrowth of axons
-  into the cortical target from infragranular layer neurons and (ii) prolonged
+  by the percentage of supragranular projecting neurons - SLN%) characterizes
+  cortical pathways as feedforward (FF) or feedback (FB) and determines the
+  hierarchical ranking of cortical areas. There is evidence of a developmental
+  reduction in SLN% of pathways to area V1. Here, by analyzing pre- and
+  postnatal projections to area V4, we have been able to address whether
+  developmental reductions of SLN% impact on information processing in the
+  immature cortex. FB pathways to area V4 exhibit 28-84% reduction of SLN%.
+  This contrasts with the FF projections, which show little or no SLN%
+  reduction. However, SLN% values in the immature cortex allocated cortical
+  areas to the same hierarchical levels as in the adult. The developmental
+  reduction of SLN% is a widespread phenomenon in the neocortex and is a
+  distinctive feature of FB pathways. Two mechanisms contribute to
+  developmental changes in SLN%: (i) delayed ingrowth of axons into the
+  cortical target from infragranular layer neurons and (ii) prolonged
   developmental reduction of the divergence of projections from supragranular
   layer neurons. The present results show that FF and FB projections exhibit
   different developmental processes and patterns of connections linking
@@ -295,16 +340,11 @@
     \verb 10.1093/cercor/12.5.453
     \endverb
     \field{issn}{1047-3211}
-    \field{number}{5}
+    \field{issue}{5}
     \field{pages}{453\bibrangedash 465}
-    \field{title}{{Early Specification of the Hierarchical Organization of
-  Visual Cortical Areas in the Macaque Monkey}}
+    \field{title}{Early Specification of the Hierarchical Organization of
+  Visual Cortical Areas in the Macaque Monkey}
     \field{volume}{12}
-    \verb{file}
-    \verb :C$\backslash$:/Users/hscott/Documents/Articles/2002 Batardiere Early
-    \verb  Specification of the Hierarchical Organization of Visual Cortical Ar
-    \verb eas in the Macaque Monkey.pdf:pdf
-    \endverb
     \field{journaltitle}{Cerebral Cortex}
     \field{year}{2002}
   \endentry
@@ -329,7 +369,7 @@
     \field{labelnamesource}{author}
     \field{labeltitlesource}{title}
     \field{labelyear}{2000}
-    \field{labeldatesource}{year}
+    \field{labeldatesource}{}
     \field{sortinit}{B}
     \field{sortinithash}{B}
     \field{abstract}{%
@@ -360,16 +400,11 @@
     \verb 10.1093/cercor/10.11.1053
     \endverb
     \field{issn}{10473211}
-    \field{number}{11}
+    \field{issue}{11}
     \field{pages}{1053\bibrangedash 1065}
-    \field{title}{{The multiple roles of visual cortical areas MT/MST in
-  remembering the direction of visual motion}}
+    \field{title}{The multiple roles of visual cortical areas MT/MST in
+  remembering the direction of visual motion}
     \field{volume}{10}
-    \verb{file}
-    \verb :C$\backslash$:/Users/hscott/Documents/Articles/2000 Bisley The Multi
-    \verb ple Roles of Visual Cortical Areas MT MST in Remembering the Directio
-    \verb n of Visual Motion.pdf:pdf
-    \endverb
     \field{journaltitle}{Cerebral Cortex}
     \field{year}{2000}
   \endentry
@@ -400,7 +435,7 @@
     \field{labelnamesource}{author}
     \field{labeltitlesource}{title}
     \field{labelyear}{2001}
-    \field{labeldatesource}{year}
+    \field{labeldatesource}{}
     \field{sortinit}{B}
     \field{sortinithash}{B}
     \field{abstract}{%
@@ -432,16 +467,11 @@
     \verb 10.1152/jn.2001.85.1.187
     \endverb
     \field{issn}{00223077}
-    \field{number}{1}
+    \field{issue}{1}
     \field{pages}{187\bibrangedash 196}
-    \field{title}{{Microstimulation of cortical area MT affects performance on
-  a visual working memory task}}
+    \field{title}{Microstimulation of cortical area MT affects performance on a
+  visual working memory task}
     \field{volume}{85}
-    \verb{file}
-    \verb :C$\backslash$:/Users/hscott/Documents/Articles/2000 Bisley Microstim
-    \verb ulation of Cortical Area MT Affects Performance on a Visual Working M
-    \verb emory Task.pdf:pdf
-    \endverb
     \field{journaltitle}{Journal of Neurophysiology}
     \field{year}{2001}
   \endentry
@@ -478,7 +508,7 @@
     \field{labelnamesource}{author}
     \field{labeltitlesource}{title}
     \field{labelyear}{2004}
-    \field{labeldatesource}{year}
+    \field{labeldatesource}{}
     \field{sortinit}{B}
     \field{sortinithash}{B}
     \field{abstract}{%
@@ -509,16 +539,11 @@
     \verb 10.1152/jn.00870.2003
     \endverb
     \field{issn}{00223077}
-    \field{number}{1}
+    \field{issue}{1}
     \field{pages}{286\bibrangedash 300}
-    \field{title}{{Activity of Neurons in Cortical Area MT during A Memory for
-  Motion Task}}
+    \field{title}{Activity of Neurons in Cortical Area MT during A Memory for
+  Motion Task}
     \field{volume}{91}
-    \verb{file}
-    \verb :C$\backslash$:/Users/hscott/Documents/Articles/2004 Bisley Activity
-    \verb of Neurons in Cortical Area MT During a Memory for Motion Task.pdf:pd
-    \verb f
-    \endverb
     \field{journaltitle}{Journal of Neurophysiology}
     \field{year}{2004}
   \endentry
@@ -546,7 +571,7 @@
     \field{labelnamesource}{author}
     \field{labeltitlesource}{title}
     \field{labelyear}{2005}
-    \field{labeldatesource}{year}
+    \field{labeldatesource}{}
     \field{sortinit}{B}
     \field{sortinithash}{B}
     \field{abstract}{%
@@ -559,20 +584,16 @@
   the neural circuits underlying computations of motion and depth and to
   examine the relationship between neural activity and perception. Here we
   attempt a synthetic overview of the rich literature on MT with the goal of
-  answering the question, What does MT do? Copyright {\textcopyright} 2005 by
-  Annual Reviews. All rights reserved.%
+  answering the question, What does MT do? Copyright © 2005 by Annual Reviews.
+  All rights reserved.%
     }
     \verb{doi}
     \verb 10.1146/annurev.neuro.26.041002.131052
     \endverb
     \field{issn}{0147006X}
     \field{pages}{157\bibrangedash 189}
-    \field{title}{{Structure and function of visual area MT}}
+    \field{title}{Structure and function of visual area MT}
     \field{volume}{28}
-    \verb{file}
-    \verb :C$\backslash$:/Users/hscott/Documents/Articles/2005 Born Structure a
-    \verb nd Function of Visual Area MT.pdf:pdf
-    \endverb
     \field{journaltitle}{Annual Review of Neuroscience}
     \field{year}{2005}
   \endentry
@@ -601,17 +622,13 @@
     \field{labelnamesource}{author}
     \field{labeltitlesource}{title}
     \field{labelyear}{2002}
-    \field{labeldatesource}{year}
+    \field{labeldatesource}{}
     \field{sortinit}{B}
     \field{sortinithash}{B}
-    \field{number}{5}
+    \field{issue}{5}
     \field{pages}{1976\bibrangedash 1984}
-    \field{title}{{Dynamics of Spatial Frequency Tuning in Macaque V1}}
+    \field{title}{Dynamics of Spatial Frequency Tuning in Macaque V1}
     \field{volume}{22}
-    \verb{file}
-    \verb :C$\backslash$:/Users/hscott/Documents/Articles/2002 Bredfeldt Dynami
-    \verb cs of Spatial Frequency Tuning in Macaque V1.pdf:pdf
-    \endverb
     \field{year}{2002}
   \endentry
 
@@ -647,7 +664,7 @@
     \field{labelnamesource}{author}
     \field{labeltitlesource}{title}
     \field{labelyear}{1992}
-    \field{labeldatesource}{year}
+    \field{labeldatesource}{}
     \field{sortinit}{B}
     \field{sortinithash}{B}
     \field{abstract}{%
@@ -676,18 +693,93 @@
     \verb 10.1523/jneurosci.12-12-04745.1992
     \endverb
     \field{issn}{02706474}
-    \field{number}{12}
+    \field{issue}{12}
     \field{pages}{4745\bibrangedash 4765}
-    \field{title}{{The analysis of visual motion: A comparison of neuronal and
-  psychophysical performance}}
+    \field{title}{The analysis of visual motion: A comparison of neuronal and
+  psychophysical performance}
     \field{volume}{12}
-    \verb{file}
-    \verb :C$\backslash$:/Users/hscott/Documents/Articles/1992 Britten The Anal
-    \verb ysis of Visual Motion- A comparison of neuronal and psychophysical pe
-    \verb rformance.pdf:pdf
-    \endverb
     \field{journaltitle}{Journal of Neuroscience}
     \field{year}{1992}
+  \endentry
+
+  \entry{britten1996}{report}{}
+    \name{author}{5}{}{%
+      {{hash=BKH}{%
+         family={Britten},
+         familyi={B\bibinitperiod},
+         given={K\bibnamedelima H},
+         giveni={K\bibinitperiod\bibinitdelim H\bibinitperiod},
+      }}%
+      {{hash=NWT}{%
+         family={Newsome},
+         familyi={N\bibinitperiod},
+         given={W\bibnamedelima T},
+         giveni={W\bibinitperiod\bibinitdelim T\bibinitperiod},
+      }}%
+      {{hash=SMN}{%
+         family={Shadlen},
+         familyi={S\bibinitperiod},
+         given={M\bibnamedelima N},
+         giveni={M\bibinitperiod\bibinitdelim N\bibinitperiod},
+      }}%
+      {{hash=CS}{%
+         family={Celebrini},
+         familyi={C\bibinitperiod},
+         given={S},
+         giveni={S},
+      }}%
+      {{hash=MJA}{%
+         family={Movshon},
+         familyi={M\bibinitperiod},
+         given={J\bibnamedelima A},
+         giveni={J\bibinitperiod\bibinitdelim A\bibinitperiod},
+      }}%
+    }
+    \keyw{Behavior,Discrimination,Extrastriate,Middle temporal,Monkey,Motion
+  sensitivity,Psychophysics,Visual cortex}
+    \strng{namehash}{BKH+2}
+    \strng{fullhash}{BKHNWTSMNCSMJA1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{1996}
+    \field{labeldatesource}{}
+    \field{sortinit}{B}
+    \field{sortinithash}{B}
+    \field{abstract}{%
+    We have previously documented the exquisite motion sensitivity of neurons
+  in extrastriate area MT by studying the relationship between their responses
+  and the direction and strength of visual motion signals delivered to their
+  receptive fields. These results suggested that MT neurons might provide the
+  signals supporting behavioral choice in visual discrimination tasks. To
+  approach this question from another direction, we have now studied the
+  relationship between the discharge of MT neurons and behavioral choice,
+  independently of the effects of visual stimulation. We found that
+  trial-to-trial variability in neuronal signals was correlated with the
+  choices the monkey made. Therefore, when a directionally selective neuron in
+  area MT fires more vigorously, the monkey is more likely to make a decision
+  in favor of the preferred direction of the cell. The magnitude of the
+  relationship was modest, on average, but was highly significant across a
+  sample of 299 cells from four monkeys. The relationship was present for all
+  stimuli (including those without a net motion signal), and for all but the
+  weakest responses. The relationship was reduced or eliminated when the
+  demands of the task were changed so that the directional signal carried by
+  the cell was less informative. The relationship was evident within 50 ms of
+  response onset, and persisted throughout the stimulus presentation. On
+  average, neurons that were more sensitive to weak motion signals had a
+  stronger relationship to behavior than those that were less sensitive. These
+  observations are consistent with the idea that neuronal signals in MT are
+  used by the monkey to determine the direction of stimulus motion. The modest
+  relationship between behavioral choice and the discharge of any one neuron,
+  and the prevalence of the relationship across the population, make it likely
+  that signals from many neurons are pooled to form the data on which
+  behavioral choices are based.%
+    }
+    \field{pages}{87\bibrangedash 100}
+    \field{title}{A relationship between behavioral choice and the visual
+  responses of neurons in macaque MT}
+    \field{volume}{13}
+    \field{journaltitle}{Visual Neuroscience}
+    \field{year}{1996}
   \endentry
 
   \entry{Butts2006}{article}{}
@@ -710,19 +802,126 @@
     \field{labelnamesource}{author}
     \field{labeltitlesource}{title}
     \field{labelyear}{2006}
-    \field{labeldatesource}{year}
+    \field{labeldatesource}{}
     \field{sortinit}{B}
     \field{sortinithash}{B}
     \verb{doi}
     \verb 10.1371/journal.pbio.0040092
     \endverb
-    \field{number}{4}
-    \field{title}{{Tuning Curves , Neuronal Variability , and Sensory Coding}}
+    \field{issue}{4}
+    \field{title}{Tuning Curves , Neuronal Variability , and Sensory Coding}
     \field{volume}{4}
-    \verb{file}
-    \verb :C$\backslash$:/Users/hscott/Documents/Articles/2006 Butts Tuning Cur
-    \verb ves, Neuronal Variability, and Sensory Coding.pdf:pdf
+    \field{year}{2006}
+  \endentry
+
+  \entry{Carandini2012}{article}{}
+    \name{author}{2}{}{%
+      {{hash=CM}{%
+         family={Carandini},
+         familyi={C\bibinitperiod},
+         given={Matteo},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=HDJ}{%
+         family={Heeger},
+         familyi={H\bibinitperiod},
+         given={David\bibnamedelima J.},
+         giveni={D\bibinitperiod\bibinitdelim J\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{CMHDJ1}
+    \strng{fullhash}{CMHDJ1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2012}
+    \field{labeldatesource}{}
+    \field{sortinit}{C}
+    \field{sortinithash}{C}
+    \field{abstract}{%
+    There is increasing evidence that the brain relies on a set of canonical
+  neural computations, repeating them across brain regions and modalities to
+  apply similar operations to different problems. A promising candidate for
+  such a computation is normalization, in which the responses of neurons are
+  divided by a common factor that typically includes the summed activity of a
+  pool of neurons. Normalization was developed to explain responses in the
+  primary visual cortex and is now thought to operate throughout the visual
+  system, and in many other sensory modalities and brain regions. Normalization
+  may underlie operations such as the representation of odours, the modulatory
+  effects of visual attention, the encoding of value and the integration of
+  multisensory information. Its presence in such a diversity of neural systems
+  in multiple species, from invertebrates to mammals, suggests that it serves
+  as a canonical neural computation. © 2012 Macmillan Publishers Limited. All
+  rights reserved.%
+    }
+    \verb{doi}
+    \verb 10.1038/nrn3136
     \endverb
+    \field{issn}{1471003X}
+    \field{issue}{1}
+    \field{pages}{51\bibrangedash 62}
+    \field{title}{Normalization as a canonical neural computation}
+    \field{volume}{13}
+    \field{journaltitle}{Nature Reviews Neuroscience}
+    \field{year}{2012}
+  \endentry
+
+  \entry{Chen2006}{article}{}
+    \name{author}{3}{}{%
+      {{hash=CY}{%
+         family={Chen},
+         familyi={C\bibinitperiod},
+         given={Yuzhi},
+         giveni={Y\bibinitperiod},
+      }}%
+      {{hash=GWS}{%
+         family={Geisler},
+         familyi={G\bibinitperiod},
+         given={Wilson\bibnamedelima S.},
+         giveni={W\bibinitperiod\bibinitdelim S\bibinitperiod},
+      }}%
+      {{hash=SE}{%
+         family={Seidemann},
+         familyi={S\bibinitperiod},
+         given={Eyal},
+         giveni={E\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{CYGWSSE1}
+    \strng{fullhash}{CYGWSSE1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2006}
+    \field{labeldatesource}{}
+    \field{sortinit}{C}
+    \field{sortinithash}{C}
+    \field{abstract}{%
+    Even the simplest environmental stimuli elicit responses in large
+  populations of neurons in early sensory cortical areas. How these distributed
+  responses are read out by subsequent processing stages to mediate behavior
+  remains unknown. Here we used voltage-sensitive dye imaging to measure
+  directly population responses in the primary visual cortex (V1) of monkeys
+  performing a demanding visual detection task. We then evaluated the ability
+  of different decoding rules to detect the target from the measured neural
+  responses. We found that small visual targets elicit widespread responses in
+  V1, and that response variability at distant sites is highly correlated.
+  These correlations render most previously proposed decoding rules inefficient
+  relative to one that uses spatially antagonistic center-surround summation.
+  This optimal decoder consistently outperformed the monkey in the detection
+  task, demonstrating the sensitivity of our techniques. Overall, our results
+  suggest an unexpected role for inhibitory mechanisms in efficient decoding of
+  neural population responses. © 2006 Nature Publishing Group.%
+    }
+    \verb{doi}
+    \verb 10.1038/nn1792
+    \endverb
+    \field{issn}{10976256}
+    \field{issue}{11}
+    \field{pages}{1412\bibrangedash 1420}
+    \field{title}{Optimal decoding of correlated neural population responses in
+  the primate visual cortex}
+    \field{volume}{9}
+    \field{journaltitle}{Nature Neuroscience}
+    \field{month}{11}
     \field{year}{2006}
   \endentry
 
@@ -757,298 +956,75 @@
     \field{labelnamesource}{author}
     \field{labeltitlesource}{title}
     \field{labelyear}{2018}
-    \field{labeldatesource}{year}
+    \field{labeldatesource}{}
     \field{sortinit}{C}
     \field{sortinithash}{C}
     \verb{doi}
     \verb 10.1103/PhysRevX.8.031003
     \endverb
     \field{issn}{2160-3308}
-    \field{number}{3}
+    \field{issue}{3}
     \field{pages}{31003}
-    \field{title}{{Classification and Geometry of General Perceptual
-  Manifolds}}
+    \field{title}{Classification and Geometry of General Perceptual Manifolds}
     \verb{url}
     \verb https://doi.org/10.1103/PhysRevX.8.031003
     \endverb
     \field{volume}{8}
-    \verb{file}
-    \verb :C$\backslash$:/Users/hscott/Documents/Articles/2018 Chung Classifica
-    \verb tion and Geometry of General Perceptual Manifolds.pdf:pdf
-    \endverb
     \field{journaltitle}{Physical Review X}
     \field{year}{2018}
   \endentry
 
-  \entry{Churchland2010}{article}{}
-    \name{author}{26}{}{%
-      {{hash=CMM}{%
-         family={Churchland},
-         familyi={C\bibinitperiod},
-         given={Mark\bibnamedelima M.},
-         giveni={M\bibinitperiod\bibinitdelim M\bibinitperiod},
-      }}%
-      {{hash=YBM}{%
-         family={Yu},
-         familyi={Y\bibinitperiod},
-         given={Byron\bibnamedelima M.},
-         giveni={B\bibinitperiod\bibinitdelim M\bibinitperiod},
-      }}%
-      {{hash=CJP}{%
-         family={Cunningham},
-         familyi={C\bibinitperiod},
-         given={John\bibnamedelima P.},
-         giveni={J\bibinitperiod\bibinitdelim P\bibinitperiod},
-      }}%
-      {{hash=SLP}{%
-         family={Sugrue},
-         familyi={S\bibinitperiod},
-         given={Leo\bibnamedelima P.},
-         giveni={L\bibinitperiod\bibinitdelim P\bibinitperiod},
-      }}%
+  \entry{Cohen2009}{article}{}
+    \name{author}{2}{}{%
       {{hash=CMR}{%
          family={Cohen},
          familyi={C\bibinitperiod},
          given={Marlene\bibnamedelima R.},
          giveni={M\bibinitperiod\bibinitdelim R\bibinitperiod},
       }}%
-      {{hash=CGS}{%
-         family={Corrado},
-         familyi={C\bibinitperiod},
-         given={Greg\bibnamedelima S.},
-         giveni={G\bibinitperiod\bibinitdelim S\bibinitperiod},
-      }}%
-      {{hash=NWT}{%
-         family={Newsome},
-         familyi={N\bibinitperiod},
-         given={William\bibnamedelima T.},
-         giveni={W\bibinitperiod\bibinitdelim T\bibinitperiod},
-      }}%
-      {{hash=CAM}{%
-         family={Clark},
-         familyi={C\bibinitperiod},
-         given={Andrew\bibnamedelima M.},
-         giveni={A\bibinitperiod\bibinitdelim M\bibinitperiod},
-      }}%
-      {{hash=HP}{%
-         family={Hosseini},
-         familyi={H\bibinitperiod},
-         given={Paymon},
-         giveni={P\bibinitperiod},
-      }}%
-      {{hash=SBB}{%
-         family={Scott},
-         familyi={S\bibinitperiod},
-         given={Benjamin\bibnamedelima B.},
-         giveni={B\bibinitperiod\bibinitdelim B\bibinitperiod},
-      }}%
-      {{hash=BDC}{%
-         family={Bradley},
-         familyi={B\bibinitperiod},
-         given={David\bibnamedelima C.},
-         giveni={D\bibinitperiod\bibinitdelim C\bibinitperiod},
-      }}%
-      {{hash=SMA}{%
-         family={Smith},
-         familyi={S\bibinitperiod},
-         given={Matthew\bibnamedelima A.},
-         giveni={M\bibinitperiod\bibinitdelim A\bibinitperiod},
-      }}%
-      {{hash=KA}{%
-         family={Kohn},
-         familyi={K\bibinitperiod},
-         given={Adam},
-         giveni={A\bibinitperiod},
-      }}%
-      {{hash=MJA}{%
-         family={Movshon},
-         familyi={M\bibinitperiod},
-         given={J.\bibnamedelima Anthony},
-         giveni={J\bibinitperiod\bibinitdelim A\bibinitperiod},
-      }}%
-      {{hash=AKM}{%
-         family={Armstrong},
-         familyi={A\bibinitperiod},
-         given={Katherine\bibnamedelima M.},
-         giveni={K\bibinitperiod\bibinitdelim M\bibinitperiod},
-      }}%
-      {{hash=MT}{%
-         family={Moore},
-         familyi={M\bibinitperiod},
-         given={Tirin},
-         giveni={T\bibinitperiod},
-      }}%
-      {{hash=CSW}{%
-         family={Chang},
-         familyi={C\bibinitperiod},
-         given={Steve\bibnamedelima W.},
-         giveni={S\bibinitperiod\bibinitdelim W\bibinitperiod},
-      }}%
-      {{hash=SLH}{%
-         family={Snyder},
-         familyi={S\bibinitperiod},
-         given={Lawrence\bibnamedelima H.},
-         giveni={L\bibinitperiod\bibinitdelim H\bibinitperiod},
-      }}%
-      {{hash=LSG}{%
-         family={Lisberger},
-         familyi={L\bibinitperiod},
-         given={Stephen\bibnamedelima G.},
-         giveni={S\bibinitperiod\bibinitdelim G\bibinitperiod},
-      }}%
-      {{hash=PNJ}{%
-         family={Priebe},
-         familyi={P\bibinitperiod},
-         given={Nicholas\bibnamedelima J.},
-         giveni={N\bibinitperiod\bibinitdelim J\bibinitperiod},
-      }}%
-      {{hash=FIM}{%
-         family={Finn},
-         familyi={F\bibinitperiod},
-         given={Ian\bibnamedelima M.},
-         giveni={I\bibinitperiod\bibinitdelim M\bibinitperiod},
-      }}%
-      {{hash=FD}{%
-         family={Ferster},
-         familyi={F\bibinitperiod},
-         given={David},
-         giveni={D\bibinitperiod},
-      }}%
-      {{hash=RSI}{%
-         family={Ryu},
-         familyi={R\bibinitperiod},
-         given={Stephen\bibnamedelima I.},
-         giveni={S\bibinitperiod\bibinitdelim I\bibinitperiod},
-      }}%
-      {{hash=SG}{%
-         family={Santhanam},
-         familyi={S\bibinitperiod},
-         given={Gopal},
-         giveni={G\bibinitperiod},
-      }}%
-      {{hash=SM}{%
-         family={Sahani},
-         familyi={S\bibinitperiod},
-         given={Maneesh},
-         giveni={M\bibinitperiod},
-      }}%
-      {{hash=SKV}{%
-         family={Shenoy},
-         familyi={S\bibinitperiod},
-         given={Krishna\bibnamedelima V.},
-         giveni={K\bibinitperiod\bibinitdelim V\bibinitperiod},
-      }}%
-    }
-    \list{publisher}{1}{%
-      {Nature Publishing Group}%
-    }
-    \keyw{Foliar potassium application,Fruit set,Fruit
-  weight,HaydenQuals,Soluble solids concentration}
-    \strng{namehash}{CMM+1}
-  \strng{fullhash}{CMMYBMCJPSLPCMRCGSNWTCAMHPSBBBDCSMAKAMJAAKMMTCSWSLHLSGPNJFIMFDRSISGSMSKV1}
-    \field{labelnamesource}{author}
-    \field{labeltitlesource}{title}
-    \field{labelyear}{2010}
-    \field{labeldatesource}{year}
-    \field{sortinit}{C}
-    \field{sortinithash}{C}
-    \field{abstract}{%
-    Neural responses are typically characterized by computing the mean firing
-  rate, but response variability can exist across trials. Many studies have
-  examined the effect of a stimulus on the mean response, but few have examined
-  the effect on response variability. We measured neural variability in 13
-  extracellularly recorded datasets and one intracellularly recorded dataset
-  from seven areas spanning the four cortical lobes in monkeys and cats. In
-  every case, stimulus onset caused a decline in neural variability. This
-  occurred even when the stimulus produced little change in mean firing rate.
-  The variability decline was observed in membrane potential recordings, in the
-  spiking of individual neurons and in correlated spiking variability measured
-  with implanted 96-electrode arrays. The variability decline was observed for
-  all stimuli tested, regardless of whether the animal was awake, behaving or
-  anaesthetized. This widespread variability decline suggests a rather general
-  property of cortex, that its state is stabilized by an input.
-  {\textcopyright} 2010 Nature America, Inc. All rights reserved.%
-    }
-    \verb{doi}
-    \verb 10.1038/nn.2501
-    \endverb
-    \field{isbn}{9789462610699}
-    \field{issn}{10976256}
-    \field{number}{3}
-    \field{pages}{369\bibrangedash 378}
-    \field{title}{{Stimulus onset quenches neural variability: A widespread
-  cortical phenomenon}}
-    \verb{url}
-    \verb http://dx.doi.org/10.1038/nn.2501
-    \endverb
-    \field{volume}{13}
-    \verb{file}
-    \verb ::;:C$\backslash$:/Users/hscott/Documents/Articles/2010 Churchland St
-    \verb imulus onset quenches neural variability.pdf:pdf
-    \endverb
-    \field{journaltitle}{Nature Neuroscience}
-    \field{year}{2010}
-  \endentry
-
-  \entry{Cohen2010}{article}{}
-    \name{author}{2}{}{%
-      {{hash=CMR}{%
-         family={Cohen},
-         familyi={C\bibinitperiod},
-         given={M.\bibnamedelima R.},
-         giveni={M\bibinitperiod\bibinitdelim R\bibinitperiod},
-      }}%
-      {{hash=MJHR}{%
+      {{hash=MJH}{%
          family={Maunsell},
          familyi={M\bibinitperiod},
-         given={J.\bibnamedelima H.\bibnamedelima R.},
-         giveni={J\bibinitperiod\bibinitdelim H\bibinitperiod\bibinitdelim
-  R\bibinitperiod},
+         given={John\bibnamedelima H.R.},
+         giveni={J\bibinitperiod\bibinitdelim H\bibinitperiod},
       }}%
     }
-    \strng{namehash}{CMRMJHR1}
-    \strng{fullhash}{CMRMJHR1}
+    \strng{namehash}{CMRMJH1}
+    \strng{fullhash}{CMRMJH1}
     \field{labelnamesource}{author}
     \field{labeltitlesource}{title}
-    \field{labelyear}{2010}
-    \field{labeldatesource}{year}
+    \field{labelyear}{2009}
+    \field{labeldatesource}{}
     \field{sortinit}{C}
     \field{sortinithash}{C}
     \field{abstract}{%
-    Visual attention improves perception for an attended location or feature
-  and also modulates the responses of sensory neurons. In laboratory studies,
-  the sensory stimuli and task instructions are held constant within an
-  attentional condition, but despite experimenters' best efforts, attention
-  likely varies from moment to moment. Because most previous studies have
-  focused on single neurons, it has been impossible to use neuronal responses
-  to identify attentional fluctuations and determine whether these are
-  associated with changes in behavior. We show that an instantaneous measure of
-  attention based on the responses of a modest number of neurons in area V4 of
-  the rhesus monkey (Macaca mulatta) can reliably predict large changes in an
-  animal's ability to perform a difficult psychophysical task. Unexpectedly,
-  this measure shows that the amount of attention allocated at any moment to
-  locations in opposite hemifields is uncorrelated, suggesting that animals
-  allocate attention to each stimulus independently rather than moving their
-  attentional focus from one location to another.%
+    Visual attention can improve behavioral performance by allowing observers
+  to focus on the important information in a complex scene. Attention also
+  typically increases the firing rates of cortical sensory neurons. Rate
+  increases improve the signal-to-noise ratio of individual neurons, and this
+  improvement has been assumed to underlie attention-related improvements in
+  behavior. We recorded dozens of neurons simultaneously in visual area V4 and
+  found that changes in single neurons accounted for only a small fraction of
+  the improvement in the sensitivity of the population. Instead, over 80% of
+  the attentional improvement in the population signal was caused by decreases
+  in the correlations between the trial-to-trial fluctuations in the responses
+  of pairs of neurons. These results suggest that the representation of sensory
+  information in populations of neurons and the way attention affects the
+  sensitivity of the population may only be understood by considering the
+  interactions between neurons.%
     }
     \verb{doi}
-    \verb 10.1523/JNEUROSCI.2171-10.2010
+    \verb 10.1038/nn.2439
     \endverb
-    \field{isbn}{0270-6474$\backslash$r1529-2401}
-    \field{issn}{0270-6474}
-    \field{number}{45}
-    \field{pages}{15241\bibrangedash 15253}
-    \field{title}{{A Neuronal Population Measure of Attention Predicts
-  Behavioral Performance on Individual Trials}}
-    \verb{url}
-    \verb http://www.jneurosci.org/cgi/doi/10.1523/JNEUROSCI.2171-10.2010
-    \endverb
-    \field{volume}{30}
-    \verb{file}
-    \verb ::
-    \endverb
-    \field{journaltitle}{Journal of Neuroscience}
-    \field{year}{2010}
+    \field{isbn}{1546-1726 (Electronic)\n1546-1726 (Linking)}
+    \field{issn}{10976256}
+    \field{issue}{12}
+    \field{pages}{1594\bibrangedash 1600}
+    \field{title}{Attention improves performance primarily by reducing
+  interneuronal correlations}
+    \field{volume}{12}
+    \field{journaltitle}{Nature Neuroscience}
+    \field{year}{2009}
   \endentry
 
   \entry{Cohen2008}{article}{}
@@ -1072,7 +1048,7 @@
     \field{labelnamesource}{author}
     \field{labeltitlesource}{title}
     \field{labelyear}{2008}
-    \field{labeldatesource}{year}
+    \field{labeldatesource}{}
     \field{sortinit}{C}
     \field{sortinithash}{C}
     \field{abstract}{%
@@ -1089,24 +1065,43 @@
   origin whose strength changes with the task structure. The data are
   consistent with a mixed feature-based attentional strategy model in which the
   animal sometimes alternates attention between opposite directions of motion
-  and sometimes attends to the two directions simultaneously. {\textcopyright}
-  2008 Elsevier Inc. All rights reserved.%
+  and sometimes attends to the two directions simultaneously. © 2008 Elsevier
+  Inc. All rights reserved.%
     }
     \verb{doi}
     \verb 10.1016/j.neuron.2008.08.007
     \endverb
     \field{issn}{08966273}
-    \field{number}{1}
+    \field{issue}{1}
     \field{pages}{162\bibrangedash 173}
-    \field{title}{{Context-Dependent Changes in Functional Circuitry in Visual
-  Area MT}}
+    \field{title}{Context-Dependent Changes in Functional Circuitry in Visual
+  Area MT}
     \field{volume}{60}
-    \verb{file}
-    \verb :C$\backslash$:/Users/hscott/Documents/Articles/2008 Cohen Context-De
-    \verb pendent Changes in Functional Circuitry in Visual Area MT.pdf:pdf
-    \endverb
     \field{journaltitle}{Neuron}
     \field{year}{2008}
+  \endentry
+
+  \entry{AnimalUse2011}{book}{}
+    \name{author}{1}{}{%
+      {{hash=CNR}{%
+         family={Council},
+         familyi={C\bibinitperiod},
+         given={National\bibnamedelima Research},
+         giveni={N\bibinitperiod\bibinitdelim R\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{CNR1}
+    \strng{fullhash}{CNR1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2011}
+    \field{labeldatesource}{}
+    \field{sortinit}{C}
+    \field{sortinithash}{C}
+    \field{edition}{8th Editio}
+    \field{isbn}{9780309154000}
+    \field{title}{Guide for the Care and Use of Laboratory Animals}
+    \field{year}{2011}
   \endentry
 
   \entry{Cowley2017}{article}{}
@@ -1148,7 +1143,7 @@
     \field{labeltitlesource}{title}
     \field{labelyear}{2017}
     \field{extradate}{1}
-    \field{labeldatesource}{year}
+    \field{labeldatesource}{}
     \field{sortinit}{C}
     \field{sortinithash}{C}
     \field{abstract}{%
@@ -1165,7 +1160,7 @@
   population activity was recorded from macaque V4, a cortical area known for
   mid-level visual processing. To predict neural responses, we used the outputs
   of a deep convolutional neural network model as feature embeddings. Images
-  chosen by Adept elicited mean neural responses that were 20{\%} larger than
+  chosen by Adept elicited mean neural responses that were 20% larger than
   those for randomly-chosen natural images, and also evoked a larger diversity
   of neural responses. Such adaptive stimulus selection methods can facilitate
   experiments that involve neurons far from the sensory periphery, for which it
@@ -1173,17 +1168,13 @@
     }
     \field{isbn}{9781841101521}
     \field{issn}{10495258}
-    \field{number}{Nips}
+    \field{issue}{Nips}
     \field{pages}{1396\bibrangedash 1406}
-    \field{title}{{Adaptive stimulus selection for optimizing neural population
-  responses}}
+    \field{title}{Adaptive stimulus selection for optimizing neural population
+  responses}
     \verb{url}
     \verb http://papers.nips.cc/paper/6738-adaptive-stimulus-selection-for-opti
     \verb mizing-neural-population-responses.pdf
-    \endverb
-    \verb{file}
-    \verb :C$\backslash$:/Users/hscott/Documents/Articles/2017 Cowley Adaptive
-    \verb stimulus selection for optimizing neural population responses.pdf:pdf
     \endverb
     \field{journaltitle}{Advances in Neural Information Processing Systems 30}
     \field{year}{2017}
@@ -1200,7 +1191,7 @@
       {{hash=SJD}{%
          family={Semedo},
          familyi={S\bibinitperiod},
-         given={Jo{\~{a}}o\bibnamedelima D.},
+         given={João\bibnamedelima D.},
          giveni={J\bibinitperiod\bibinitdelim D\bibinitperiod},
       }}%
       {{hash=ZA}{%
@@ -1234,7 +1225,7 @@
     \field{labeltitlesource}{title}
     \field{labelyear}{2017}
     \field{extradate}{2}
-    \field{labeldatesource}{year}
+    \field{labeldatesource}{}
     \field{sortinit}{C}
     \field{sortinithash}{C}
     \field{abstract}{%
@@ -1248,11 +1239,7 @@
   showcase the versatility of DCA, we also applied it to three different
   neurophysiological datasets.%
     }
-    \field{title}{{Distance covariance analysis}}
-    \verb{file}
-    \verb :C$\backslash$:/Users/hscott/Documents/Articles/2017 Cowley Distance
-    \verb Covariance Analysis.pdf:pdf
-    \endverb
+    \field{title}{Distance covariance analysis}
     \field{journaltitle}{Proceedings of the 20th International Conference on
   Artificial Intelligence and Statistics, AISTATS 2017}
     \field{year}{2017}
@@ -1295,7 +1282,7 @@
     \field{labelnamesource}{author}
     \field{labeltitlesource}{title}
     \field{labelyear}{2021}
-    \field{labeldatesource}{year}
+    \field{labeldatesource}{}
     \field{sortinit}{C}
     \field{sortinithash}{C}
     \field{abstract}{%
@@ -1310,96 +1297,14 @@
     \endverb
     \field{issn}{10974199}
     \field{pages}{1\bibrangedash 15}
-    \field{title}{{Using deep reinforcement learning to reveal how the brain
+    \field{title}{Using deep reinforcement learning to reveal how the brain
   encodes abstract state-space representations in high-dimensional
-  environments}}
+  environments}
     \verb{url}
     \verb https://doi.org/10.1016/j.neuron.2020.11.021
     \endverb
-    \verb{file}
-    \verb :C$\backslash$:/Users/hscott/Documents/Articles/2020 Cross Using deep
-    \verb  reinforcement learning to reveal how the brain encodes abstract stat
-    \verb -space representations in high-dimensional environments.pdf:pdf
-    \endverb
     \field{journaltitle}{Neuron}
     \field{year}{2021}
-  \endentry
-
-  \entry{Denfield2018a}{article}{}
-    \name{author}{5}{}{%
-      {{hash=DGH}{%
-         family={Denfield},
-         familyi={D\bibinitperiod},
-         given={George\bibnamedelima H.},
-         giveni={G\bibinitperiod\bibinitdelim H\bibinitperiod},
-      }}%
-      {{hash=EAS}{%
-         family={Ecker},
-         familyi={E\bibinitperiod},
-         given={Alexander\bibnamedelima S.},
-         giveni={A\bibinitperiod\bibinitdelim S\bibinitperiod},
-      }}%
-      {{hash=STJ}{%
-         family={Shinn},
-         familyi={S\bibinitperiod},
-         given={Tori\bibnamedelima J.},
-         giveni={T\bibinitperiod\bibinitdelim J\bibinitperiod},
-      }}%
-      {{hash=BM}{%
-         family={Bethge},
-         familyi={B\bibinitperiod},
-         given={Matthias},
-         giveni={M\bibinitperiod},
-      }}%
-      {{hash=TAS}{%
-         family={Tolias},
-         familyi={T\bibinitperiod},
-         given={Andreas\bibnamedelima S.},
-         giveni={A\bibinitperiod\bibinitdelim S\bibinitperiod},
-      }}%
-    }
-    \keyw{HaydenQuals}
-    \strng{namehash}{DGH+1}
-    \strng{fullhash}{DGHEASSTJBMTAS1}
-    \field{labelnamesource}{author}
-    \field{labeltitlesource}{title}
-    \field{labelyear}{2018}
-    \field{labeldatesource}{year}
-    \field{sortinit}{D}
-    \field{sortinithash}{D}
-    \field{abstract}{%
-    Variability in neuronal responses to identical stimuli is frequently
-  correlated across a population. Attention is thought to reduce these
-  correlations by suppressing noisy inputs shared by the population. However,
-  even with precise control of the visual stimulus, the subject's attentional
-  state varies across trials. While these state fluctuations are bound to
-  induce some degree of correlated variability, it is currently unknown how
-  strong their effect is, as previous studies generally do not dissociate
-  changes in attentional strength from changes in attentional state
-  variability. We designed a novel paradigm that does so and find both a
-  pronounced effect of attentional fluctuations on correlated variability at
-  long timescales and attention-dependent reductions in correlations at short
-  timescales. These effects predominate in layers 2/3, as expected from a
-  feedback signal such as attention. Thus, significant portions of correlated
-  variability can be attributed to fluctuations in internally generated
-  signals, like attention, rather than noise.%
-    }
-    \verb{doi}
-    \verb 10.1038/s41467-018-05123-6
-    \endverb
-    \field{isbn}{4146701805}
-    \field{issn}{20411723}
-    \field{number}{1}
-    \field{title}{{Attentional fluctuations induce shared variability in
-  macaque primary visual cortex}}
-    \field{volume}{9}
-    \verb{file}
-    \verb :C$\backslash$:/Users/hscott/Documents/Articles/2018 Denfield Attenti
-    \verb onal fluctuations induce shared variability in macaque primary visual
-    \verb  cortex.pdf:pdf
-    \endverb
-    \field{journaltitle}{Nature Communications}
-    \field{year}{2018}
   \endentry
 
   \entry{Ding2015}{article}{}
@@ -1418,7 +1323,7 @@
     \field{labelnamesource}{author}
     \field{labeltitlesource}{title}
     \field{labelyear}{2015}
-    \field{labeldatesource}{year}
+    \field{labeldatesource}{}
     \field{sortinit}{D}
     \field{sortinithash}{D}
     \field{abstract}{%
@@ -1443,98 +1348,68 @@
     \verb 10.1152/jn.00395.2015
     \endverb
     \field{issn}{15221598}
-    \field{number}{3}
+    \field{issue}{3}
     \field{pages}{1850\bibrangedash 1861}
-    \field{title}{{Distinct dynamics of ramping activity in the frontal cortex
-  and caudate nucleus in monkeys}}
+    \field{title}{Distinct dynamics of ramping activity in the frontal cortex
+  and caudate nucleus in monkeys}
     \field{volume}{114}
-    \verb{file}
-    \verb :C$\backslash$:/Users/hscott/Documents/Articles/2015 Ding Distinct dy
-    \verb namics of ramping activity in the frontal cortex and caudate nucleus
-    \verb in monkeys.pdf:pdf
-    \endverb
     \field{journaltitle}{Journal of Neurophysiology}
     \field{year}{2015}
   \endentry
 
-  \entry{Ecker2016a}{article}{}
-    \name{author}{4}{}{%
-      {{hash=EAS}{%
-         family={Ecker},
-         familyi={E\bibinitperiod},
-         given={Alexander\bibnamedelima S.},
-         giveni={A\bibinitperiod\bibinitdelim S\bibinitperiod},
+  \entry{Faisal2008}{misc}{}
+    \name{author}{3}{}{%
+      {{hash=FAA}{%
+         family={Faisal},
+         familyi={F\bibinitperiod},
+         given={A.\bibnamedelima Aldo},
+         giveni={A\bibinitperiod\bibinitdelim A\bibinitperiod},
       }}%
-      {{hash=DGH}{%
-         family={Denfield},
-         familyi={D\bibinitperiod},
-         given={George\bibnamedelima H.},
-         giveni={G\bibinitperiod\bibinitdelim H\bibinitperiod},
+      {{hash=SLP}{%
+         family={Selen},
+         familyi={S\bibinitperiod},
+         given={Luc\bibnamedelima P.J.},
+         giveni={L\bibinitperiod\bibinitdelim P\bibinitperiod},
       }}%
-      {{hash=BM}{%
-         family={Bethge},
-         familyi={B\bibinitperiod},
-         given={Matthias},
-         giveni={M\bibinitperiod},
-      }}%
-      {{hash=TAS}{%
-         family={Tolias},
-         familyi={T\bibinitperiod},
-         given={Andreas\bibnamedelima S.},
-         giveni={A\bibinitperiod\bibinitdelim S\bibinitperiod},
+      {{hash=WDM}{%
+         family={Wolpert},
+         familyi={W\bibinitperiod},
+         given={Daniel\bibnamedelima M.},
+         giveni={D\bibinitperiod\bibinitdelim M\bibinitperiod},
       }}%
     }
-    \keyw{Attention,Gain modulation,Noise correlation,Population
-  coding,Variability}
-    \strng{namehash}{EAS+1}
-    \strng{fullhash}{EASDGHBMTAS1}
+    \strng{namehash}{FAASLPWDM1}
+    \strng{fullhash}{FAASLPWDM1}
     \field{labelnamesource}{author}
     \field{labeltitlesource}{title}
-    \field{labelyear}{2016}
-    \field{labeldatesource}{year}
-    \field{sortinit}{E}
-    \field{sortinithash}{E}
+    \field{labelyear}{2008}
+    \field{labeldatesource}{}
+    \field{sortinit}{F}
+    \field{sortinithash}{F}
     \field{abstract}{%
-    Attention is commonly thought to improve behavioral performance by
-  increasing response gain and suppressing shared variability in neuronal
-  populations. However, both the focus and the strength of attention are likely
-  to vary from one experimental trial to the next, thereby inducing response
-  variability unknown to the experimenter. Here we study analytically how
-  fluctuations in attentional state affect the structure of population
-  responses in a simple model of spatial and feature attention. In our model,
-  attention acts on the neural response exclusively by modulating each neuron's
-  gain. Neurons are conditionally independent given the stimulus and the
-  attentional gain, and correlated activity arises only from trial-to-trial
-  fluctuations of the attentional state, which are unknown to the experimenter.
-  We find that this simple model can readily explain many aspects of neural
-  response modulation under attention, such as increased response gain, reduced
-  individual and shared variability, increased correlations with firing rates,
-  limited range correlations, and differential correlations. We therefore
-  suggest that attention may act primarily by increasing response gain of
-  individual neurons without affecting their correlation structure. The
-  experimentally observed reduction in correlations may instead result from
-  reduced variability of the attentional gain when a stimulus is attended.
-  Moreover, we show that attentional gain fluctuations, even if unknown to a
-  downstream readout, do not impair the readout accuracy despite inducing
-  limited-range correlations, whereas fluctuations of the attended feature can
-  in principle limit behavioral performance.%
+    Noise - random disturbances of signals - poses a fundamental problem for
+  information processing and affects all aspects of nervous-system function.
+  However, the nature, amount and impact of noise in the nervous system have
+  only recently been addressed in a quantitative manner. Experimental and
+  computational methods have shown that multiple noise sources contribute to
+  cellular and behavioural trial-to-trial variability. We review the sources of
+  noise in the nervous system, from the molecular to the behavioural level, and
+  show how noise contributes to trial-to-trial variability. We highlight how
+  noise affects neuronal networks and the principles the nervous system applies
+  to counter detrimental effects of noise, and briefly discuss noise's
+  potential benefits. © 2008 Nature Publishing Group.%
     }
     \verb{doi}
-    \verb 10.1523/JNEUROSCI.2044-15.2016
+    \verb 10.1038/nrn2258
     \endverb
-    \field{issn}{15292401}
-    \field{number}{5}
-    \field{pages}{1775\bibrangedash 1789}
-    \field{title}{{On the structure of neuronal population activity under
-  fluctuations in attentional state}}
-    \field{volume}{36}
-    \verb{file}
-    \verb :C$\backslash$:/Users/hscott/Documents/Articles/2016 Ecker On the Str
-    \verb ucture of Neuronal Population Activity under Fluctuations in Attentio
-    \verb nal State.pdf:pdf
-    \endverb
-    \field{journaltitle}{Journal of Neuroscience}
-    \field{year}{2016}
+    \field{issn}{1471003X}
+    \field{issue}{4}
+    \field{pages}{292\bibrangedash 303}
+    \field{title}{Noise in the nervous system}
+    \field{volume}{9}
+    \field{journaltitle}{Nature Reviews Neuroscience}
+    \field{month}{04}
+    \field{year}{2008}
   \endentry
 
   \entry{Felleman1991}{article}{}
@@ -1545,20 +1420,20 @@
          given={Daniel\bibnamedelima J.},
          giveni={D\bibinitperiod\bibinitdelim J\bibinitperiod},
       }}%
-      {{hash=VDC}{%
-         family={{Van Essen}},
-         familyi={V\bibinitperiod},
-         given={David\bibnamedelima C.},
-         giveni={D\bibinitperiod\bibinitdelim C\bibinitperiod},
+      {{hash=EDCV}{%
+         family={Essen},
+         familyi={E\bibinitperiod},
+         given={David C.\bibnamedelima Van},
+         giveni={D\bibinitperiod\bibinitdelim C\bibinitperiod\bibinitdelim
+  V\bibinitperiod},
       }}%
     }
-    \keyw{HaydenQuals}
-    \strng{namehash}{FDJVDC1}
-    \strng{fullhash}{FDJVDC1}
+    \strng{namehash}{FDJEDCV1}
+    \strng{fullhash}{FDJEDCV1}
     \field{labelnamesource}{author}
     \field{labeltitlesource}{title}
     \field{labelyear}{1991}
-    \field{labeldatesource}{year}
+    \field{labeldatesource}{}
     \field{sortinit}{F}
     \field{sortinithash}{F}
     \field{abstract}{%
@@ -1575,14 +1450,14 @@
   their extensive visual inputs. A total of 305 connections among these 32
   visual and visual-association areas have been reported. This represents 31X
   of the possible number of pathways if each area were connected with all
-  others. The actual degree of connectivity is likely to be closer to 40{\%}.
-  The great majority of pathways involve reciprocal connections between areas.
+  others. The actual degree of connectivity is likely to be closer to 40%. The
+  great majority of pathways involve reciprocal connections between areas.
   There are also extensive connections with cortical areas outside the visual
   system proper, including the somatosensory cortex, as well as neocortical,
   transitional, and archicortical regions in the temporal and frontal lobes. In
   the somatosensory/motor system, there are 62 identified pathways linking 13
-  cortical areas, suggesting an overall connectivity of about 40{\%}. Based on
-  the laminar patterns of connections between areas, we propose a hierarchy of
+  cortical areas, suggesting an overall connectivity of about 40%. Based on the
+  laminar patterns of connections between areas, we propose a hierarchy of
   visual areas and of somatosensory/motor areas that is more comprehensive than
   those suggested in other recent studies. The current version of the visual
   hierarchy includes 10 levels of cortical processing. Altogether, it contains
@@ -1592,25 +1467,21 @@
   a low level, are related to the compartmental organization of areas VI and V2
   and, at a high level, are related to the distinction between processing
   centers in the temporal and parietal lobes. However, there are some pathways
-  and relationships (about 10{\%} of the total) whose descriptions do not fit
+  and relationships (about 10% of the total) whose descriptions do not fit
   cleanly into this hierarchical scheme for one reason or another. In most
   instances, though, it is unclear whether these represent genuine exceptions
   to a strict hierarchy rather than inaccuracies or uncertainties in the
-  reported assignment. {\textcopyright} 1991 Oxford University Press.%
+  reported assignment. © 1991 Oxford University Press.%
     }
     \verb{doi}
     \verb 10.1093/cercor/1.1.1
     \endverb
     \field{issn}{14602199}
-    \field{number}{1}
+    \field{issue}{1}
     \field{pages}{1\bibrangedash 47}
-    \field{title}{{Distributed hierarchical processing in the primate cerebral
-  cortex}}
+    \field{title}{Distributed hierarchical processing in the primate cerebral
+  cortex}
     \field{volume}{1}
-    \verb{file}
-    \verb :C$\backslash$:/Users/hscott/Documents/Articles/1991 Felleman Distrib
-    \verb uted Hierarchical Processing in the Primate Cerebral Cortex.pdf:pdf
-    \endverb
     \field{journaltitle}{Cerebral Cortex}
     \field{year}{1991}
   \endentry
@@ -1643,7 +1514,7 @@
     \field{labelnamesource}{author}
     \field{labeltitlesource}{title}
     \field{labelyear}{1997}
-    \field{labeldatesource}{year}
+    \field{labeldatesource}{}
     \field{sortinit}{F}
     \field{sortinithash}{F}
     \field{abstract}{%
@@ -1680,18 +1551,12 @@
     \verb 10.1523/jneurosci.17-09-03185.1997
     \endverb
     \field{issn}{02706474}
-    \field{number}{9}
+    \field{issue}{9}
     \field{pages}{3185\bibrangedash 3200}
-    \field{title}{{Modular organization of occipito-temporal pathways: Cortical
+    \field{title}{Modular organization of occipito-temporal pathways: Cortical
   connections between visual area 4 and visual area 2 and posterior
-  inferotemporal ventral area in macaque monkeys}}
+  inferotemporal ventral area in macaque monkeys}
     \field{volume}{17}
-    \verb{file}
-    \verb :C$\backslash$:/Users/hscott/Documents/Articles/1997 Felleman Modular
-    \verb  Organization of Occipitotemporal Pathways Cortical Connections betwe
-    \verb en Visual Area 4 and Visual Area 2 and Posterior Inferotemporal Ventr
-    \verb al Area in Macaque Monkey.pdf:pdf
-    \endverb
     \field{journaltitle}{Journal of Neuroscience}
     \field{year}{1997}
   \endentry
@@ -1785,7 +1650,7 @@
     \field{labelnamesource}{author}
     \field{labeltitlesource}{title}
     \field{labelyear}{2010}
-    \field{labeldatesource}{year}
+    \field{labeldatesource}{}
     \field{sortinit}{F}
     \field{sortinithash}{F}
     \field{abstract}{%
@@ -1804,28 +1669,71 @@
   midget cells showed a small non-random tendency to selectively sample from
   either long- or middle-wavelength-sensitive cones to a degree not explained
   by clumping in the cone mosaic. These measurements reveal computations in a
-  neural circuit at the elementary resolution of individual neurons.
-  {\textcopyright} 2010 Macmillan Publishers Limited. All rights reserved.%
+  neural circuit at the elementary resolution of individual neurons. © 2010
+  Macmillan Publishers Limited. All rights reserved.%
     }
     \verb{doi}
     \verb 10.1038/nature09424
     \endverb
     \field{issn}{00280836}
-    \field{number}{7316}
+    \field{issue}{7316}
     \field{pages}{673\bibrangedash 677}
-    \field{title}{{Functional connectivity in the retina at the resolution of
-  photoreceptors}}
+    \field{title}{Functional connectivity in the retina at the resolution of
+  photoreceptors}
     \verb{url}
     \verb http://dx.doi.org/10.1038/nature09424
     \endverb
     \field{volume}{467}
-    \verb{file}
-    \verb :C$\backslash$:/Users/hscott/Documents/Articles/2010 Field Functional
-    \verb  connectivity in the retina at the resolution of photoreceptors.pdf:p
-    \verb df
-    \endverb
     \field{journaltitle}{Nature}
     \field{year}{2010}
+  \endentry
+
+  \entry{Fries2005}{article}{}
+    \name{author}{1}{}{%
+      {{hash=FP}{%
+         family={Fries},
+         familyi={F\bibinitperiod},
+         given={Pascal},
+         giveni={P\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Elsevier Ltd}%
+    }
+    \strng{namehash}{FP1}
+    \strng{fullhash}{FP1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2005}
+    \field{labeldatesource}{}
+    \field{sortinit}{F}
+    \field{sortinithash}{F}
+    \field{abstract}{%
+    At any one moment, many neuronal groups in our brain are active.
+  Microelectrode recordings have characterized the activation of single neurons
+  and fMRI has unveiled brain-wide activation patterns. Now it is time to
+  understand how the many active neuronal groups interact with each other and
+  how their communication is flexibly modulated to bring about our cognitive
+  dynamics. I hypothesize that neuronal communication is mechanistically
+  subserved by neuronal coherence. Activated neuronal groups oscillate and
+  thereby undergo rhythmic excitability fluctuations that produce temporal
+  windows for communication. Only coherently oscillating neuronal groups can
+  interact effectively, because their communication windows for input and for
+  output are open at the same times. Thus, a flexible pattern of coherence
+  defines a flexible communication structure, which subserves our cognitive
+  flexibility. © 2005 Elsevier Ltd. All rights reserved.%
+    }
+    \verb{doi}
+    \verb 10.1016/j.tics.2005.08.011
+    \endverb
+    \field{issn}{13646613}
+    \field{issue}{10}
+    \field{pages}{474\bibrangedash 480}
+    \field{title}{A mechanism for cognitive dynamics: Neuronal communication
+  through neuronal coherence}
+    \field{volume}{9}
+    \field{journaltitle}{Trends in Cognitive Sciences}
+    \field{year}{2005}
   \endentry
 
   \entry{Fruend2018}{article}{}
@@ -1848,28 +1756,56 @@
     \field{labelnamesource}{author}
     \field{labeltitlesource}{title}
     \field{labelyear}{2018}
-    \field{labeldatesource}{year}
+    \field{labeldatesource}{}
     \field{sortinit}{F}
     \field{sortinithash}{F}
     \verb{doi}
     \verb 10.1167/18.11.20
     \endverb
     \field{issn}{1534-7362}
-    \field{number}{11}
+    \field{issue}{11}
     \field{pages}{20}
-    \field{title}{{Human sensitivity to perturbations constrained by a model of
-  the natural image manifold}}
+    \field{title}{Human sensitivity to perturbations constrained by a model of
+  the natural image manifold}
     \verb{url}
     \verb http://jov.arvojournals.org/article.aspx?doi=10.1167/18.11.20
     \endverb
     \field{volume}{18}
-    \verb{file}
-    \verb :C$\backslash$:/Users/hscott/Documents/Articles/2018 Fruend Human sen
-    \verb sitivity to perturbations constrained by a model of the natural image
-    \verb  manifold.pdf:pdf
-    \endverb
     \field{journaltitle}{Journal of Vision}
     \field{year}{2018}
+  \endentry
+
+  \entry{Gegenfurtner1996}{article}{}
+    \name{author}{3}{}{%
+      {{hash=GK}{%
+         family={GegenFurtner},
+         familyi={G\bibinitperiod},
+         given={Karl},
+         giveni={K\bibinitperiod},
+      }}%
+      {{hash=KD}{%
+         family={Kiper},
+         familyi={K\bibinitperiod},
+         given={Daniel},
+         giveni={D\bibinitperiod},
+      }}%
+      {{hash=FS}{%
+         family={Fenstemaker},
+         familyi={F\bibinitperiod},
+         given={Suzanne},
+         giveni={S\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{GKKDFS1}
+    \strng{fullhash}{GKKDFS1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{1996}
+    \field{labeldatesource}{}
+    \field{sortinit}{G}
+    \field{sortinithash}{G}
+    \field{title}{Processing of color, form and motion in macaque area V2}
+    \field{year}{1996}
   \endentry
 
   \entry{Gilbert2013}{article}{}
@@ -1892,7 +1828,7 @@
     \field{labelnamesource}{author}
     \field{labeltitlesource}{title}
     \field{labelyear}{2013}
-    \field{labeldatesource}{year}
+    \field{labeldatesource}{}
     \field{sortinit}{G}
     \field{sortinithash}{G}
     \field{abstract}{%
@@ -1906,21 +1842,17 @@
   take on different functional roles. In this Review, we discuss the various
   top-down influences exerted on the visual cortical pathways and highlight the
   dynamic nature of the receptive field, which allows neurons to carry
-  information that is relevant to the current perceptual demands.
-  {\textcopyright} 2013 Macmillan Publishers Limited. All rights reserved.%
+  information that is relevant to the current perceptual demands. © 2013
+  Macmillan Publishers Limited. All rights reserved.%
     }
     \verb{doi}
     \verb 10.1038/nrn3476
     \endverb
     \field{issn}{1471003X}
-    \field{number}{5}
+    \field{issue}{5}
     \field{pages}{350\bibrangedash 363}
-    \field{title}{{Top-down influences on visual processing}}
+    \field{title}{Top-down influences on visual processing}
     \field{volume}{14}
-    \verb{file}
-    \verb :C$\backslash$:/Users/hscott/Documents/Articles/2013 Gilbert Top-down
-    \verb  influences on visual processing.pdf:pdf
-    \endverb
     \field{journaltitle}{Nature Reviews Neuroscience}
     \field{year}{2013}
   \endentry
@@ -1957,7 +1889,7 @@
     \field{labelnamesource}{author}
     \field{labeltitlesource}{title}
     \field{labelyear}{1998}
-    \field{labeldatesource}{year}
+    \field{labeldatesource}{}
     \field{sortinit}{H}
     \field{sortinithash}{H}
     \field{abstract}{%
@@ -1977,16 +1909,11 @@
     \verb 10.1073/pnas.95.26.15706
     \endverb
     \field{issn}{00278424}
-    \field{number}{26}
+    \field{issue}{26}
     \field{pages}{15706\bibrangedash 15711}
-    \field{title}{{Information about movement direction obtained from
-  synchronous activity of motor cortical neurons}}
+    \field{title}{Information about movement direction obtained from
+  synchronous activity of motor cortical neurons}
     \field{volume}{95}
-    \verb{file}
-    \verb :C$\backslash$:/Users/hscott/Documents/Articles/1998 Hatsopoulos Info
-    \verb rmation about movement direction obtained from synchronous activity o
-    \verb f motor cortical neurons.pdf:pdf
-    \endverb
     \field{journaltitle}{Proceedings of the National Academy of Sciences of the
   United States of America}
     \field{year}{1998}
@@ -2012,17 +1939,12 @@
     \field{labelnamesource}{author}
     \field{labeltitlesource}{title}
     \field{labelyear}{1959}
-    \field{labeldatesource}{year}
+    \field{labeldatesource}{}
     \field{sortinit}{H}
     \field{sortinithash}{H}
     \field{pages}{574\bibrangedash 591}
-    \field{title}{{Receptive Fields of Single Neurones in the Cat's Striate
-  Cortex}}
-    \verb{file}
-    \verb :C$\backslash$:/Users/hscott/Documents/Articles/1959 Hubel and Wiesel
-    \verb  Receptive fields of single neurons in the cats striate cortex.pdf:pd
-    \verb f
-    \endverb
+    \field{title}{Receptive Fields of Single Neurones in the Cat's Striate
+  Cortex}
     \field{journaltitle}{J. Physiol.}
     \field{year}{1959}
   \endentry
@@ -2042,13 +1964,12 @@
          giveni={T\bibinitperiod\bibinitdelim N\bibinitperiod},
       }}%
     }
-    \keyw{HaydenQuals}
     \strng{namehash}{HDHWTN1}
     \strng{fullhash}{HDHWTN1}
     \field{labelnamesource}{author}
     \field{labeltitlesource}{title}
     \field{labelyear}{1965}
-    \field{labeldatesource}{year}
+    \field{labeldatesource}{}
     \field{sortinit}{H}
     \field{sortinithash}{H}
     \field{abstract}{%
@@ -2071,20 +1992,14 @@
     \endverb
     \field{isbn}{0022-3077 (Print)}
     \field{issn}{0022-3077}
-    \field{number}{2}
+    \field{issue}{2}
     \field{pages}{229\bibrangedash 289}
-    \field{title}{{Receptive Fields and Functional Architecture in Two
-  Nonstriate Visual Areas (18 and 19) of the Cat}}
+    \field{title}{Receptive Fields and Functional Architecture in Two
+  Nonstriate Visual Areas (18 and 19) of the Cat}
     \verb{url}
     \verb http://www.physiology.org/doi/10.1152/jn.1965.28.2.229
     \endverb
     \field{volume}{28}
-    \verb{file}
-    \verb :C$\backslash$:/Users/hscott/AppData/Local/Mendeley Ltd./Mendeley Des
-    \verb ktop/Downloaded/Hubel, Wiesel - 1965 - Receptive Fields and Functiona
-    \verb l Architecture in Two Nonstriate Visual Areas (18 and 19) of the Cat.
-    \verb pdf:pdf
-    \endverb
     \field{journaltitle}{Journal of Neurophysiology}
     \field{year}{1965}
   \endentry
@@ -2111,7 +2026,7 @@
     \field{labelnamesource}{author}
     \field{labeltitlesource}{title}
     \field{labelyear}{2010}
-    \field{labeldatesource}{year}
+    \field{labeldatesource}{}
     \field{sortinit}{H}
     \field{sortinithash}{H}
     \field{abstract}{%
@@ -2144,16 +2059,11 @@
     \verb 10.1073/pnas.1009956107
     \endverb
     \field{issn}{00278424}
-    \field{number}{50}
+    \field{issue}{50}
     \field{pages}{21842\bibrangedash 21847}
-    \field{title}{{Trial-to-trial variability of the prefrontal neurons reveals
-  the nature of their engagement in a motion discrimination task}}
+    \field{title}{Trial-to-trial variability of the prefrontal neurons reveals
+  the nature of their engagement in a motion discrimination task}
     \field{volume}{107}
-    \verb{file}
-    \verb :C$\backslash$:/Users/hscott/Documents/Articles/2010 Hussar Trial-To-
-    \verb Trial variability of the prefrontal neurons reveals the nature of the
-    \verb ir engagement in a motion discriminatin task.pdf:pdf
-    \endverb
     \field{journaltitle}{Proceedings of the National Academy of Sciences of the
   United States of America}
     \field{year}{2010}
@@ -2183,7 +2093,7 @@
     \field{labelnamesource}{author}
     \field{labeltitlesource}{title}
     \field{labelyear}{2009}
-    \field{labeldatesource}{year}
+    \field{labeldatesource}{}
     \field{sortinit}{H}
     \field{sortinithash}{H}
     \field{abstract}{%
@@ -2201,26 +2111,21 @@
   show that flexible sensory representation during active discrimination tasks
   is achieved in the PFC by a specialized neuronal network of both NS neurons
   readily adjusting their selectivity to behavioral context, and BS neurons
-  capable of maintaining relatively stable sensory representation.
-  {\textcopyright} 2009 Elsevier Inc. All rights reserved.%
+  capable of maintaining relatively stable sensory representation. © 2009
+  Elsevier Inc. All rights reserved.%
     }
     \verb{doi}
     \verb 10.1016/j.neuron.2009.11.018
     \endverb
     \field{issn}{08966273}
-    \field{number}{5}
+    \field{issue}{5}
     \field{pages}{730\bibrangedash 743}
-    \field{title}{{Flexibility of Sensory Representations in Prefrontal Cortex
-  Depends on Cell Type}}
+    \field{title}{Flexibility of Sensory Representations in Prefrontal Cortex
+  Depends on Cell Type}
     \verb{url}
     \verb http://dx.doi.org/10.1016/j.neuron.2009.11.018
     \endverb
     \field{volume}{64}
-    \verb{file}
-    \verb :C$\backslash$:/Users/hscott/Documents/Articles/2009 Hussar Flexibili
-    \verb ty of sensory Representations in Prefrontal Cortex Depends on Cell Ty
-    \verb pe.pdf:pdf
-    \endverb
     \field{journaltitle}{Neuron}
     \field{year}{2009}
   \endentry
@@ -2245,7 +2150,7 @@
     \field{labelnamesource}{author}
     \field{labeltitlesource}{title}
     \field{labelyear}{2012}
-    \field{labeldatesource}{year}
+    \field{labeldatesource}{}
     \field{sortinit}{H}
     \field{sortinithash}{H}
     \field{abstract}{%
@@ -2273,23 +2178,17 @@
   types represent behaviorally relevant stimulus features contributing to
   comparison and decision-related activity. However in the absence of sensory
   stimulation, putative pyramidal cells dominated, carrying information about
-  the elapsed time and the preceding direction. {\textcopyright} 2012 the
-  authors.%
+  the elapsed time and the preceding direction. © 2012 the authors.%
     }
     \verb{doi}
     \verb 10.1523/JNEUROSCI.5135-11.2012
     \endverb
     \field{issn}{02706474}
-    \field{number}{8}
+    \field{issue}{8}
     \field{pages}{2747\bibrangedash 2761}
-    \field{title}{{Memory-guided sensory comparisons in the prefrontal cortex:
-  Contribution of putative pyramidal cells and interneurons}}
+    \field{title}{Memory-guided sensory comparisons in the prefrontal cortex:
+  Contribution of putative pyramidal cells and interneurons}
     \field{volume}{32}
-    \verb{file}
-    \verb :C$\backslash$:/Users/hscott/Documents/Articles/2012 Hussar Memory-Gu
-    \verb ided Sensory Comparisons in the Prefrontal Cortex- Contribution of Pu
-    \verb tative Pyramidal Cells and Interneurons.pdf:pdf
-    \endverb
     \field{journaltitle}{Journal of Neuroscience}
     \field{year}{2012}
   \endentry
@@ -2314,7 +2213,7 @@
     \field{labelnamesource}{author}
     \field{labeltitlesource}{title}
     \field{labelyear}{2013}
-    \field{labeldatesource}{year}
+    \field{labeldatesource}{}
     \field{sortinit}{H}
     \field{sortinithash}{H}
     \field{abstract}{%
@@ -2339,23 +2238,17 @@
   stimulus, and their activity was highly predictive of the animals' behavioral
   report. These results are similar to those found for comparisons of motion
   direction, suggesting the existence of generalized neural mechanisms in the
-  DLPFC subserving the comparison of sensory signals. {\textcopyright} 2013 the
-  authors.%
+  DLPFC subserving the comparison of sensory signals. © 2013 the authors.%
     }
     \verb{doi}
     \verb 10.1523/JNEUROSCI.4075-12.2013
     \endverb
     \field{issn}{02706474}
-    \field{number}{3}
+    \field{issue}{3}
     \field{pages}{972\bibrangedash 986}
-    \field{title}{{Common rules guide comparisons of speed and direction of
-  motion in the dorsolateral prefrontal cortex}}
+    \field{title}{Common rules guide comparisons of speed and direction of
+  motion in the dorsolateral prefrontal cortex}
     \field{volume}{33}
-    \verb{file}
-    \verb :C$\backslash$:/Users/hscott/Documents/Articles/2013 Hussar Common Ru
-    \verb les Guide Comparisons of Speed and Direction of Motion in the Dorsola
-    \verb teral Prefrontal Cortex.pdf:pdf
-    \endverb
     \field{journaltitle}{Journal of Neuroscience}
     \field{year}{2013}
   \endentry
@@ -2387,7 +2280,7 @@
     \field{labelnamesource}{author}
     \field{labeltitlesource}{title}
     \field{labelyear}{2019}
-    \field{labeldatesource}{year}
+    \field{labeldatesource}{}
     \field{sortinit}{K}
     \field{sortinithash}{K}
     \field{abstract}{%
@@ -2407,23 +2300,14 @@
     \verb{doi}
     \verb 10.1109/CVPR.2019.00453
     \endverb
-    \verb{eprint}
-    \verb 1812.04948
-    \endverb
     \field{isbn}{9781728132938}
     \field{issn}{10636919}
     \field{pages}{4396\bibrangedash 4405}
-    \field{title}{{A style-based generator architecture for generative
-  adversarial networks}}
+    \field{title}{A style-based generator architecture for generative
+  adversarial networks}
     \field{volume}{2019-June}
-    \verb{file}
-    \verb :C$\backslash$:/Users/hscott/Documents/Articles/2019 Karras A Style-B
-    \verb ased Generatior Architecture for Generative Adversarial Networks.pdf:
-    \verb pdf
-    \endverb
     \field{journaltitle}{Proceedings of the IEEE Computer Society Conference on
   Computer Vision and Pattern Recognition}
-    \field{eprinttype}{arXiv}
     \field{year}{2019}
   \endentry
 
@@ -2462,7 +2346,7 @@
     \field{labelnamesource}{author}
     \field{labeltitlesource}{title}
     \field{labelyear}{2016}
-    \field{labeldatesource}{year}
+    \field{labeldatesource}{}
     \field{sortinit}{K}
     \field{sortinithash}{K}
     \field{abstract}{%
@@ -2498,16 +2382,11 @@
     \verb 10.1038/nature18617
     \endverb
     \field{issn}{14764687}
-    \field{number}{7611}
+    \field{issue}{7611}
     \field{pages}{285\bibrangedash 288}
-    \field{title}{{Dissociated functional significance of decision-related
-  activity in the primate dorsal stream}}
+    \field{title}{Dissociated functional significance of decision-related
+  activity in the primate dorsal stream}
     \field{volume}{535}
-    \verb{file}
-    \verb :C$\backslash$:/Users/hscott/Documents/Articles/2016 Katz Dissociated
-    \verb  functional significance of decision-related activity in the primate
-    \verb dorsal stream.pdf:pdf
-    \endverb
     \field{journaltitle}{Nature}
     \field{year}{2016}
   \endentry
@@ -2532,7 +2411,7 @@
     \field{labelnamesource}{author}
     \field{labeltitlesource}{title}
     \field{labelyear}{2003}
-    \field{labeldatesource}{year}
+    \field{labeldatesource}{}
     \field{sortinit}{K}
     \field{sortinithash}{K}
     \field{abstract}{%
@@ -2555,15 +2434,11 @@
     \verb 10.1016/S0896-6273(03)00438-0
     \endverb
     \field{issn}{08966273}
-    \field{number}{4}
+    \field{issue}{4}
     \field{pages}{681\bibrangedash 691}
-    \field{title}{{Neuronal adaptation to visual motion in area MT of the
-  macaque}}
+    \field{title}{Neuronal adaptation to visual motion in area MT of the
+  macaque}
     \field{volume}{39}
-    \verb{file}
-    \verb :C$\backslash$:/Users/hscott/Documents/Articles/2003 Kohn Neuronal Ad
-    \verb aptation to Visual Motion in Area MT of the Macaque.pdf:pdf
-    \endverb
     \field{journaltitle}{Neuron}
     \field{year}{2003}
   \endentry
@@ -2591,7 +2466,7 @@
     \field{labelnamesource}{author}
     \field{labeltitlesource}{title}
     \field{labelyear}{2021}
-    \field{labeldatesource}{year}
+    \field{labeldatesource}{}
     \field{sortinit}{K}
     \field{sortinithash}{K}
     \field{abstract}{%
@@ -2617,18 +2492,10 @@
     \verb{doi}
     \verb 10.1038/s41583-021-00502-3
     \endverb
-    \verb{eprint}
-    \verb 2104.09743
-    \endverb
     \field{isbn}{0123456789}
     \field{issn}{14710048}
-    \field{title}{{Neural tuning and representational geometry}}
-    \verb{file}
-    \verb :C$\backslash$:/Users/hscott/Documents/Articles/2021 Kriegeskorte Neu
-    \verb ral tuning and representational geometry.pdf:pdf
-    \endverb
+    \field{title}{Neural tuning and representational geometry}
     \field{journaltitle}{Nature Reviews Neuroscience}
-    \field{eprinttype}{arXiv}
     \field{year}{2021}
   \endentry
 
@@ -2658,7 +2525,7 @@
     \field{labelnamesource}{author}
     \field{labeltitlesource}{title}
     \field{labelyear}{1990}
-    \field{labeldatesource}{year}
+    \field{labeldatesource}{}
     \field{sortinit}{L}
     \field{sortinithash}{L}
     \field{abstract}{%
@@ -2670,38 +2537,34 @@
   by a linear model in which the response of a cell is proportional to the sum
   (for complex cells, the rectified sum) of the signals from the 3 classes of
   cones. For each cell there is a vector passing through the white point along
-  which modulation gives rise to a maximal response. The elevation
-  ($\theta$(m)) and azimuth ($\phi$(m)) of this vector fully describe the
-  chromatic properties of the cell. The linear model also describes neurons in
-  l.g.n. (Derrington et al., 1984), so most neurons in striate cortex have the
-  same chromatic selectivity as do neurons in l.g.n. However, the distributions
-  of preferred vectors differed in cortex and l.g.n.: Most cortical neurons
-  preferred modulation along vectors lying close to the achromatic axis and
-  those showing overt chromatic opponency did not fall into the clearly defined
-  chromatic groups seen in l.g.n. The neurons most responsive to chromatic
-  modulation (found mainly in layers IVA, IVC$\beta$, and VI) had poor
-  orientation selectivity, and responded to chromatic modulation of a spatially
-  uniform field at least as well as they did to any grating. We encountered
-  neurons with band-pass spatial selectivity for chromatically modulated
-  stimuli in layers II/III and VI. Most had complex receptive fields. Neurons
-  in layer II/III did not fall into distinct groups according to their
-  chromatic sensitivities, and the chromatic properties of neurons known to lie
-  within regions rich in cytochrome oxidase appeared no different from those of
-  neurons in the interstices. Six neurons, all of which resembled simple cells,
-  showed unusually sharp chromatic selectivity.%
+  which modulation gives rise to a maximal response. The elevation (θ(m)) and
+  azimuth (φ(m)) of this vector fully describe the chromatic properties of the
+  cell. The linear model also describes neurons in l.g.n. (Derrington et al.,
+  1984), so most neurons in striate cortex have the same chromatic selectivity
+  as do neurons in l.g.n. However, the distributions of preferred vectors
+  differed in cortex and l.g.n.: Most cortical neurons preferred modulation
+  along vectors lying close to the achromatic axis and those showing overt
+  chromatic opponency did not fall into the clearly defined chromatic groups
+  seen in l.g.n. The neurons most responsive to chromatic modulation (found
+  mainly in layers IVA, IVCβ, and VI) had poor orientation selectivity, and
+  responded to chromatic modulation of a spatially uniform field at least as
+  well as they did to any grating. We encountered neurons with band-pass
+  spatial selectivity for chromatically modulated stimuli in layers II/III and
+  VI. Most had complex receptive fields. Neurons in layer II/III did not fall
+  into distinct groups according to their chromatic sensitivities, and the
+  chromatic properties of neurons known to lie within regions rich in
+  cytochrome oxidase appeared no different from those of neurons in the
+  interstices. Six neurons, all of which resembled simple cells, showed
+  unusually sharp chromatic selectivity.%
     }
     \verb{doi}
     \verb 10.1523/jneurosci.10-02-00649.1990
     \endverb
     \field{issn}{02706474}
-    \field{number}{2}
+    \field{issue}{2}
     \field{pages}{649\bibrangedash 669}
-    \field{title}{{Chromatic mechanisms in striate cortex of macaque}}
+    \field{title}{Chromatic mechanisms in striate cortex of macaque}
     \field{volume}{10}
-    \verb{file}
-    \verb :C$\backslash$:/Users/hscott/Documents/Articles/1990 Lennie Chromatic
-    \verb  Mechanisms in Striate Cortex of Macaque.pdf:pdf
-    \endverb
     \field{journaltitle}{Journal of Neuroscience}
     \field{year}{1990}
   \endentry
@@ -2803,7 +2666,7 @@
     \field{labelnamesource}{author}
     \field{labeltitlesource}{title}
     \field{labelyear}{2020}
-    \field{labeldatesource}{year}
+    \field{labeldatesource}{}
     \field{sortinit}{L}
     \field{sortinithash}{L}
     \field{abstract}{%
@@ -2817,16 +2680,11 @@
     \verb 10.1016/j.neuron.2020.07.037
     \endverb
     \field{issn}{10974199}
-    \field{number}{3}
+    \field{issue}{3}
     \field{pages}{538\bibrangedash 550.e5}
-    \field{title}{{Hierarchical Representation for Chromatic Processing across
-  Macaque V1, V2, and V4}}
+    \field{title}{Hierarchical Representation for Chromatic Processing across
+  Macaque V1, V2, and V4}
     \field{volume}{108}
-    \verb{file}
-    \verb :C$\backslash$:/Users/hscott/Documents/Articles/2020 Liu Hierarchical
-    \verb  Representation for Chromatic Processing across Macaque V1, V2, and V
-    \verb 4.pdf:pdf
-    \endverb
     \field{journaltitle}{Neuron}
     \field{year}{2020}
   \endentry
@@ -2863,7 +2721,7 @@
     \field{labelnamesource}{author}
     \field{labeltitlesource}{title}
     \field{labelyear}{1997}
-    \field{labeldatesource}{year}
+    \field{labeldatesource}{}
     \field{sortinit}{L}
     \field{sortinithash}{L}
     \field{abstract}{%
@@ -2890,7 +2748,7 @@
   inside the receptive field, making it impossible to determine whether
   attention effects would be observed under the conditions that led to
   consistent attention effects in areas V2 and V4. Spontaneous firing rates in
-  areas V2 and V4 were found to be 30-40{\%} higher when attention was directed
+  areas V2 and V4 were found to be 30-40% higher when attention was directed
   inside rather than outside the receptive field, even when no stimulus was
   present in the receptive field. Spontaneous firing rates also varied
   according to the particular location within the receptive field that was
@@ -2900,21 +2758,12 @@
     \verb{doi}
     \verb 10.1152/jn.1997.77.1.24
     \endverb
-    \field{isbn}{0022-3077}
     \field{issn}{00223077}
-    \field{number}{1}
+    \field{issue}{1}
     \field{pages}{24\bibrangedash 42}
-    \field{title}{{Neural mechanisms of spatial selective attention in areas
-  V1, V2, and V4 of macaque visual cortex}}
-    \verb{url}
-    \verb http://www.physiology.org/doi/10.1152/jn.1997.77.1.24
-    \endverb
+    \field{title}{Neural mechanisms of spatial selective attention in areas V1,
+  V2, and V4 of macaque visual cortex}
     \field{volume}{77}
-    \verb{file}
-    \verb ::;:C$\backslash$:/Users/hscott/Documents/Articles/1997 Luck Neural M
-    \verb echanisms of Spatial Selective Attention in Areas V1, V2, and V4 of M
-    \verb acaque Visual Cortex.pdf:pdf
-    \endverb
     \field{journaltitle}{Journal of Neurophysiology}
     \field{year}{1997}
   \endentry
@@ -2941,7 +2790,7 @@
     \field{labelnamesource}{author}
     \field{labeltitlesource}{title}
     \field{labelyear}{2011}
-    \field{labeldatesource}{year}
+    \field{labeldatesource}{}
     \field{sortinit}{L}
     \field{sortinithash}{L}
     \field{abstract}{%
@@ -2971,22 +2820,17 @@
   similarities and differences between the two stimuli, suggesting
   participation in sensory comparisons. The nature of these signals provides
   insights into the operation of bottom-up and top-down influences involved in
-  this process. {\textcopyright} 2011 the American Physiological Society.%
+  this process. © 2011 the American Physiological Society.%
     }
     \verb{doi}
     \verb 10.1152/jn.00016.2011
     \endverb
     \field{issn}{00223077}
-    \field{number}{3}
+    \field{issue}{3}
     \field{pages}{1260\bibrangedash 1273}
-    \field{title}{{Representation of comparison signals in cortical area MT
-  during a delayed direction discrimination task}}
+    \field{title}{Representation of comparison signals in cortical area MT
+  during a delayed direction discrimination task}
     \field{volume}{106}
-    \verb{file}
-    \verb :C$\backslash$:/Users/hscott/Documents/Articles/2011 Lui Representati
-    \verb on of comparison signals in cortical area MT during a delayed directi
-    \verb on discrimination task.pdf:pdf
-    \endverb
     \field{journaltitle}{Journal of Neurophysiology}
     \field{year}{2011}
   \endentry
@@ -3018,58 +2862,15 @@
     \field{labelnamesource}{author}
     \field{labeltitlesource}{title}
     \field{labelyear}{2001}
-    \field{labeldatesource}{year}
+    \field{labeldatesource}{}
     \field{sortinit}{M}
     \field{sortinithash}{M}
     \field{isbn}{0952523801186}
-    \field{number}{2001}
+    \field{issue}{2001}
     \field{pages}{973\bibrangedash 981}
-    \field{title}{{Cartesian and non-Cartesian responses in LGN , V1 , and V2
-  cells}}
-    \verb{file}
-    \verb :C$\backslash$:/Users/hscott/Documents/Articles/2001 Mahon Cartesian
-    \verb and non-Cartesian responses in LGN V1 and V2 cells.pdf:pdf
-    \endverb
+    \field{title}{Cartesian and non-Cartesian responses in LGN , V1 , and V2
+  cells}
     \field{year}{2001}
-  \endentry
-
-  \entry{Trujillo2004}{article}{}
-    \name{author}{2}{}{%
-      {{hash=MTJ}{%
-         family={Martinez-Trujillo},
-         familyi={M\bibinithyphendelim T\bibinitperiod},
-         given={Julio},
-         giveni={J\bibinitperiod},
-      }}%
-      {{hash=TS}{%
-         family={Treue},
-         familyi={T\bibinitperiod},
-         given={Stefan},
-         giveni={S\bibinitperiod},
-      }}%
-    }
-    \strng{namehash}{MTJTS1}
-    \strng{fullhash}{MTJTS1}
-    \field{labelnamesource}{author}
-    \field{labeltitlesource}{title}
-    \field{labelyear}{2004}
-    \field{labeldatesource}{year}
-    \field{sortinit}{M}
-    \field{sortinithash}{M}
-    \verb{doi}
-    \verb 10.1016/j
-    \endverb
-    \field{pages}{1118}
-    \field{title}{{Feature-Based Attention Increases the Selectivity of
-  Population Responses in Primate Visual Cortex}}
-    \field{volume}{14}
-    \verb{file}
-    \verb :C$\backslash$:/Users/hscott/Documents/Articles/2004 Trujillo Feature
-    \verb -based attention increases the selectivity of population responses in
-    \verb  primate visual cortex.pdf:pdf
-    \endverb
-    \field{journaltitle}{Current Biology}
-    \field{year}{2004}
   \endentry
 
   \entry{Mitchell2007}{article}{}
@@ -3093,13 +2894,13 @@
          giveni={J\bibinitperiod\bibinitdelim H\bibinitperiod},
       }}%
     }
-    \keyw{HaydenQuals,SYSNEURO}
+    \keyw{SYSNEURO}
     \strng{namehash}{MJFSKARJH1}
     \strng{fullhash}{MJFSKARJH1}
     \field{labelnamesource}{author}
     \field{labeltitlesource}{title}
     \field{labelyear}{2007}
-    \field{labeldatesource}{year}
+    \field{labeldatesource}{}
     \field{sortinit}{M}
     \field{sortinithash}{M}
     \field{abstract}{%
@@ -3117,25 +2918,19 @@
   reliability of the neuronal response. This modulation is more than two-fold
   stronger among putative interneurons. These findings lead to the surprising
   conclusion that the strongest attentional modulation occurs among local
-  interneurons that do not transmit signals between areas. {\textcopyright}
-  2007 Elsevier Inc. All rights reserved.%
+  interneurons that do not transmit signals between areas. © 2007 Elsevier
+  Inc. All rights reserved.%
     }
     \verb{doi}
     \verb 10.1016/j.neuron.2007.06.018
     \endverb
     \field{isbn}{0896-6273 (Print)}
     \field{issn}{08966273}
-    \field{number}{1}
+    \field{issue}{1}
     \field{pages}{131\bibrangedash 141}
-    \field{title}{{Differential Attention-Dependent Response Modulation across
-  Cell Classes in Macaque Visual Area V4}}
+    \field{title}{Differential Attention-Dependent Response Modulation across
+  Cell Classes in Macaque Visual Area V4}
     \field{volume}{55}
-    \verb{file}
-    \verb ::;:C$\backslash$:/Users/hscott/AppData/Local/Mendeley Ltd./Mendeley
-    \verb Desktop/Downloaded/Mitchell, Sundberg, Reynolds - 2007 - Differential
-    \verb  Attention-Dependent Response Modulation across Cell Classes in Macaq
-    \verb ue Visual Area V4.pdf:pdf
-    \endverb
     \field{journaltitle}{Neuron}
     \field{year}{2007}
   \endentry
@@ -3145,7 +2940,7 @@
       {{hash=MBR}{%
          family={Moreno-Bote},
          familyi={M\bibinithyphendelim B\bibinitperiod},
-         given={Rub{\'{e}}n},
+         given={Rubén},
          giveni={R\bibinitperiod},
       }}%
       {{hash=BJ}{%
@@ -3187,7 +2982,7 @@
     \field{labelnamesource}{author}
     \field{labeltitlesource}{title}
     \field{labelyear}{2014}
-    \field{labeldatesource}{year}
+    \field{labeldatesource}{}
     \field{sortinit}{M}
     \field{sortinithash}{M}
     \field{abstract}{%
@@ -3210,16 +3005,113 @@
     \verb 10.1038/nn.3807
     \endverb
     \field{issn}{15461726}
-    \field{number}{10}
+    \field{issue}{10}
     \field{pages}{1410\bibrangedash 1417}
-    \field{title}{{Information-limiting correlations}}
+    \field{title}{Information-limiting correlations}
     \field{volume}{17}
-    \verb{file}
-    \verb :C$\backslash$:/Users/hscott/Documents/Articles/2014 Moreno-Bote Info
-    \verb rmation-limiting correlations.pdf:pdf
-    \endverb
     \field{journaltitle}{Nature Neuroscience}
     \field{year}{2014}
+  \endentry
+
+  \entry{Movshon1996}{report}{}
+    \name{author}{2}{}{%
+      {{hash=MJA}{%
+         family={Movshon},
+         familyi={M\bibinitperiod},
+         given={J\bibnamedelima Anthony},
+         giveni={J\bibinitperiod\bibinitdelim A\bibinitperiod},
+      }}%
+      {{hash=NWT}{%
+         family={Newsome},
+         familyi={N\bibinitperiod},
+         given={William\bibnamedelima T},
+         giveni={W\bibinitperiod\bibinitdelim T\bibinitperiod},
+      }}%
+    }
+    \keyw{antidromic activation,cortico-cortical projections,direc-tion
+  selectivity,motion processing,visual cortex,visual receptive fields}
+    \strng{namehash}{MJANWT1}
+    \strng{fullhash}{MJANWT1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{1996}
+    \field{labeldatesource}{}
+    \field{sortinit}{M}
+    \field{sortinithash}{M}
+    \field{abstract}{%
+    We have previously shown that some neurons in extrastriate area MT are
+  capable of signaling the global motion of complex patterns; neurons randomly
+  sampled from V1, on the other hand, respond only to the motion of individual
+  oriented components. Because only a small fraction of V1 neurons projects to
+  MT, we wished to establish the processing hierarchy more precisely by
+  studying the properties of those neurons projecting to MT, identified by
+  antidromic responses to electrical stimulation of MT. The neurons that
+  project from V1 to MT were directionally selective and, like other V1
+  neurons, responded only to the motion of the components of complex patterns.
+  The projection neurons were predominantly "special complex," responsive to a
+  broad range of spatial and temporal frequencies, and sensitive to very low
+  stimulus contrasts. The projection neurons thus comprise a homogeneous and
+  highly specialized subset of V1 neurons, consistent with the notion that V1
+  acts as clearing house of basic visual measurements, distributing information
+  appropriately to higher cortical areas for specialized analysis.
+  Psychophysical evidence suggests that motion processing within the central
+  visual system occurs in at least two stages. In the first stage,
+  orientation-and spatial frequency-selective mechanisms compute motion signals
+  within local regions of visual space. The local motion signals encoded at
+  this stage, considered individually, are inherently ambiguous because an
+  orientation-selective mechanism can only signal motion in a direction
+  orthogonal to its preferred axis of orientation. The ambiguous first stage
+  signals, however, can be combined according to simple geometric rules to
+  yield a second stage of motion processing in which the direction and speed of
+  complex moving objects are represented veridically (Adelson and Movshon,
+  1982; Movshon et al., 1985; Ferrera and Wilson, 1990; Wilson et al., 1992).
+  Physiological investigation of the visual cortex of monkeys has revealed
+  potential correlates of these two processing stages in striate cortex (V1)
+  and extrastriate area MT (V5), respectively (Movshon et al., 1985; Rodman and
+  Albright, 1989). In these studies, directionally selective neurons were
+  driven with superimposed , drifting sine wave gratings as visual stimuli.
+  Under appropriate conditions, human observers viewing such stimuli see a
+  coherently moving "plaid" pattern whose perceived direction of motion differs
+  from that of either component grating (Adelson and Movshon, 1982).
+  Orientation-selective neurons in V1 responded overwhelmingly to the motion of
+  the individual component gratings, not to the overall motion of the plaid
+  pattern perceived by human observers. In MT, however, roughly one third of
+  the neurons encoded the direction of the plaid pattern. These findings
+  naturally suggest that direction-selective neu-rons in V1 and MT are the
+  neural correlates of the hypothesized first and second stages of motion
+  processing (for a recent review, see Stoner and Albright, 1994). This issue
+  remains unresolved, however, because presently available data cannot rule out
+  the possibility that the minority of V1 neurons that actually projects to MT
+  might differ in important ways from the neurons examined in random samples
+  from V1. The key questions are (1) whether the projection neurons are
+  directionally selective at all, and (2) whether the projection neurons
+  respond to plaid patterns in a manner characteristic of the first
+  ("component") or second ("pat-tern") stage of motion processing. To resolve
+  this issue, we studied a population of V1 neurons that were antidromically
+  activated by electrical stimulation of MT. The large majority of these
+  neurons were strongly directional and responded selectively to the motion of
+  the component gratings of plaid patterns. The MT projection neurons were
+  typically "special complex" cells responding to a broad range of spatial and
+  temporal frequencies. Our observations support the notion that V1 and MT are,
+  respectively, important neural substrates for the first and second stages of
+  motion processing. These results have been briefly reported elsewhere
+  (Movshon and Newsome, 1984). MATERIALS AND METHODS Preparation and
+  maintenance. Experiments (3-4 d in duration) were performed on four young
+  adult monkeys (Macaca fascicularis) weighing between 3.2 and 3.4 kg. After
+  induction of anesthesia with ketamine, a saphenous vein was cannulated and
+  intravenous anesthesia (Pentathol) was used for the duration of surgery. The
+  trachea was cannulated, and the animal's head was positioned in a stereotaxic
+  frame. A craniotomy was made over occipital cortex that permitted
+  microelectrode access both to V1 and MT. Openings were made in the dura, and
+  the exposed region was covered with warm agar.%
+    }
+    \field{issue}{23}
+    \field{pages}{7733\bibrangedash 7741}
+    \field{title}{Visual Response Properties of Striate Cortical Neurons
+  Projecting to Area MT in Macaque Monkeys}
+    \field{volume}{16}
+    \field{journaltitle}{The Journal of Neuroscience}
+    \field{year}{1996}
   \endentry
 
   \entry{Nandy2016}{article}{}
@@ -3257,26 +3149,21 @@
     \field{labelnamesource}{author}
     \field{labeltitlesource}{title}
     \field{labelyear}{2016}
-    \field{labeldatesource}{year}
+    \field{labeldatesource}{}
     \field{sortinit}{N}
     \field{sortinithash}{N}
     \verb{doi}
     \verb 10.1016/j.neuron.2016.07.026
     \endverb
     \field{issn}{0896-6273}
-    \field{number}{4}
+    \field{issue}{4}
     \field{pages}{920\bibrangedash 930}
-    \field{title}{{Neurons in Macaque Area V4 Are Tuned for Complex
-  Spatio-Temporal Patterns}}
+    \field{title}{Neurons in Macaque Area V4 Are Tuned for Complex
+  Spatio-Temporal Patterns}
     \verb{url}
     \verb http://dx.doi.org/10.1016/j.neuron.2016.07.026
     \endverb
     \field{volume}{91}
-    \verb{file}
-    \verb :C$\backslash$:/Users/hscott/Documents/Articles/2016 Nandy Neurons in
-    \verb  Macaque Area V4 Are Tuned for Complex Spatio-Temporal Patterns.pdf:p
-    \verb df
-    \endverb
     \field{journaltitle}{Neuron}
     \field{year}{2016}
   \endentry
@@ -3298,7 +3185,7 @@
     \field{labelnamesource}{author}
     \field{labeltitlesource}{title}
     \field{labelyear}{2016}
-    \field{labeldatesource}{year}
+    \field{labeldatesource}{}
     \field{sortinit}{N}
     \field{sortinithash}{N}
     \field{abstract}{%
@@ -3321,41 +3208,11 @@
     \endverb
     \field{issn}{23521546}
     \field{pages}{226\bibrangedash 230}
-    \field{title}{{Ramping activity is a cortical mechanism of temporal control
-  of action}}
+    \field{title}{Ramping activity is a cortical mechanism of temporal control
+  of action}
     \field{volume}{8}
-    \verb{file}
-    \verb :C$\backslash$:/Users/hscott/Documents/Articles/2016 Naravanan Rampin
-    \verb g activity is a cortical mechanism of temporal control of action.pdf:
-    \verb pdf
-    \endverb
     \field{journaltitle}{Current Opinion in Behavioral Sciences}
     \field{year}{2016}
-  \endentry
-
-  \entry{AnimalUse2011}{book}{}
-    \name{author}{1}{}{%
-      {{hash=N}{%
-         family={{National Research Council}},
-         familyi={N\bibinitperiod},
-      }}%
-    }
-    \strng{namehash}{N1}
-    \strng{fullhash}{N1}
-    \field{labelnamesource}{author}
-    \field{labeltitlesource}{title}
-    \field{labelyear}{2011}
-    \field{labeldatesource}{year}
-    \field{sortinit}{N}
-    \field{sortinithash}{N}
-    \field{edition}{8th Editio}
-    \field{isbn}{9780309154000}
-    \field{title}{{Guide for the Care and Use of Laboratory Animals}}
-    \verb{file}
-    \verb :C$\backslash$:/Users/hscott/Documents/Articles/guide-for-the-care-an
-    \verb d-use-of-laboratory-animals.pdf:pdf
-    \endverb
-    \field{year}{2011}
   \endentry
 
   \entry{Paninski2010}{article}{}
@@ -3384,11 +3241,11 @@
          given={Shinsuke},
          giveni={S\bibinitperiod},
       }}%
-      {{hash=RK}{%
-         family={{Rahnama Rad}},
+      {{hash=RKR}{%
+         family={Rad},
          familyi={R\bibinitperiod},
-         given={Kamiar},
-         giveni={K\bibinitperiod},
+         given={Kamiar\bibnamedelima Rahnama},
+         giveni={K\bibinitperiod\bibinitdelim R\bibinitperiod},
       }}%
       {{hash=VM}{%
          family={Vidne},
@@ -3412,11 +3269,11 @@
     \keyw{Hidden Markov model,Neural coding,State-space models,Tridiagonal
   matrix}
     \strng{namehash}{PL+1}
-    \strng{fullhash}{PLAYFDGKSRKVMVJWW1}
+    \strng{fullhash}{PLAYFDGKSRKRVMVJWW1}
     \field{labelnamesource}{author}
     \field{labeltitlesource}{title}
     \field{labelyear}{2010}
-    \field{labeldatesource}{year}
+    \field{labeldatesource}{}
     \field{sortinit}{P}
     \field{sortinithash}{P}
     \field{abstract}{%
@@ -3441,14 +3298,10 @@
     \verb 10.1007/s10827-009-0179-x
     \endverb
     \field{issn}{09295313}
-    \field{number}{1-2}
+    \field{issue}{1-2}
     \field{pages}{107\bibrangedash 126}
-    \field{title}{{A new look at state-space models for neural data}}
+    \field{title}{A new look at state-space models for neural data}
     \field{volume}{29}
-    \verb{file}
-    \verb :C$\backslash$:/Users/hscott/Documents/Articles/2010 Paninski A new l
-    \verb ook at state-space models for neural data.pdf:pdf
-    \endverb
     \field{journaltitle}{Journal of Computational Neuroscience}
     \field{year}{2010}
   \endentry
@@ -3475,7 +3328,7 @@
     \field{labelnamesource}{author}
     \field{labeltitlesource}{title}
     \field{labelyear}{2020}
-    \field{labeldatesource}{year}
+    \field{labeldatesource}{}
     \field{sortinit}{P}
     \field{sortinithash}{P}
     \field{abstract}{%
@@ -3501,14 +3354,9 @@
     \endverb
     \field{issn}{23744650}
     \field{pages}{335\bibrangedash 362}
-    \field{title}{{Linking Neuronal Direction Selectivity to Perceptual
-  Decisions about Visual Motion}}
+    \field{title}{Linking Neuronal Direction Selectivity to Perceptual
+  Decisions about Visual Motion}
     \field{volume}{6}
-    \verb{file}
-    \verb :C$\backslash$:/Users/hscott/Documents/Articles/2020 Pasternak Linkin
-    \verb g Neuronal Direction Selectivity to Perceptual Decisions About Visual
-    \verb  Motion.pdf:pdf
-    \endverb
     \field{journaltitle}{Annual Review of Vision Science}
     \field{year}{2020}
   \endentry
@@ -3533,7 +3381,7 @@
     \field{labelnamesource}{author}
     \field{labeltitlesource}{title}
     \field{labelyear}{2002}
-    \field{labeldatesource}{year}
+    \field{labeldatesource}{}
     \field{sortinit}{P}
     \field{sortinithash}{P}
     \field{abstract}{%
@@ -3556,14 +3404,10 @@
     \verb 10.1038/nn972
     \endverb
     \field{issn}{10976256}
-    \field{number}{12}
+    \field{issue}{12}
     \field{pages}{1332\bibrangedash 1338}
-    \field{title}{{Population coding of shape in area V4}}
+    \field{title}{Population coding of shape in area V4}
     \field{volume}{5}
-    \verb{file}
-    \verb :C$\backslash$:/Users/hscott/Documents/Articles/2002 Pasupathy Popula
-    \verb tion coding of shape in area V4.pdf:pdf
-    \endverb
     \field{journaltitle}{Nature Neuroscience}
     \field{year}{2002}
   \endentry
@@ -3588,22 +3432,17 @@
     \field{labelnamesource}{author}
     \field{labeltitlesource}{title}
     \field{labelyear}{2006}
-    \field{labeldatesource}{year}
+    \field{labeldatesource}{}
     \field{sortinit}{P}
     \field{sortinithash}{P}
     \verb{doi}
     \verb 10.1002/cne
     \endverb
-    \field{number}{October 2007}
+    \field{issue}{October 2007}
     \field{pages}{227\bibrangedash 251}
-    \field{title}{{Efferent Association Pathways Originating in the Caudal
-  Prefrontal Cortex in the Macaque Monkey}}
+    \field{title}{Efferent Association Pathways Originating in the Caudal
+  Prefrontal Cortex in the Macaque Monkey}
     \field{volume}{498}
-    \verb{file}
-    \verb :C$\backslash$:/Users/hscott/Documents/Articles/2006 Petrides Efferen
-    \verb t Association Pathways Originating in the Caudal Prefrontal Cortex in
-    \verb  the Macaque Monkey.pdf:pdf
-    \endverb
     \field{journaltitle}{Journal of Comparative Neurology}
     \field{year}{2006}
   \endentry
@@ -3656,7 +3495,7 @@
     \field{labelnamesource}{author}
     \field{labeltitlesource}{title}
     \field{labelyear}{2019}
-    \field{labeldatesource}{year}
+    \field{labeldatesource}{}
     \field{sortinit}{P}
     \field{sortinithash}{P}
     \field{abstract}{%
@@ -3679,19 +3518,14 @@
     \verb 10.1016/j.cell.2019.04.005
     \endverb
     \field{issn}{10974172}
-    \field{number}{4}
+    \field{issue}{4}
     \field{pages}{999\bibrangedash 1009.e10}
-    \field{title}{{Evolving Images for Visual Neurons Using a Deep Generative
-  Network Reveals Coding Principles and Neuronal Preferences}}
+    \field{title}{Evolving Images for Visual Neurons Using a Deep Generative
+  Network Reveals Coding Principles and Neuronal Preferences}
     \verb{url}
     \verb http://dx.doi.org/10.1016/j.cell.2019.04.005
     \endverb
     \field{volume}{177}
-    \verb{file}
-    \verb :C$\backslash$:/Users/hscott/Documents/Articles/2019 Ponce Evolving I
-    \verb mages for Visual Neurons using a Deep Generative Network Reveals Codi
-    \verb ng Principles and Neuronal Preferences.pdf:pdf
-    \endverb
     \field{journaltitle}{Cell}
     \field{year}{2019}
   \endentry
@@ -3701,7 +3535,7 @@
       {{hash=PAA}{%
          family={Ponce-Alvarez},
          familyi={P\bibinithyphendelim A\bibinitperiod},
-         given={Adri{\'{a}}n},
+         given={Adrián},
          giveni={A\bibinitperiod},
       }}%
       {{hash=TA}{%
@@ -3734,7 +3568,7 @@
     \field{labelnamesource}{author}
     \field{labeltitlesource}{title}
     \field{labelyear}{2013}
-    \field{labeldatesource}{year}
+    \field{labeldatesource}{}
     \field{sortinit}{P}
     \field{sortinithash}{P}
     \field{abstract}{%
@@ -3759,16 +3593,11 @@
     \verb 10.1073/pnas.1300098110
     \endverb
     \field{issn}{00278424}
-    \field{number}{32}
+    \field{issue}{32}
     \field{pages}{13162\bibrangedash 13167}
-    \field{title}{{Stimulus-dependent variability and noise correlations in
-  cortical MT neurons}}
+    \field{title}{Stimulus-dependent variability and noise correlations in
+  cortical MT neurons}
     \field{volume}{110}
-    \verb{file}
-    \verb :C$\backslash$:/Users/hscott/Documents/Articles/2013 Ponce-Alvarez St
-    \verb imulus-dependent variability and noise correlations in cortical MT ne
-    \verb urons.pdf:pdf
-    \endverb
     \field{journaltitle}{Proceedings of the National Academy of Sciences of the
   United States of America}
     \field{year}{2013}
@@ -3776,11 +3605,11 @@
 
   \entry{QuianQuiroga2009}{article}{}
     \name{author}{2}{}{%
-      {{hash=QR}{%
-         family={{Quian Quiroga}},
+      {{hash=QRQ}{%
+         family={Quiroga},
          familyi={Q\bibinitperiod},
-         given={Rodrigo},
-         giveni={R\bibinitperiod},
+         given={Rodrigo\bibnamedelima Quian},
+         giveni={R\bibinitperiod\bibinitdelim Q\bibinitperiod},
       }}%
       {{hash=PS}{%
          family={Panzeri},
@@ -3789,12 +3618,12 @@
          giveni={S\bibinitperiod},
       }}%
     }
-    \strng{namehash}{QRPS1}
-    \strng{fullhash}{QRPS1}
+    \strng{namehash}{QRQPS1}
+    \strng{fullhash}{QRQPS1}
     \field{labelnamesource}{author}
     \field{labeltitlesource}{title}
     \field{labelyear}{2009}
-    \field{labeldatesource}{year}
+    \field{labeldatesource}{}
     \field{sortinit}{Q}
     \field{sortinithash}{Q}
     \field{abstract}{%
@@ -3808,23 +3637,17 @@
   theory - can be used to extract single-trial information from the activity of
   neuronal populations. Such population analysis can give us more information
   about how neurons encode stimulus features than traditional single-cell
-  studies. {\textcopyright} 2009 Macmillan Publishers Limited. All rights
-  reserved.%
+  studies. © 2009 Macmillan Publishers Limited. All rights reserved.%
     }
     \verb{doi}
     \verb 10.1038/nrn2578
     \endverb
     \field{issn}{1471003X}
-    \field{number}{3}
+    \field{issue}{3}
     \field{pages}{173\bibrangedash 185}
-    \field{title}{{Extracting information from neuronal populations:
-  Information theory and decoding approaches}}
+    \field{title}{Extracting information from neuronal populations: Information
+  theory and decoding approaches}
     \field{volume}{10}
-    \verb{file}
-    \verb :C$\backslash$:/Users/hscott/Documents/Articles/2009 Quiroga Extracti
-    \verb ng information from neuronal populations information theory and decod
-    \verb ing approaches.pdf:pdf
-    \endverb
     \field{journaltitle}{Nature Reviews Neuroscience}
     \field{year}{2009}
   \endentry
@@ -3859,7 +3682,7 @@
     \field{labelnamesource}{author}
     \field{labeltitlesource}{title}
     \field{labelyear}{2017}
-    \field{labeldatesource}{year}
+    \field{labeldatesource}{}
     \field{sortinit}{R}
     \field{sortinithash}{R}
     \field{abstract}{%
@@ -3882,13 +3705,9 @@
     \endverb
     \field{issn}{18792782}
     \field{pages}{57\bibrangedash 65}
-    \field{title}{{Entropy factor for randomness quantification in neuronal
-  data}}
+    \field{title}{Entropy factor for randomness quantification in neuronal
+  data}
     \field{volume}{95}
-    \verb{file}
-    \verb :C$\backslash$:/Users/hscott/Documents/Articles/2017 Rajdl Entropy fa
-    \verb ctor for randomness quantification in neuronal data.pdf:pdf
-    \endverb
     \field{journaltitle}{Neural Networks}
     \field{year}{2017}
   \endentry
@@ -3916,7 +3735,7 @@
     \field{labelnamesource}{author}
     \field{labeltitlesource}{title}
     \field{labelyear}{2014}
-    \field{labeldatesource}{year}
+    \field{labeldatesource}{}
     \field{sortinit}{R}
     \field{sortinithash}{R}
     \field{abstract}{%
@@ -3930,20 +3749,16 @@
   point of view. Both view points are illustrated through several examples from
   the literature. We furthermore consider both mechanistic and normative models
   that explain how neural and behavioral variability may be linked. Finally, we
-  review why variability may confer an adaptive advantage to organisms.
-  {\textcopyright} 2014 Elsevier Ltd.%
+  review why variability may confer an adaptive advantage to organisms. © 2014
+  Elsevier Ltd.%
     }
     \verb{doi}
     \verb 10.1016/j.conb.2014.02.013
     \endverb
     \field{issn}{18736882}
     \field{pages}{211\bibrangedash 220}
-    \field{title}{{Variability in neural activity and behavior}}
+    \field{title}{Variability in neural activity and behavior}
     \field{volume}{25}
-    \verb{file}
-    \verb :C$\backslash$:/Users/hscott/Documents/Articles/2014 Renart Variabili
-    \verb ty in neural activity and behavior.pdf:pdf
-    \endverb
     \field{journaltitle}{Current Opinion in Neurobiology}
     \field{year}{2014}
   \endentry
@@ -3968,7 +3783,7 @@
     \field{labelnamesource}{author}
     \field{labeltitlesource}{title}
     \field{labelyear}{1999}
-    \field{labeldatesource}{year}
+    \field{labeldatesource}{}
     \field{sortinit}{R}
     \field{sortinithash}{R}
     \field{abstract}{%
@@ -4003,16 +3818,11 @@
     \verb 10.1093/cercor/9.1.90
     \endverb
     \field{issn}{10473211}
-    \field{number}{1}
+    \field{issue}{1}
     \field{pages}{90\bibrangedash 100}
-    \field{title}{{Transient and permanent deficits in motion perception after
-  lesions of cortical areas MT and MST in the macaque monkey}}
+    \field{title}{Transient and permanent deficits in motion perception after
+  lesions of cortical areas MT and MST in the macaque monkey}
     \field{volume}{9}
-    \verb{file}
-    \verb :C$\backslash$:/Users/hscott/Documents/Articles/1999 Rudolph Transien
-    \verb t and Permanent Deficits in Motion Perception after Lesions of Cortic
-    \verb al Areas MT and MST in the Macaque Monkey.pdf:pdf
-    \endverb
     \field{journaltitle}{Cerebral Cortex}
     \field{year}{1999}
   \endentry
@@ -4042,23 +3852,80 @@
     \field{labelnamesource}{author}
     \field{labeltitlesource}{title}
     \field{labelyear}{2016}
-    \field{labeldatesource}{year}
+    \field{labeldatesource}{}
     \field{sortinit}{R}
     \field{sortinithash}{R}
     \verb{doi}
     \verb 10.1523/JNEUROSCI.0610-16.2016
     \endverb
-    \field{number}{28}
+    \field{issue}{28}
     \field{pages}{7523\bibrangedash 7534}
-    \field{title}{{Attention Increases Spike Count Correlations between Visual
-  Cortical Areas}}
+    \field{title}{Attention Increases Spike Count Correlations between Visual
+  Cortical Areas}
     \field{volume}{36}
-    \verb{file}
-    \verb :C$\backslash$:/Users/hscott/Documents/Articles/2016 Ruff Attention I
-    \verb ncreases Spike Count Correlations betwen Visual Cortical Areas.pdf:pd
-    \verb f
-    \endverb
     \field{year}{2016}
+  \endentry
+
+  \entry{Rust2006}{article}{}
+    \name{author}{4}{}{%
+      {{hash=RNC}{%
+         family={Rust},
+         familyi={R\bibinitperiod},
+         given={Nicole\bibnamedelima C.},
+         giveni={N\bibinitperiod\bibinitdelim C\bibinitperiod},
+      }}%
+      {{hash=MV}{%
+         family={Mante},
+         familyi={M\bibinitperiod},
+         given={Valerio},
+         giveni={V\bibinitperiod},
+      }}%
+      {{hash=SEP}{%
+         family={Simoncelli},
+         familyi={S\bibinitperiod},
+         given={Eero\bibnamedelima P.},
+         giveni={E\bibinitperiod\bibinitdelim P\bibinitperiod},
+      }}%
+      {{hash=MJA}{%
+         family={Movshon},
+         familyi={M\bibinitperiod},
+         given={J.\bibnamedelima Anthony},
+         giveni={J\bibinitperiod\bibinitdelim A\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{RNC+1}
+    \strng{fullhash}{RNCMVSEPMJA1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2006}
+    \field{labeldatesource}{}
+    \field{sortinit}{R}
+    \field{sortinithash}{R}
+    \field{abstract}{%
+    Neurons in area MT (V5) are selective for the direction of visual motion.
+  In addition, many are selective for the motion of complex patterns
+  independent of the orientation of their components, a behavior not seen in
+  earlier visual areas. We show that the responses of MT cells can be captured
+  by a linear-nonlinear model that operates not on the visual stimulus, but on
+  the afferent responses of a population of nonlinear V1 cells. We fit this
+  cascade model to responses of individual MT neurons and show that it robustly
+  predicts the separately measured responses to gratings and plaids. The model
+  captures the full range of pattern motion selectivity found in MT. Cells that
+  signal pattern motion are distinguished by having convergent excitatory input
+  from V1 cells with a wide range of preferred directions, strong motion
+  opponent suppression and a tuned normalization that may reflect suppressive
+  input from the surround of V1 cells. © 2006 Nature Publishing Group.%
+    }
+    \verb{doi}
+    \verb 10.1038/nn1786
+    \endverb
+    \field{issn}{10976256}
+    \field{issue}{11}
+    \field{pages}{1421\bibrangedash 1431}
+    \field{title}{How MT cells analyze the motion of visual patterns}
+    \field{volume}{9}
+    \field{journaltitle}{Nature Neuroscience}
+    \field{year}{2006}
   \endentry
 
   \entry{Salzman1992}{article}{}
@@ -4093,7 +3960,7 @@
     \field{labelnamesource}{author}
     \field{labeltitlesource}{title}
     \field{labelyear}{1992}
-    \field{labeldatesource}{year}
+    \field{labeldatesource}{}
     \field{sortinit}{S}
     \field{sortinithash}{S}
     \field{abstract}{%
@@ -4116,7 +3983,7 @@
   performance on 'stimulated' and 'nonstimulated' trials in 139 experiments;
   all trials within an experiment were presented in random order. Statistically
   significant effects of microstimulation were obtained in 89 experiments. In
-  86 of the 89 experiments with significant effects (97{\%}), the monkeys
+  86 of the 89 experiments with significant effects (97%), the monkeys
   indicated that motion was in the neurons' preferred direction more frequently
   on stimulated trials than on nonstimulated trials. The data demonstrate a
   functional link between the activity of direction selective neurons and
@@ -4126,16 +3993,11 @@
     \verb 10.1523/jneurosci.12-06-02331.1992
     \endverb
     \field{issn}{02706474}
-    \field{number}{6}
+    \field{issue}{6}
     \field{pages}{2331\bibrangedash 2355}
-    \field{title}{{Microstimulation in visual area MT: Effects on direction
-  discrimination performance}}
+    \field{title}{Microstimulation in visual area MT: Effects on direction
+  discrimination performance}
     \field{volume}{12}
-    \verb{file}
-    \verb :C$\backslash$:/Users/hscott/Documents/Articles/1992 Salzman Microsti
-    \verb mulation in Visual Area MT- Effects on Direction Discrimination Perfo
-    \verb rmance.pdf:pdf
-    \endverb
     \field{journaltitle}{Journal of Neuroscience}
     \field{year}{1992}
   \endentry
@@ -4166,7 +4028,7 @@
     \field{labelnamesource}{author}
     \field{labeltitlesource}{title}
     \field{labelyear}{1990}
-    \field{labeldatesource}{year}
+    \field{labeldatesource}{}
     \field{sortinit}{S}
     \field{sortinithash}{S}
     \field{abstract}{%
@@ -4185,22 +4047,17 @@
   animals' judgements towards the direction of motion encoded by the stimulated
   neurons. This result indicates that physiological properties measured at the
   neuronal level can be causally related to a specific aspect of perceptual
-  performance. {\textcopyright} 1990 Nature Publishing Group.%
+  performance. © 1990 Nature Publishing Group.%
     }
     \verb{doi}
     \verb 10.1038/346174a0
     \endverb
     \field{issn}{00280836}
-    \field{number}{6280}
+    \field{issue}{6280}
     \field{pages}{174\bibrangedash 177}
-    \field{title}{{Cortical microstimulation influences perceptual judgements
-  of motion direction}}
+    \field{title}{Cortical microstimulation influences perceptual judgements of
+  motion direction}
     \field{volume}{346}
-    \verb{file}
-    \verb :C$\backslash$:/Users/hscott/Documents/Articles/1990 Salzman Cortical
-    \verb  microstimulation influences perceptual judgements of motion directio
-    \verb n.pdf:pdf
-    \endverb
     \field{journaltitle}{Nature}
     \field{year}{1990}
   \endentry
@@ -4243,27 +4100,135 @@
     \field{labelnamesource}{author}
     \field{labeltitlesource}{title}
     \field{labelyear}{2013}
-    \field{labeldatesource}{year}
+    \field{labeldatesource}{}
     \field{sortinit}{S}
     \field{sortinithash}{S}
     \verb{doi}
     \verb 10.1523/JNEUROSCI.3465-13.2013
     \endverb
-    \field{number}{47}
+    \field{issue}{47}
     \field{pages}{18583\bibrangedash 18596}
-    \field{title}{{Selective Tuning for Contrast in Macaque Area V4}}
+    \field{title}{Selective Tuning for Contrast in Macaque Area V4}
     \field{volume}{33}
-    \verb{file}
-    \verb :C$\backslash$:/Users/hscott/Documents/Articles/2013 Sani Selective T
-    \verb uning for Contrast in Macaque Area V4.pdf:pdf
-    \endverb
     \field{year}{2013}
+  \endentry
+
+  \entry{SCOTT1979}{article}{}
+    \name{author}{1}{}{%
+      {{hash=SDW}{%
+         family={SCOTT},
+         familyi={S\bibinitperiod},
+         given={DAVID\bibnamedelima W},
+         giveni={D\bibinitperiod\bibinitdelim W\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{SDW1}
+    \strng{fullhash}{SDW1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{1979}
+    \field{labeldatesource}{}
+    \field{sortinit}{S}
+    \field{sortinithash}{S}
+    \field{abstract}{%
+    In this paper the formula for the optimal histogram bin width is derived
+  which asymptotically minimizes the integrated mean squared error. Monte Carlo
+  methods are used to verify the usefulness of this formula for small samples.
+  A data-based procedure for choosing the bin width parameter is proposed,
+  which assumes a Gaussian reference standard and requires only the sample size
+  and an estimate of the standard deviation. The sensitivity of the procedure
+  is investigated using several probability models which violate the Gaussian
+  assumption.%
+    }
+    \verb{doi}
+    \verb 10.1093/biomet/66.3.605
+    \endverb
+    \field{issn}{0006-3444}
+    \field{issue}{3}
+    \field{pages}{605\bibrangedash 610}
+    \field{title}{On optimal and data-based histograms}
+    \verb{url}
+    \verb https://doi.org/10.1093/biomet/66.3.605
+    \endverb
+    \field{volume}{66}
+    \field{journaltitle}{Biometrika}
+    \field{month}{12}
+    \field{year}{1979}
+  \endentry
+
+  \entry{Scott2023}{article}{}
+    \name{author}{4}{}{%
+      {{hash=SH}{%
+         family={Scott},
+         familyi={S\bibinitperiod},
+         given={Hayden},
+         giveni={H\bibinitperiod},
+      }}%
+      {{hash=WK}{%
+         family={Wimmer},
+         familyi={W\bibinitperiod},
+         given={Klaus},
+         giveni={K\bibinitperiod},
+      }}%
+      {{hash=PT}{%
+         family={Pasternak},
+         familyi={P\bibinitperiod},
+         given={Tatiana},
+         giveni={T\bibinitperiod},
+      }}%
+      {{hash=SAC}{%
+         family={Snyder},
+         familyi={S\bibinitperiod},
+         given={Adam\bibnamedelima C.},
+         giveni={A\bibinitperiod\bibinitdelim C\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Wiley}%
+    }
+    \strng{namehash}{SH+1}
+    \strng{fullhash}{SHWKPTSAC1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2023}
+    \field{labeldatesource}{}
+    \field{sortinit}{S}
+    \field{sortinithash}{S}
+    \field{abstract}{%
+    Neurons in the primate Middle Temporal (MT) area signal information about
+  visual motion and work together with the lateral prefrontal cortex (LPFC) to
+  support memory-guided comparisons of visual motion direction. These areas are
+  reciprocally connected, and both contain neurons that signal visual motion
+  direction in the strength of their responses. Previously, LPFC was shown to
+  display marked changes in stimulus coding with altered task demands,
+  including changes in selectivity for motion direction, trial-to-trial
+  variability in responses, and comparison effects. Since MT and LPFC are
+  directly interconnected, we sought to determine if MT neurons display similar
+  dependence on task demands. We found that active participation in a motion
+  direction comparison task affected both sensory and non-sensory activity in
+  MT neurons. The activity of MT neurons signaling motion direction depended on
+  task demands, forming three distinct groups: neurons for which direction
+  information (1) increased, (2) decreased, or (3) was largely unaffected with
+  increased task demands. These groups display marked differences in both
+  sensory and cognitive components of their response, suggesting that
+  subpopulations of MT neurons flexibly modify their signaling properties
+  between sensory and cognitive processes to suit task demands.%
+    }
+    \verb{doi}
+    \verb 10.1111/ejn.15964
+    \endverb
+    \field{issn}{0953-816X}
+    \field{title}{Altered Task Demands Lead to a Division of Labor for Sensory
+  and Cognitive Processing in the Middle Temporal Area}
+    \field{journaltitle}{European Journal of Neuroscience}
+    \field{month}{04}
+    \field{year}{2023}
   \endentry
 
   \entry{Series2004}{article}{}
     \name{author}{3}{}{%
       {{hash=SP}{%
-         family={Seri{\`{e}}s},
+         family={Seriès},
          familyi={S\bibinitperiod},
          given={Peggy},
          giveni={P\bibinitperiod},
@@ -4281,13 +4246,12 @@
          giveni={A\bibinitperiod},
       }}%
     }
-    \keyw{HaydenQuals}
     \strng{namehash}{SPLPEPA1}
     \strng{fullhash}{SPLPEPA1}
     \field{labelnamesource}{author}
     \field{labeltitlesource}{title}
     \field{labelyear}{2004}
-    \field{labeldatesource}{year}
+    \field{labeldatesource}{}
     \field{sortinit}{S}
     \field{sortinithash}{S}
     \field{abstract}{%
@@ -4310,16 +4274,11 @@
     \verb 10.1038/nn1321
     \endverb
     \field{issn}{10976256}
-    \field{number}{10}
+    \field{issue}{10}
     \field{pages}{1129\bibrangedash 1135}
-    \field{title}{{Tuning curve sharpening for orientation selectivity: Coding
-  efficiency and the impact of correlations}}
+    \field{title}{Tuning curve sharpening for orientation selectivity: Coding
+  efficiency and the impact of correlations}
     \field{volume}{7}
-    \verb{file}
-    \verb :C$\backslash$:/Users/hscott/Documents/Articles/2004 Series Latham Po
-    \verb uget Tuning curve sharpening for orientation selectivity-coding effic
-    \verb iency and the impact of correlations.pdf:pdf
-    \endverb
     \field{journaltitle}{Nature Neuroscience}
     \field{year}{2004}
   \endentry
@@ -4344,61 +4303,51 @@
     \field{labelnamesource}{author}
     \field{labeltitlesource}{title}
     \field{labelyear}{2001}
-    \field{labeldatesource}{year}
+    \field{labeldatesource}{}
     \field{sortinit}{S}
     \field{sortinithash}{S}
     \field{abstract}{%
-    Shadlen, Michael N. and William T. Newsome. Neural Basis of a Perceptual
-  Decision in the Parietal Cortex (Area LIP) of the Rhesus Monkey. J.
-  Neurophysiol. 86: 1916-1936, 2001. We recorded the activity of single neurons
-  in the posterior parietal cortex (area LIP) of two rhesus monkeys while they
-  discriminated the direction of motion in random-dot visual stimuli. The
-  visual task was similar to a motion discrimination task that has been used in
-  previous investigations of motion-sensitive regions of the extrastriate
-  cortex. The monkeys were trained to decide whether the direction of motion
-  was toward one of two choice targets that appeared on either side of the
-  random-dot stimulus. At the end of the trial, the monkeys reported their
-  direction judgment by making an eye movement to the appropriate target. We
-  studied neurons in LIP that exhibited spatially selective persistent activity
-  during delayed saccadic eye movement tasks. These neurons are thought to
-  carry high-level signals appropriate for identifying salient visual targets
-  and for guiding saccadic eye movements. We arranged the motion discrimination
-  task so that one of the choice targets was in the LIP neuron's response field
-  (RF) while the other target was positioned well away from the RF. During
-  motion viewing, neurons in LIP altered their firing rate in a manner that
-  predicted the saccadic eye movement that the monkey would make at the end of
-  the trial. The activity thus predicted the monkey's judgment of motion
-  direction. This predictive activity began early in the motion-viewing period
-  and became increasingly reliable as the monkey viewed the random-dot motion.
-  The neural activity predicted the monkey's direction judgment on both easy
-  and difficult trials (strong and weak motion), whether or not the judgment
-  was correct. In addition, the timing and magnitude of the response was
-  affected by the strength of the motion signal in the stimulus. When the
-  direction of motion was toward the RF, stronger motion led to larger neural
-  responses earlier in the motion-viewing period. When motion was away from the
-  RF, stronger motion led to greater suppression of ongoing activity. Thus the
-  activity of single neurons in area LIP reflects both the direction of an
-  impending gaze shift and the quality of the sensory information that
-  instructs such a response. The time course of the neural response suggests
-  that LIP accumulates sensory signals relevant to the selection of a target
-  for an eye movement.%
+    We recorded the activity of single neurons in the posterior parietal cortex
+  (area LIP) of two rhesus monkeys while they discriminated the direction of
+  motion in random-dot visual stimuli. The visual task was similar to a motion
+  discrimination task that has been used in previous investigations of
+  motion-sensitive regions of the extrastriate cortex. The monkeys were trained
+  to decide whether the direction of motion was toward one of two choice
+  targets that appeared on either side of the random-dot stimulus. At the end
+  of the trial, the monkeys reported their direction judgment by making an eye
+  movement to the appropriate target. We studied neurons in LIP that exhibited
+  spatially selective persistent activity during delayed saccadic eye movement
+  tasks. These neurons are thought to carry high-level signals appropriate for
+  identifying salient visual targets and for guiding saccadic eye movements. We
+  arranged the motion discrimination task so that one of the choice targets was
+  in the LIP neuron's response field (RF) while the other target was positioned
+  well away from the RF. During motion viewing, neurons in LIP altered their
+  firing rate in a manner that predicted the saccadic eye movement that the
+  monkey would make at the end of the trial. The activity thus predicted the
+  monkey's judgment of motion direction. This predictive activity began early
+  in the motion-viewing period and became increasingly reliable as the monkey
+  viewed the random-dot motion. The neural activity predicted the monkey's
+  direction judgment on both easy and difficult trials (strong and weak
+  motion), whether or not the judgment was correct. In addition, the timing and
+  magnitude of the response was affected by the strength of the motion signal
+  in the stimulus. When the direction of motion was toward the RF, stronger
+  motion led to larger neural responses earlier in the motion-viewing period.
+  When motion was away from the RF, stronger motion led to greater suppression
+  of ongoing activity. Thus the activity of single neurons in area LIP reflects
+  both the direction of an impending gaze shift and the quality of the sensory
+  information that instructs such a response. The time course of the neural
+  response suggests that LIP accumulates sensory signals relevant to the
+  selection of a target for an eye movement.%
     }
     \verb{doi}
     \verb 10.1152/jn.2001.86.4.1916
     \endverb
-    \field{isbn}{0022-3077}
-    \field{issn}{0022-3077}
-    \field{number}{4}
+    \field{issn}{00223077}
+    \field{issue}{4}
     \field{pages}{1916\bibrangedash 1936}
-    \field{title}{{Neural Basis of a Perceptual Decision in the Parietal Cortex
-  (Area LIP) of the Rhesus Monkey}}
-    \verb{url}
-    \verb http://www.physiology.org/doi/10.1152/jn.2001.86.4.1916
-    \endverb
+    \field{title}{Neural basis of a perceptual decision in the parietal cortex
+  (area LIP) of the rhesus monkey}
     \field{volume}{86}
-    \verb{file}
-    \verb ::
-    \endverb
     \field{journaltitle}{Journal of Neurophysiology}
     \field{year}{2001}
   \endentry
@@ -4430,15 +4379,14 @@
          giveni={M\bibinitperiod},
       }}%
     }
-    \keyw{Electrophysiology,Extra-classical receptive
-  field,HaydenQuals,Population coding,Spike count correlation,Surround
-  suppression,V1}
+    \keyw{Electrophysiology,Extra-classical receptive field,Population
+  coding,Spike count correlation,Surround suppression,V1}
     \strng{namehash}{SA+1}
     \strng{fullhash}{SAMMKASM1}
     \field{labelnamesource}{author}
     \field{labeltitlesource}{title}
     \field{labelyear}{2014}
-    \field{labeldatesource}{year}
+    \field{labeldatesource}{}
     \field{sortinit}{S}
     \field{sortinithash}{S}
     \field{abstract}{%
@@ -4457,21 +4405,16 @@
   stimuli reduced correlations in the absence of stimulation of the RF, closely
   resembling the decorrelating effects of stimulating the RFs directly. Our
   results suggest that normalization signals may be an important mechanism for
-  modulating correlations. {\textcopyright} 2014 the authors.%
+  modulating correlations. © 2014 the authors.%
     }
     \verb{doi}
     \verb 10.1523/JNEUROSCI.0762-14.2014
     \endverb
     \field{issn}{15292401}
-    \field{number}{34}
-    \field{title}{{Correlations in V1 are reduced by stimulation outside the
-  receptive field}}
+    \field{issue}{34}
+    \field{title}{Correlations in V1 are reduced by stimulation outside the
+  receptive field}
     \field{volume}{34}
-    \verb{file}
-    \verb ::;:C$\backslash$:/Users/hscott/Documents/Articles/2014 Snyder Correl
-    \verb ations in V1 Are Reduced by Stimulation Outside the Receptive Field.p
-    \verb df:pdf
-    \endverb
     \field{journaltitle}{Journal of Neuroscience}
     \field{year}{2014}
   \endentry
@@ -4505,7 +4448,7 @@
     \field{labelnamesource}{author}
     \field{labeltitlesource}{title}
     \field{labelyear}{2018}
-    \field{labeldatesource}{year}
+    \field{labeldatesource}{}
     \field{sortinit}{S}
     \field{sortinithash}{S}
     \field{abstract}{%
@@ -4528,15 +4471,10 @@
     \verb 10.1038/s41467-018-06754-5
     \endverb
     \field{issn}{20411723}
-    \field{number}{1}
-    \field{title}{{Distinct population codes for attention in the absence and
-  presence of visual stimulation}}
+    \field{issue}{1}
+    \field{title}{Distinct population codes for attention in the absence and
+  presence of visual stimulation}
     \field{volume}{9}
-    \verb{file}
-    \verb :C$\backslash$:/Users/hscott/Documents/Articles/2018 Snyder Distinct
-    \verb population codes for attention in the absence and presence of visual
-    \verb stimulation.pdf:pdf
-    \endverb
     \field{journaltitle}{Nature Communications}
     \field{year}{2018}
   \endentry
@@ -4573,7 +4511,7 @@
     \field{labelnamesource}{author}
     \field{labeltitlesource}{title}
     \field{labelyear}{2021}
-    \field{labeldatesource}{year}
+    \field{labeldatesource}{}
     \field{sortinit}{S}
     \field{sortinithash}{S}
     \field{abstract}{%
@@ -4616,16 +4554,11 @@
     \verb 10.1523/jneurosci.0608-21.2021
     \endverb
     \field{issn}{0270-6474}
-    \field{number}{44}
+    \field{issue}{44}
     \field{pages}{9163\bibrangedash 9176}
-    \field{title}{{A Stable Population Code for Attention in Prefrontal Cortex
-  Leads a Dynamic Attention Code in Visual Cortex}}
+    \field{title}{A Stable Population Code for Attention in Prefrontal Cortex
+  Leads a Dynamic Attention Code in Visual Cortex}
     \field{volume}{41}
-    \verb{file}
-    \verb :C$\backslash$:/Users/hscott/Documents/Articles/2021 Snyder A stable
-    \verb population code for attention in prefrontal cortex leads a dynamic at
-    \verb tention code in visual cortex.pdf:pdf
-    \endverb
     \field{journaltitle}{The Journal of Neuroscience}
     \field{year}{2021}
   \endentry
@@ -4659,7 +4592,7 @@
     \field{labelnamesource}{author}
     \field{labeltitlesource}{title}
     \field{labelyear}{2010}
-    \field{labeldatesource}{year}
+    \field{labeldatesource}{}
     \field{sortinit}{T}
     \field{sortinithash}{T}
     \field{abstract}{%
@@ -4676,22 +4609,18 @@
   orientation-selective regions. Our results help to resolve long-standing
   controversies regarding functional diversity and retinotopy in V4 and
   indicate the presence of spatially biased distribution of featural
-  representation in V4 in the ventral visual pathway. {\textcopyright} 2010
-  Nature America, Inc. All rights reserved.%
+  representation in V4 in the ventral visual pathway. © 2010 Nature America,
+  Inc. All rights reserved.%
     }
     \verb{doi}
     \verb 10.1038/nn.2676
     \endverb
     \field{issn}{10976256}
-    \field{number}{12}
+    \field{issue}{12}
     \field{pages}{1542\bibrangedash 1549}
-    \field{title}{{Functional organization for color and orientation in macaque
-  V4}}
+    \field{title}{Functional organization for color and orientation in macaque
+  V4}
     \field{volume}{13}
-    \verb{file}
-    \verb :C$\backslash$:/Users/hscott/Documents/Articles/2010 Tanigawa Functio
-    \verb nal organization for color and orientation in macaque V4.pdf:pdf
-    \endverb
     \field{journaltitle}{Nature Neuroscience}
     \field{year}{2010}
   \endentry
@@ -4718,7 +4647,7 @@
     \field{labelnamesource}{author}
     \field{labeltitlesource}{title}
     \field{labelyear}{1986}
-    \field{labeldatesource}{year}
+    \field{labeldatesource}{}
     \field{sortinit}{U}
     \field{sortinithash}{U}
     \field{abstract}{%
@@ -4767,20 +4696,16 @@
   from these areas to MT originated primarily from cells in the infragranular
   layers. The connections of MT indicate that this area plays a major role in
   the relay of visual information from the striate cortex into the parietal
-  lobe. Copyright {\textcopyright} 1986 Alan R. Liss, Inc.%
+  lobe. Copyright © 1986 Alan R. Liss, Inc.%
     }
     \verb{doi}
     \verb 10.1002/cne.902480204
     \endverb
     \field{issn}{10969861}
-    \field{number}{2}
+    \field{issue}{2}
     \field{pages}{190\bibrangedash 222}
-    \field{title}{{Cortical connections of visual area MT in the macaque}}
+    \field{title}{Cortical connections of visual area MT in the macaque}
     \field{volume}{248}
-    \verb{file}
-    \verb :C$\backslash$:/Users/hscott/Documents/Articles/1986 Ungerleider Cort
-    \verb ical Connections of Visual Area MT in the Macaque.pdf:pdf
-    \endverb
     \field{journaltitle}{Journal of Comparative Neurology}
     \field{year}{1986}
   \endentry
@@ -4799,117 +4724,83 @@
     \field{labelnamesource}{author}
     \field{labeltitlesource}{title}
     \field{labelyear}{1959}
-    \field{labeldatesource}{year}
+    \field{labeldatesource}{}
     \field{sortinit}{W}
     \field{sortinithash}{W}
     \field{pages}{21\bibrangedash 22}
-    \field{title}{{Recording Inhibition and Excitation in the Cat's Retinal
-  Ganglion Cells with intracellular Electrodes}}
+    \field{title}{Recording Inhibition and Excitation in the Cat's Retinal
+  Ganglion Cells with intracellular Electrodes}
     \field{volume}{1}
-    \verb{file}
-    \verb :C$\backslash$:/Users/hscott/Documents/Articles/1959 Wiesel Recording
-    \verb  Inhibition and Excitation in the Cat's retinal ganglion cells with i
-    \verb ntracellular electrodes.pdf:pdf
-    \endverb
     \field{journaltitle}{Nature}
     \field{year}{1959}
   \endentry
 
   \entry{Wimmer2016}{article}{}
-    \name{author}{4}{}{%
+    \name{author}{3}{}{%
       {{hash=WK}{%
          family={Wimmer},
          familyi={W\bibinitperiod},
-         given={K.},
+         given={Klaus},
          giveni={K\bibinitperiod},
       }}%
-      {{hash=RM}{%
-         family={Ramon},
-         familyi={R\bibinitperiod},
-         given={M.},
-         giveni={M\bibinitperiod},
+      {{hash=SP}{%
+         family={Spinelli},
+         familyi={S\bibinitperiod},
+         given={Philip},
+         giveni={P\bibinitperiod},
       }}%
       {{hash=PT}{%
          family={Pasternak},
          familyi={P\bibinitperiod},
-         given={T.},
+         given={Tatiana},
          giveni={T\bibinitperiod},
       }}%
-      {{hash=CA}{%
-         family={Compte},
-         familyi={C\bibinitperiod},
-         given={A.},
-         giveni={A\bibinitperiod},
-      }}%
     }
-    \keyw{and coordinate this activity,attention,brain state,but
-  also,cally,communicate through electrical impulses,decision making,from sleep
-  to waking,in ensembles that pulsate,instruments in an orchestra,motion
-  discrimination,neurons in the brain,prefrontal,rhythmi-,significance
-  statement,these rhythms change with,very much like musical,visual
-  perception,working memory}
-    \strng{namehash}{WK+1}
-    \strng{fullhash}{WKRMPTCA1}
+    \keyw{Direction selectivity,Hemifields,Working memory}
+    \strng{namehash}{WKSPPT1}
+    \strng{fullhash}{WKSPPT1}
     \field{labelnamesource}{author}
     \field{labeltitlesource}{title}
     \field{labelyear}{2016}
-    \field{labeldatesource}{year}
+    \field{labeldatesource}{}
     \field{sortinit}{W}
     \field{sortinithash}{W}
     \field{abstract}{%
-    UNLABELLED Neuronal activity in the lateral prefrontal cortex (LPFC)
-  reflects the structure and cognitive demands of memory-guided sensory
-  discrimination tasks. However, we still do not know how neuronal activity
-  articulates in network states involved in perceiving, remembering, and
-  comparing sensory information during such tasks. Oscillations in local field
-  potentials (LFPs) provide fingerprints of such network dynamics. Here, we
-  examined LFPs recorded from LPFC of macaques while they compared the
-  directions or the speeds of two moving random-dot patterns, S1 and S2,
-  separated by a delay. LFP activity in the theta, beta, and gamma bands
-  tracked consecutive components of the task. In response to motion stimuli,
-  LFP theta and gamma power increased, and beta power decreased, but showed
-  only weak motion selectivity. In the delay, LFP beta power modulation
-  anticipated the onset of S2 and encoded the task-relevant S1 feature,
-  suggesting network dynamics associated with memory maintenance. After S2
-  onset the difference between the current stimulus S2 and the remembered S1
-  was strongly reflected in broadband LFP activity, with an early
-  sensory-related component proportional to stimulus difference and a later
-  choice-related component reflecting the behavioral decision buildup. Our
-  results demonstrate that individual LFP bands reflect both sensory and
-  cognitive processes engaged independently during different stages of the
-  task. This activation pattern suggests that during elementary cognitive
-  tasks, the prefrontal network transitions dynamically between states and that
-  these transitions are characterized by the conjunction of LFP rhythms rather
-  than by single LFP bands. SIGNIFICANCE STATEMENT Neurons in the brain
-  communicate through electrical impulses and coordinate this activity in
-  ensembles that pulsate rhythmically, very much like musical instruments in an
-  orchestra. These rhythms change with "brain state," from sleep to waking, but
-  also signal with different oscillation frequencies rapid changes between
-  sensory and cognitive processing. Here, we studied rhythmic electrical
-  activity in the monkey prefrontal cortex, an area implicated in working
-  memory, decision making, and executive control. Monkeys had to identify and
-  remember a visual motion pattern and compare it to a second pattern. We found
-  orderly transitions between rhythmic activity where the same frequency
-  channels were active in all ongoing prefrontal computations. This supports
-  prefrontal circuit dynamics that transitions rapidly between complex rhythmic
-  patterns during structured cognitive tasks.%
+    Visual decisions often involve comparisons of sequential stimuli that can
+  appear at any location in the visual field. The lateral prefrontal cortex
+  (LPFC) in nonhuman primates, shown to play an important role in such
+  comparisons, receives information about contralateral stimuli directly from
+  sensory neurons in the same hemisphere, and about ipsilateral stimuli
+  indirectly from neurons in the opposite hemisphere. This asymmetry of sensory
+  inputs into the LPFC poses the question of whether and how its neurons
+  incorporate sensory information arriving from the two hemispheres during
+  memory-guided comparisons of visual motion. We found that, although responses
+  of individual LPFC neurons to contralateral stimuli were stronger and emerged
+  40 ms earlier, they carried remarkably similar signals about motion direction
+  in the two hemifields, with comparable direction selectivity and similar
+  direction preferences. This similarity was also apparent around the time of
+  the comparison between the current and remembered stimulus because both
+  ipsilateral and contralateral responses showed similar signals reflecting the
+  remembered direction. However, despite availability in the LPFC of motion
+  information from across the visual field, these “comparison effects”
+  required for the comparison stimuli to appear at the same retinal location.
+  This strict dependence on spatial overlap of the comparison stimuli suggests
+  participation of neurons with localized receptive fields in the comparison
+  process. These results suggest that while LPFC incorporates many key aspects
+  of the information arriving from sensory neurons residing in opposite
+  hemispheres, it continues relying on the interactions with these neurons at
+  the time of generating signals leading to successful perceptual decisions.%
     }
     \verb{doi}
-    \verb 10.1523/JNEUROSCI.3678-15.2016
+    \verb 10.1523/JNEUROSCI.0843-16.2016
     \endverb
-    \field{isbn}{0270-6474}
-    \field{issn}{0270-6474}
-    \field{number}{2}
-    \field{pages}{489\bibrangedash 505}
-    \field{title}{{Transitions between Multiband Oscillatory Patterns
-  Characterize Memory-Guided Perceptual Decisions in Prefrontal Circuits}}
-    \verb{url}
-    \verb http://www.jneurosci.org/cgi/doi/10.1523/JNEUROSCI.3678-15.2016
-    \endverb
+    \field{issn}{15292401}
+    \field{issue}{36}
+    \field{pages}{9351\bibrangedash 9364}
+    \field{title}{Prefrontal neurons represent motion signals from across the
+  visual field but for memory-guided comparisons depend on neurons providing
+  these signals}
     \field{volume}{36}
-    \verb{file}
-    \verb ::
-    \endverb
     \field{journaltitle}{Journal of Neuroscience}
     \field{year}{2016}
   \endentry
@@ -4942,7 +4833,7 @@
     \field{labelnamesource}{author}
     \field{labeltitlesource}{title}
     \field{labelyear}{1996}
-    \field{labeldatesource}{year}
+    \field{labeldatesource}{}
     \field{sortinit}{Y}
     \field{sortinithash}{Y}
     \field{abstract}{%
@@ -4955,36 +4846,121 @@
   studied the responses of cells in visual cortical areas V1, V2 and V4 of the
   behaving macaque monkey, using chromatic and achromatic stimuli of varying
   luminance. A total of 569 cells (291 from V1, 205 from V2, 73 from V4) were
-  obtained, and classified as 'B' (bright; 43-50{\%} of the total cells in each
-  area), 'D' (dark; 6-12{\%} of the total), and 'B/D' (bright/dark; 27-28{\%}
-  of the total) color or non-color cells according to each cell's
-  color/luminance preference in relation to the neutral gray background. About
-  two thirds of 'B' cells in each area were color specific, whereas the
-  proportion of color cells in 'B/D' and 'D' categories was lower. In all three
-  areas (V1, V2, V4), color cells with preferences for midspectral colors (such
-  as yellow, lime and green) also preferred high luminance levels, while color
-  cells with preferences for endspectral colors (such as red and blue)
-  responded preferentially to luminance levels closer to background. The data
-  provide evidence for categorical color perception within the visual system,
-  as well as providing a physiological basis for the increased saliency of
-  endspectral contours observed at equiluminance in psychophysical studies.%
+  obtained, and classified as 'B' (bright; 43-50% of the total cells in each
+  area), 'D' (dark; 6-12% of the total), and 'B/D' (bright/dark; 27-28% of the
+  total) color or non-color cells according to each cell's color/luminance
+  preference in relation to the neutral gray background. About two thirds of
+  'B' cells in each area were color specific, whereas the proportion of color
+  cells in 'B/D' and 'D' categories was lower. In all three areas (V1, V2, V4),
+  color cells with preferences for midspectral colors (such as yellow, lime and
+  green) also preferred high luminance levels, while color cells with
+  preferences for endspectral colors (such as red and blue) responded
+  preferentially to luminance levels closer to background. The data provide
+  evidence for categorical color perception within the visual system, as well
+  as providing a physiological basis for the increased saliency of endspectral
+  contours observed at equiluminance in psychophysical studies.%
     }
     \verb{doi}
     \verb 10.1016/0166-4328(95)00183-2
     \endverb
     \field{issn}{01664328}
-    \field{number}{1-2}
+    \field{issue}{1-2}
     \field{pages}{51\bibrangedash 70}
-    \field{title}{{Neuronal mechanisms of color categorization in areas V1, V2
-  and V4 of macaque monkey visual cortex}}
+    \field{title}{Neuronal mechanisms of color categorization in areas V1, V2
+  and V4 of macaque monkey visual cortex}
     \field{volume}{76}
-    \verb{file}
-    \verb :C$\backslash$:/Users/hscott/Documents/Articles/1994 Yoshioka Color,
-    \verb orientation and cytochrome oxidase reactivity in areas V1, V2 and V4
-    \verb of macaque monkey visual cortex.pdf:pdf
-    \endverb
     \field{journaltitle}{Behavioural Brain Research}
     \field{year}{1996}
+  \endentry
+
+  \entry{Yu2009}{article}{}
+    \name{author}{6}{}{%
+      {{hash=YBM}{%
+         family={Yu},
+         familyi={Y\bibinitperiod},
+         given={Byron\bibnamedelima M.},
+         giveni={B\bibinitperiod\bibinitdelim M\bibinitperiod},
+      }}%
+      {{hash=CJP}{%
+         family={Cunningham},
+         familyi={C\bibinitperiod},
+         given={John\bibnamedelima P.},
+         giveni={J\bibinitperiod\bibinitdelim P\bibinitperiod},
+      }}%
+      {{hash=SG}{%
+         family={Santhanam},
+         familyi={S\bibinitperiod},
+         given={Gopal},
+         giveni={G\bibinitperiod},
+      }}%
+      {{hash=RSI}{%
+         family={Ryu},
+         familyi={R\bibinitperiod},
+         given={Stephen\bibnamedelima I.},
+         giveni={S\bibinitperiod\bibinitdelim I\bibinitperiod},
+      }}%
+      {{hash=SKV}{%
+         family={Shenoy},
+         familyi={S\bibinitperiod},
+         given={Krishna\bibnamedelima V.},
+         giveni={K\bibinitperiod\bibinitdelim V\bibinitperiod},
+      }}%
+      {{hash=SM}{%
+         family={Sahani},
+         familyi={S\bibinitperiod},
+         given={Maneesh},
+         giveni={M\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{YBM+1}
+    \strng{fullhash}{YBMCJPSGRSISKVSM1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2009}
+    \field{labeldatesource}{}
+    \field{sortinit}{Y}
+    \field{sortinithash}{Y}
+    \field{abstract}{%
+    We consider the problem of extracting smooth, low-dimensional neural
+  trajectories that summarize the activity recorded simultaneously from many
+  neurons on individual experimental trials. Beyond the benefit of visualizing
+  the high-dimensional, noisy spiking activity in a compact form, such
+  trajectories can offer insight into the dynamics of the neural circuitry
+  underlying the recorded activity. Current methods for extracting neural
+  trajectories involve a two-stage process: the spike trains are first smoothed
+  over time, then a static dimensionality- reduction technique is applied. We
+  first describe extensions of the two-stage methods that allow the degree of
+  smoothing to be chosen in a principled way and that account for spiking
+  variability, which may vary both across neurons and across time. We then
+  present a novel method for extracting neural trajectories—Gaussian-process
+  factor analysis (GPFA)—which unifies the smoothing and dimensionality-
+  reduction operations in a common probabilistic framework. We ap- plied these
+  methods to the activity of 61 neurons recorded simulta- neously in macaque
+  premotor and motor cortices during reach plan- ning and execution. By
+  adopting a goodness-of-fit metric that measures how well the activity of each
+  neuron can be predicted by all other recorded neurons, we found that the
+  proposed extensions improved the predictive ability of the two-stage methods.
+  The predictive ability was further improved by going to GPFA. From the
+  extracted trajectories, we directly observed a convergence in neural state
+  during motor plan- ning, an effect that was shown indirectly by previous
+  studies. We then show how such methods can be a powerful tool for relating
+  the spiking activity across a neural population to the subject’s behavior
+  on a single- trial basis. Finally, to assess how well the proposed methods
+  characterize neural population activity when the underlying time course is
+  known, we performed simulations that revealed that GPFA performed tens of
+  percent better than the best two-stage method. INTRODUCTION%
+    }
+    \verb{doi}
+    \verb 10.1152/jn.90941.2008
+    \endverb
+    \field{issn}{15221598}
+    \field{issue}{1}
+    \field{pages}{614\bibrangedash 635}
+    \field{title}{Gaussian-process factor analysis for low-dimensional
+  single-trial analysis of neural population activity}
+    \field{volume}{102}
+    \field{journaltitle}{Journal of Neurophysiology}
+    \field{year}{2009}
   \endentry
 
   \entry{Zaksas2006}{article}{}
@@ -5010,7 +4986,7 @@
     \field{labelnamesource}{author}
     \field{labeltitlesource}{title}
     \field{labelyear}{2006}
-    \field{labeldatesource}{year}
+    \field{labeldatesource}{}
     \field{sortinit}{Z}
     \field{sortinithash}{Z}
     \field{abstract}{%
@@ -5022,7 +4998,7 @@
   motion. Monkeys compared the direction of two moving random-dot stimuli,
   sample and test, separated by a brief memory delay. Neurons in both areas
   showed robust direction-selective activity during all phases of the task.
-  During the sample, ∼60{\%} of task-related PFC neurons were direction
+  During the sample, ∼60% of task-related PFC neurons were direction
   selective, and this selectivity emerged 40 ms later than in MT. Unlike MT,
   the PFC responses to sample did not correlate with behavioral choices, but
   their selectivity was modulated by task demands and diminished on error
@@ -5035,23 +5011,18 @@
   two regions are functionally connected and make unique contributions to
   different task components. PFC neurons reflect task-related information about
   visual motion and represent decisions that may be based, in part, on the
-  comparison in MT between the remembered sample and test. Copyright
-  {\textcopyright} 2006 Society for Neuroscience.%
+  comparison in MT between the remembered sample and test. Copyright © 2006
+  Society for Neuroscience.%
     }
     \verb{doi}
     \verb 10.1523/JNEUROSCI.3420-06.2006
     \endverb
     \field{issn}{02706474}
-    \field{number}{45}
+    \field{issue}{45}
     \field{pages}{11726\bibrangedash 11742}
-    \field{title}{{Directional signals in the prefrontal cortex and in area MT
-  during a working memory for visual motion task}}
+    \field{title}{Directional signals in the prefrontal cortex and in area MT
+  during a working memory for visual motion task}
     \field{volume}{26}
-    \verb{file}
-    \verb :C$\backslash$:/Users/hscott/Documents/Articles/2006 Zaksas Direction
-    \verb al Signals in the Prefrontal Cortex and in Area MT during a Working M
-    \verb emory for Visual Motion Task.pdf:pdf
-    \endverb
     \field{journaltitle}{Journal of Neuroscience}
     \field{year}{2006}
   \endentry

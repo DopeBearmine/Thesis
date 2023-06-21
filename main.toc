@@ -1,44 +1,35 @@
-\boolfalse {citerequest}\boolfalse {citetracker}\boolfalse {pagetracker}\boolfalse {backtracker}\relax 
-\babel@toc {english}{}
-\contentsline {chapter}{Biosketch}{vi}{chapter*.2}% 
-\contentsline {chapter}{Acknowledgements}{vii}{section*.3}% 
-\contentsline {chapter}{Abstract}{ix}{section*.4}% 
-\contentsline {chapter}{\numberline {1}\color {RoyalBlue!50!black} Introduction}{1}{chapter.11}% 
-\contentsline {section}{\numberline {1.1}The Visual Heirarchy}{2}{section.12}% 
-\contentsline {subsection}{\numberline {1.1.1}Subsection 1}{4}{subsection.14}% 
-\contentsline {section}{\numberline {1.2}The Neural Response Function}{4}{section.15}% 
-\contentsline {subsection}{\numberline {1.2.1}Tuning in One Dimension}{4}{subsection.17}% 
-\contentsline {subsection}{\numberline {1.2.2}nD Stimulus Spaces: Multiple Features}{7}{subsection.23}% 
-\contentsline {subsection}{\numberline {1.2.3}nD Response Spaces: Multiple Neurons}{9}{subsection.26}% 
-\contentsline {subsection}{\numberline {1.2.4}Relationships Between Two nD Spaces: Neurons and Features}{11}{subsection.28}% 
-\contentsline {chapter}{\numberline {2}\color {RoyalBlue!50!black} Neuronal Modulation Depends on Context and Feature Tuning}{13}{chapter.29}% 
-\contentsline {chapter}{\numberline {3}Stimulus Optimization for Neural Populations}{39}{chapter.68}% 
-\contentsline {section}{\numberline {3.1}Optimization}{39}{section.69}% 
-\contentsline {subsection}{\numberline {3.1.1}Derivative-Based Optimization}{40}{subsection.72}% 
-\contentsline {subsection}{\numberline {3.1.2}Derivative-Free Optimization}{41}{subsection.74}% 
-\contentsline {subsection}{\numberline {3.1.3}Manifold Approximation with Particle Swarm (MAPS)}{41}{subsection.75}% 
-\contentsline {subsection}{\numberline {3.1.4}Genetic Algorithm}{41}{subsection.76}% 
-\contentsline {subsection}{\numberline {3.1.5}Bayesian estimation of true gradients?}{41}{subsection.77}% 
-\contentsline {subsection}{\numberline {3.1.6}Comparison across algorithms}{41}{subsection.78}% 
-\contentsline {section}{\numberline {3.2}Simulated Neural Population}{41}{section.79}% 
-\contentsline {chapter}{\numberline {4}Neural Manafold Approximation with Particle Swarm (nMAPS)}{43}{chapter.87}% 
-\contentsline {section}{\numberline {4.1}Introduction}{43}{section.88}% 
-\contentsline {section}{\numberline {4.2}\color {RoyalBlue!50!black} Methods}{44}{section.89}% 
-\contentsline {subsection}{\numberline {4.2.1}Research subject}{44}{subsection.90}% 
-\contentsline {subsection}{\numberline {4.2.2}Generative Adversarial Networks}{44}{subsection.91}% 
-\contentsline {subsection}{\numberline {4.2.3}Particle Swarm}{44}{subsection.92}% 
-\contentsline {subsection}{\numberline {4.2.4}Genetic Algorithm}{46}{subsection.99}% 
-\contentsline {subsection}{\numberline {4.2.5}Electrical Recordings}{46}{subsection.100}% 
-\contentsline {subsection}{\numberline {4.2.6}Data Analysis}{49}{subsection.101}% 
-\contentsline {section}{\numberline {4.3}High-Dimensional Feature Tuning}{50}{section.102}% 
-\contentsline {subsection}{\numberline {4.3.1}Neurons multiplex}{50}{subsection.103}% 
-\contentsline {subsection}{\numberline {4.3.2}How they multiplex is a mystery in V4}{50}{subsection.104}% 
-\contentsline {subsection}{\numberline {4.3.3}Stimulus encoding is a population-level problem}{50}{subsection.105}% 
-\contentsline {section}{\numberline {4.4}High-dimensional feature spaces (GAN)}{50}{section.106}% 
-\contentsline {subsection}{\numberline {4.4.1}WTF is a latent variable model}{50}{subsection.107}% 
-\contentsline {subsection}{\numberline {4.4.2}WTF is a GAN? also why would you do this to yourself?}{50}{subsection.108}% 
-\contentsline {section}{\numberline {4.5}Comparing two high-dimensional spaces}{50}{section.109}% 
-\contentsline {subsection}{\numberline {4.5.1}Population-level results}{50}{subsection.110}% 
-\contentsline {subsection}{\numberline {4.5.2}Individual Neuron results}{50}{subsection.111}% 
-\contentsline {subsection}{\numberline {4.5.3}Converting "latents" back into english}{50}{subsection.112}% 
-\contentsline {chapter}{Bibliography}{51}{chapter*.113}% 
+\babel@toc {english}{}\relax 
+\contentsline {chapter}{Biosketch}{vi}{Item.3}%
+\contentsline {chapter}{Acknowledgements}{vii}{section*.4}%
+\contentsline {chapter}{Abstract}{ix}{section*.5}%
+\contentsline {chapter}{\numberline {1}\color {thesisBlue} Introduction}{1}{chapter.12}%
+\contentsline {section}{\numberline {1.1}The Visual Heirarchy}{2}{section.13}%
+\contentsline {subsection}{\numberline {1.1.1}Subsection 1}{4}{subsection.15}%
+\contentsline {section}{\numberline {1.2}The Neural Response Function}{4}{section.16}%
+\contentsline {subsection}{\numberline {1.2.1}Tuning in One Dimension}{4}{subsection.18}%
+\contentsline {subsection}{\numberline {1.2.2}nD Stimulus Spaces: Multiple Features}{7}{subsection.24}%
+\contentsline {subsection}{\numberline {1.2.3}nD Response Spaces: Multiple Neurons}{10}{subsection.27}%
+\contentsline {subsection}{\numberline {1.2.4}Next Steps}{11}{subsection.29}%
+\contentsline {chapter}{\numberline {2}\color {thesisBlue} Neuronal Modulation Depends on Context and Feature Tuning}{13}{chapter.30}%
+\contentsline {chapter}{\numberline {3}\color {thesisBlue} High Dimensional Stimulus spaces for neural data}{41}{chapter.83}%
+\contentsline {chapter}{\numberline {4}Neural Manafold Approximation with Particle Swarm (nMAPS)}{47}{chapter.108}%
+\contentsline {section}{\numberline {4.1}Introduction}{47}{section.109}%
+\contentsline {section}{\numberline {4.2}\color {RoyalBlue!50!black} Methods}{48}{section.110}%
+\contentsline {subsection}{\numberline {4.2.1}Research subject}{48}{subsection.111}%
+\contentsline {subsection}{\numberline {4.2.2}Generative Adversarial Networks}{48}{subsection.112}%
+\contentsline {subsection}{\numberline {4.2.3}Particle Swarm}{48}{subsection.113}%
+\contentsline {subsection}{\numberline {4.2.4}Genetic Algorithm}{50}{subsection.120}%
+\contentsline {subsection}{\numberline {4.2.5}Electrical Recordings}{50}{subsection.121}%
+\contentsline {subsection}{\numberline {4.2.6}Data Analysis}{53}{subsection.122}%
+\contentsline {section}{\numberline {4.3}High-Dimensional Feature Tuning}{54}{section.123}%
+\contentsline {subsection}{\numberline {4.3.1}Neurons multiplex}{54}{subsection.124}%
+\contentsline {subsection}{\numberline {4.3.2}How they multiplex is a mystery in V4}{54}{subsection.125}%
+\contentsline {subsection}{\numberline {4.3.3}Stimulus encoding is a population-level problem}{54}{subsection.126}%
+\contentsline {section}{\numberline {4.4}High-dimensional feature spaces (GAN)}{54}{section.127}%
+\contentsline {subsection}{\numberline {4.4.1}WTF is a latent variable model}{54}{subsection.128}%
+\contentsline {subsection}{\numberline {4.4.2}WTF is a GAN? also why would you do this to yourself?}{54}{subsection.129}%
+\contentsline {section}{\numberline {4.5}Comparing two high-dimensional spaces}{54}{section.130}%
+\contentsline {subsection}{\numberline {4.5.1}Population-level results}{54}{subsection.131}%
+\contentsline {subsection}{\numberline {4.5.2}Individual Neuron results}{54}{subsection.132}%
+\contentsline {subsection}{\numberline {4.5.3}Converting "latents" back into english}{54}{subsection.133}%
+\contentsline {chapter}{Bibliography}{55}{chapter*.134}%
