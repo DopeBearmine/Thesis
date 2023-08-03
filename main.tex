@@ -68,8 +68,9 @@ headsepline, % Uncomment to get a line under the header
 \newacronym{maps}{MAPS}{Manafold Approximation with Particle Swarm}
 \newacronym{pca}{PCA}{Principal Component Analysis}
 \newacronym{dva}{DVA}{Degrees of Visual Angle}
-\newacronym{cca}{CCA}{Cannonical Correlations Analysis}
+\newacronym{cca}{CCA}{Canonical Correlations Analysis}
 \newacronym{dca}{DCA}{Distance Covariance Analysis}
+\newacronym{pso}{PSO}{Particle Swarm Optimization}
 
 \newcommand{\kst}{Kolmogorov-Smirnov}
 \newcommand{\sample}{S1} % to easily change nomenclature
@@ -84,6 +85,7 @@ headsepline, % Uncomment to get a line under the header
 \addbibresource{library.bib} % The filename of the bibliography
 \graphicspath{{C:/Users/dopeb/Documents/GitHub/Thesis/Figures}
 	{C:/Users/dopeb/Documents/GitHub/Thesis/Figures/Chapter_TaskEffects}
+	{C:/Users/dopeb/Documents/GitHub/Thesis/Figures/Chapter_MAPS}
 }
 \newcounter{supplementcounter}
 \newcounter{scratchcounter}
@@ -213,15 +215,15 @@ headsepline, % Uncomment to get a line under the header
 
 
 \include{Biosketch}
-\addchaptertocentry{Biosketch}
+\addchaptertocentry{\color{thesisBlue} Biosketch}
 
 %----------------------------------------------------------------------------------
 %	ACKNOWLEDGEMENTS
 %----------------------------------------------------------------------------------
 
 \begin{acknowledgements}
-	\addchaptertocentry{\acknowledgementname} % Add the acknowledgements to the table of contents
-	The acknowledgments and the people to thank go here, don't forget to include your project advisor\ldots \\
+	\addchaptertocentry{\color{thesisBlue} \acknowledgementname} % Add the acknowledgements to the table of contents
+	A special thanks to everyone who helped me get here\\
 	Adam Snyder \\
 	Ellie Sachse \\
 	Megan Conley \\
@@ -238,11 +240,12 @@ headsepline, % Uncomment to get a line under the header
 %----------------------------------------------------------------------------------
 
 \begin{abstract}
-	\addchaptertocentry{\abstractname} % Add the abstract to the table of contents
-	
+	\addchaptertocentry{\color{thesisBlue} \abstractname} % Add the abstract to the table of contents
+	One central goal of the field of neuroscience is to understand the neural code. How do neural systems process information, and what information is being conveyed across neural populations? Visual science in particular has been addressing these questions for decades, looking into the stimulus-response function of neurons throughout the visual hierarchy. In the early years, the goal was to record one neuron, manipulate one stimulus feature, and quantify what information is being processed. As the field moves towards more natural settings, such as neural populations and natural images, a new framework is needed to relate high-dimensional neural and stimulus data. In this thesis I will address the problem of high-dimensional neural tuning using techniques pulled from neuroscience, machine learning, and artificial intelligence.
 \end{abstract}
 
-
+% for whatever reason I need an extra call of \addchaptertocentry for the prior one to count
+\addchaptertocentry{\color{thesisBlue}}
 %---------------------------------------------------------------------------------
 %	List of Tables, List of Figures
 %---------------------------------------------------------------------------------

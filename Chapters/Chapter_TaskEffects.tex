@@ -6,7 +6,7 @@
 
 
 
-\section*{Introduction}
+\section{Introduction}
 
 %----------------------------------------------------------------------------------------
 %	Intro - paper time baby
@@ -31,7 +31,7 @@ The task effects on direction tuning and response variability of the \consistent
 Instead, these neurons, similarly to the \suppressed\ neurons, showed task dependent comparison signals.
 These results suggest a division of labor in area \gls{mt}, grading sensory processing and cognitive effects of the task across subpopulations of neurons.
 
-\section*{\color{sectionBlue} Methods}
+\section{Methods}
 \label{sec:methods}
 
 \subsection*{Resource Availability}
@@ -109,22 +109,13 @@ We then took the \gls{mi} time series for a neuron in active, minus passive, in 
 In this way, neurons were partitioned into groups based on how motion information signaling changed across the active and passive tasks. This allows us to then see how other task-related effects may depend on the type of information modulation a neuron receives.
 
 
-	%the next few lines are so that supplements and real figures are numbered separately -acs12dec2022
-	\setcounter{scratchcounter}{\value{figure}}
-	\setcounter{figure}{\thesupplementcounter}
-	\renewcommand{\figurename}{Supplemental Figure}
 	\begin{figure}
 		\centering
 		\includegraphics[width=86mm]{clusterCrossValHistSuppliment.pdf}
 		\caption{Cross validation of clustering algorithm. We took 50\% of trials for each neuron, calculated \gls{mi}, ran the clustering algorithm, and minimized AIC to pick the optimum number of clusters. After repeating this process 100 times, we got a distribution of models that supports 3 clusters as optimal for our data.}
 		\label{fig:suppXval} %leave this label as-is
 	\end{figure}
-	\setcounter{supplementcounter}{\value{figure}}
-	\setcounter{figure}{\thescratchcounter}
-	\renewcommand{\figurename}{Figure}
-	\addtocounter{page}{-1}
-	\thispagestyle{empty}
-	\clearpage
+
 
 
 \subsection*{Resampling Procedure for Clustering Robustness}\label{sec:resampling}
@@ -135,22 +126,12 @@ In this way, neurons were partitioned into groups based on how motion informatio
 \subsection*{Entropy Factor} 
 
 
-	%the next few lines are so that supplements and real figures are numbered separately -acs12dec2022
-	\setcounter{scratchcounter}{\value{figure}}
-	\setcounter{figure}{\thesupplementcounter}
-	\renewcommand{\figurename}{Supplemental Figure}
 	\begin{figure}
 		\centering
 		\includegraphics[width=86mm]{hfVSffscatter.pdf}
 		\caption{Relationship between Entropy Factor (HF) and Fano Factor (FF). We took the neural responses for our 8 directions of motion (S1), for each neuron in our sample, and plotted FF vs HF. Dotted lines are Poisson processes. Neural responses with a larger lambda parameter (average firing rate) result in a roughly linear relationship between the measures. When neural responses are low, FF overestimates the variability (darker blue dots are highly super-Poisson according to FF, but roughly Poisson according to HF)}
 		\label{fig:suppFano} %leave this label as-is
 	\end{figure}
-	\setcounter{supplementcounter}{\value{figure}}
-	\setcounter{figure}{\thescratchcounter}
-	\renewcommand{\figurename}{Figure}
-	\addtocounter{page}{-1}
-	\thispagestyle{empty}
-	\clearpage
 
 
 Entropy Factor (HF) quantifies the entropy of a neuron's spike count (across trials) relative to a Poisson process with the same rate parameter, $\lambda$ \parencite{Rajdl2017}. It is similar to Fano factor, in that a value of 1 indicates equivalence to a Poisson process, while values greater or less than 1 indicate distributions that are supra-poisson or sub-poisson, respectively. However, unlike Fano factor, which compares the variance of a distribution of spike counts to its mean, entropy factor takes into account the entire distribution of spike counts. This provides a more reliable metric than Fano Factor, particularly when there are a low number of observations (Supplemental Figure \ref{fig:suppFano}). For each 50ms time bin, $t$, we calculated the entropy $H_{Observed}(\harpoon x_t)$ of the distribution of spike counts ($\harpoon x_t$) across trials with the same stimulus direction and divided it by the entropy of a simulated Poisson distribution with the same intensity and number of trials.
@@ -192,23 +173,13 @@ We imposed the following constraints: $a \in [0, 1.2 \cdot \max (\harpoon x)]$, 
 The starting point for fitting was $a = \textrm{range}(\harpoon x)$, $b = 0$, $c = 40$, $d = \textrm{min}(\harpoon x)$.
 
 
-
-	%the next few lines are so that supplements and real figures are numbered separately -acs12dec2022
-	\setcounter{scratchcounter}{\value{figure}}
-	\setcounter{figure}{\thesupplementcounter}
-	\renewcommand{\figurename}{Supplemental Figure}
 	\begin{figure}
 		\centering
 		\includegraphics[width=86mm]{tuningGOFuppliment.pdf}
 		\caption{Example and overview of tuning goodness of fit ($R^2$). A Gaussian fit to one example neuron during one bootstrap fold. The full distribution of $R^2$ for our sample of neurons.}
 		\label{fig:suppFit} %leave this label as-is
 	\end{figure}
-	\setcounter{supplementcounter}{\value{figure}}
-	\setcounter{figure}{\thescratchcounter}
-	\renewcommand{\figurename}{Figure}
-	\addtocounter{page}{-1}
-	\thispagestyle{empty}
-	\clearpage
+
 
 
 To test for differences in fitted parameters between tasks, we performed paired t-tests with $alpha = 0.05$, Bonferroni-corrected for the three groups of neurons tested (i.e., \suppressed, \enhanced, and \consistent). We report the results of this analysis using all neurons, but we also tested subsamples of neurons restricted to have $R^2$ values for their fits greater than 0.2 (68\% of neurons) or 0.5 (34\% of neurons) and found that the pattern of results was similar to the results when testing the full sample, and the conclusions were not affected. Note that we used individual trials rather than within-condition averages for fitting tuning functions, so some of the variance unexplained by the fitted model includes trial-to-trial variability.\label{rev:fitVar}
@@ -218,22 +189,12 @@ For reports directly comparing \gls{mi} to tuning parameters, we used the above 
 \subsection*{Comparison Effects}
 
 
-	%the next few lines are so that supplements and real figures are numbered separately -acs12dec2022
-	\setcounter{scratchcounter}{\value{figure}}
-	\setcounter{figure}{\thesupplementcounter}
-	\renewcommand{\figurename}{Supplemental Figure}
 	\begin{figure}
 		\centering
 		\includegraphics[width=86mm]{prefAntiCEscatter.pdf}
 		\caption{Average Comparison Effect (CE) during the two windows of interest for neurons' preferred direction and $180^{\circ}$ off preferred (anti-preferred).  }
 		\label{fig:suppCe} %leave this label as-is
 	\end{figure}
-	\setcounter{supplementcounter}{\value{figure}}
-	\setcounter{figure}{\thescratchcounter}
-	\renewcommand{\figurename}{Figure}
-	\addtocounter{page}{-1}
-	\thispagestyle{empty}
-	\clearpage
 
 Comparison effects (CE) were calculated as the area under the curve (AUC) of the receiver operating characteristic. For each neuron, trials were separated by direction condition (during S2), and then by trial type (same direction or different direction trials depending on whether S1 matched S2).\label{rev:ceSep} CE was calculated on firing rates in 100 ms bins, sliding by 10 ms steps, as the AUC between `same' trials and `different' trials within direction. AUC values were then averaged across their preferred direction and $\pm 45^{\circ}$ off preferred within each time bin, in order to reduce noise in the estimate (see Supplemental Figure \ref{fig:suppCe} for a comparison of CEs to preferred versus anti-preferred directions). This resulted in a time course of AUC values for each neuron where values greater than $0.5$ indicates a neuron that responds more robustly to identical visual stimuli on trials where the directions of S1 and S2 matched ($S>D$ neurons), while values less than 0.5 indicated the opposite ($D>S$ neurons). 
 
@@ -243,7 +204,7 @@ We then tested for a difference between tasks using a paired t-test, with each n
 
 Statistical significance of CE for individual neurons (Figure \ref{fig:CEproportions}) was determined using a bootstrapping procedure. Trial labels (`same' or `different' trial) were randomly permuted, and AUC values were calculated 5000 times per neuron following the procedure described above (section \textit{Comparison Effects}), and then averaged within each time period of interest (S2, and post-S2). A neuron was considered significantly CE signaling (Figure \ref{fig:CEproportions}) if its AUC was significantly different from the bootstrap distribution ($\alpha=0.01$, two-tailed). Observed CE values greater than the bootstrap distribution indicate same-preferring ($S>D$) and lesser than the bootstrap distribution indicate different-preferring ($D>S$).
 
-\section*{\color{sectionBlue} Results}
+\section{Results}
 Three adult male Rhesus macaques (\textit{Macaca mulatta)} performed delayed visual motion comparison tasks while we recorded neural activity in MT (Figure \ref{fig:fig1}A). 
 In the active task, monkeys indicated whether a second stimulus (``\test'') moved in the same or an orthogonal direction to a first stimulus (``\sample'') by making a saccade to one of two choice dots. 
 All three monkeys performed above chance in the active task (201, 10 sessions: $77.79\% \pm 1.08\%$ accuracy, 202, 28 sessions: $81.63\% \pm 0.95\%$, 317, 16 sessions: $85.77\% \pm 1.36\%$; $mean \pm Std$). 
@@ -404,7 +365,7 @@ In contrast to the clear task effects on CEs for the \suppressed\ and \consisten
 The higher proportion of $S>D$ neurons in the \suppressed\ and \consistent\ groups, along with their increased CE signaling, indicates that while the heightened task demands did not improve their stimulus encoding, these neurons may have been recruited to aid the comparison process.
 
 
-\section*{\color{sectionBlue} Discussion}
+\section{Discussion}
 \glsresetall
 
 \subsection*{Task Demands and Sensory Processing}

@@ -1,108 +1,208 @@
 
-%%
-load('3neuronSimulationData.mat')
+%% Load model data from simulations
 
 
 
-%%
+
+% model 4 = 0 untuned stimulus dimensions and narrow tuning (20)
+model{4} = load('C:\Users\dopeb\Documents\GitHub\Thesis\Figures\matlabCode\simulationData\3neuronSimulationData0Invariant20Tuning.mat'); % narrow
+% model 5 = 1 untuned stimulus dimensions and narrow tuning (20)
+model{5} = load('C:\Users\dopeb\Documents\GitHub\Thesis\Figures\matlabCode\simulationData\3neuronSimulationData1Invariant20Tuning.mat');
+% model 6 = 2 untuned stimulus dimensions and narrow tuning (20)
+model{6} = load('C:\Users\dopeb\Documents\GitHub\Thesis\Figures\matlabCode\simulationData\3neuronSimulationData2Invariant20Tuning.mat');
+
+model{7} = load('C:\Users\dopeb\Documents\GitHub\Thesis\Figures\matlabCode\simulationData\3neuronSimulationData0Invariant5Tuning.mat'); % really narrow
+model{8} = load('C:\Users\dopeb\Documents\GitHub\Thesis\Figures\matlabCode\simulationData\3neuronSimulationData0Invariant100Tuning.mat'); % really wide
+
+
+model{9} = load('C:\Users\dopeb\Documents\GitHub\Thesis\Figures\matlabCode\simulationData\3neuronSimulationData0Invariant1OffDiagonal.mat'); % tuning varies
+model{10} = load('C:\Users\dopeb\Documents\GitHub\Thesis\Figures\matlabCode\simulationData\3neuronSimulationData0Invariant2OffDiagonal.mat'); % tuning varies
+model{11} = load('C:\Users\dopeb\Documents\GitHub\Thesis\Figures\matlabCode\simulationData\3neuronSimulationData0Invariant3OffDiagonal.mat'); % tuning varies
+
+
+params = thesisParams;
+
+
+%% CCA R squared plots
 
 figure
 subplot(2,1,1)
-errorbar(tanh(mean(atanh(R),1)), tanh(std(atanh(R),[],1)./sqrt(size(R,1)) ), 'color', 'k','linestyle','none' );
-hold on
-scatter([1:3], tanh(mean(atanh(R),1)),[],'filled');
-% plot(R)
+% errorbar(tanh(mean(atanh(R),1)), tanh(std(atanh(R),[],1)./sqrt(size(R,1)) ), 'color', 'k','linestyle','none' );
+% hold on
+% scatter([1:3], tanh(mean(atanh(R),1)),[],'filled');
+shadedErrorBar(1:model{1}.simulationParameters.nNeurons, tanh(mean(atanh(model{1}.R),1)), std(model{1}.R,[],1) ,...
+    'lineProps', {'color', params.royalBlue} )
+shadedErrorBar(1:model{2}.simulationParameters.nNeurons, tanh(mean(atanh(model{2}.R),1)), std(model{2}.R,[],1),...
+    'lineProps', {'color', params.springGreen} )
+shadedErrorBar(1:model{3}.simulationParameters.nNeurons, tanh(mean(atanh(model{3}.R),1)), std(model{3}.R,[],1) ,...
+    'lineProps', {'color', params.mahogany} )
+
+
+legend({'3 Tuned Stimulus Dims','2 Tuned Stimulus Dims', '1 Tuned Stimulus Dim'})
 ylabel('Correlation')
 xlabel('Canonical Variable Pair')
 xlim([0.5 3.5])
-xticks([1:3])
+xticks(1:3)
 boto
 
 subplot(2,1,2)
-scatter(U{sim}(:,1), V{sim}(:,1), 5, 'filled')
-title('Canonical Variable Pair 1')
+shadedErrorBar(1:model{1}.simulationParameters.nNeurons, tanh(mean(atanh(model{8}.R),1)), std(model{8}.R,[],1) ,...
+    'lineProps', {'color', params.royalBlue} )
+shadedErrorBar(1:model{2}.simulationParameters.nNeurons, tanh(mean(atanh(model{4}.R),1)), std(model{4}.R,[],1),...
+    'lineProps', {'color', params.springGreen} )
+shadedErrorBar(1:model{3}.simulationParameters.nNeurons, tanh(mean(atanh(model{7}.R),1)), std(model{7}.R,[],1) ,...
+    'lineProps', {'color', params.mahogany} )
+legend({'Wide Tuning','Medium Tuning', 'Narrow Tuning'})
+ylabel('Correlation')
+xlabel('Canonical Variable Pair')
+xlim([0.5 3.5])
+xticks(1:3)
+boto
+
+
+%% the role of tuning width in the models
+
+% equalizeY
+% equalizeX
+
+
+%% The role of covariance between latent dimensions
+
+sim = 1;
+
+modelToPlot = 9;
+figure
+subplot(3,3,1)
+scatter(model{modelToPlot}.U{sim}(randsamp,1), model{modelToPlot}.V{sim}(randsamp,1), 2, 'filled')
+title(sprintf('Canonical Variable Pair 1; R^2 = %.3f', model{modelToPlot}.R(sim,1)))
 ylabel('Response (a.u.)')
 xlabel('Stimulus Value (a.u.)')
 
-%%
+subplot(3,3,4)
+scatter(model{modelToPlot}.U{sim}(randsamp,2), model{modelToPlot}.V{sim}(randsamp,2), 2, 'filled')
+title(sprintf('Canonical Variable Pair 2; R^2 = %.3f', model{modelToPlot}.R(sim,2)))
+ylabel('Response (a.u.)')
+xlabel('Stimulus Value (a.u.)')
 
-% which neurons to plot
-nOfInterest = [1,2];
-stimDofInterest = [1,2];
-cent = mean(stim);
+subplot(3,3,7)
+scatter(model{modelToPlot}.U{sim}(randsamp,3), model{modelToPlot}.V{sim}(randsamp,3), 2, 'filled')
+title(sprintf('Canonical Variable Pair 3; R^2 = %.3f', model{modelToPlot}.R(sim,3)))
+ylabel('Response (a.u.)')
+xlabel('Stimulus Value (a.u.)')
+
+% 1 invariant Dim
+modelToPlot = 10;
+subplot(3,3,2)
+scatter(model{modelToPlot}.U{sim}(randsamp,1), model{modelToPlot}.V{sim}(randsamp,1), 2, 'filled')
+title(sprintf('Canonical Variable Pair 1; R^2 = %.3f', model{modelToPlot}.R(sim,1)))
+ylabel('Response (a.u.)')
+xlabel('Stimulus Value (a.u.)')
+
+subplot(3,3,5)
+scatter(model{modelToPlot}.U{sim}(randsamp,2), model{modelToPlot}.V{sim}(randsamp,2), 2, 'filled')
+title(sprintf('Canonical Variable Pair 2; R^2 = %.3f', model{modelToPlot}.R(sim,2)))
+ylabel('Response (a.u.)')
+xlabel('Stimulus Value (a.u.)')
+
+subplot(3,3,8)
+scatter(model{modelToPlot}.U{sim}(randsamp,3), model{modelToPlot}.V{sim}(randsamp,3), 2, 'filled')
+title(sprintf('Canonical Variable Pair 3; R^2 = %.3f', model{modelToPlot}.R(sim,3)))
+ylabel('Response (a.u.)')
+xlabel('Stimulus Value (a.u.)')
+
+% 2 invariant dim
+modelToPlot = 11;
+subplot(3,3,3)
+scatter(model{modelToPlot}.U{sim}(randsamp,1), model{modelToPlot}.V{sim}(randsamp,1), 2, 'filled')
+title(sprintf('Canonical Variable Pair 1; R^2 = %.3f', model{modelToPlot}.R(sim,1)))
+ylabel('Response (a.u.)')
+xlabel('Stimulus Value (a.u.)')
+
+subplot(3,3,6)
+scatter(model{modelToPlot}.U{sim}(randsamp,2), model{modelToPlot}.V{sim}(randsamp,2), 2, 'filled')
+title(sprintf('Canonical Variable Pair 2; R^2 = %.3f', model{modelToPlot}.R(sim,2)))
+ylabel('Response (a.u.)')
+xlabel('Stimulus Value (a.u.)')
+
+subplot(3,3,9)
+scatter(model{modelToPlot}.U{sim}(randsamp,3), model{modelToPlot}.V{sim}(randsamp,3), 2, 'filled')
+title(sprintf('Canonical Variable Pair 3; R^2 = %.3f', model{modelToPlot}.R(sim,3)))
+ylabel('Response (a.u.)')
+xlabel('Stimulus Value (a.u.)')
+
+
+equalizeY
+equalizeX
+
 
 
 %% Surf plotting
-
-nOfInterest = [1,2];
-stimDofInterest = [2,3];
-
-sim = 1; % simulation number to plot
-missingDimPlotValue = find(stimSpace>=0,1); % which value along the 3rd, unplotted dimension to use
-cent = mean(simulationParameters.stim);
-% surf.m is annoying so i have to transform stuff into a specific format
-stimx= reshape(simulationParameters.stim(:,1), numel(stimSpace), numel(stimSpace), numel(stimSpace));
-stimy= reshape(simulationParameters.stim(:,2), numel(stimSpace), numel(stimSpace), numel(stimSpace));
-stimz= reshape(simulationParameters.stim(:,3), numel(stimSpace), numel(stimSpace), numel(stimSpace));
-
-
-% controls axis labels and which data to pull based on which dimensions you
-% want to plot
-switch mat2str(stimDofInterest)
-    case {'[1 2]', '[2 1]'}
-        stimDimToPlot1 = squeeze(stimx(:,:,1));
-        stimDimToPlot2 = squeeze(stimy(:,1,:));
-        xLabel = 'Stimulus Dimension 1';
-        yLabel = 'Stimulus Dimension 2';
-    case {'[2 3]', '[3 2]'}
-        stimDimToPlot1 = squeeze(stimx(:,:,1));
-        stimDimToPlot2 = squeeze(stimy(:,1,:));
-        xLabel = 'Stimulus Dimension 2';
-        yLabel = 'Stimulus Dimension 3';
-    case {'[1 3]', '[3 1]'}
-        stimDimToPlot2 = squeeze(stimx(:,:,1));
-        stimDimToPlot1 = squeeze(stimy(:,1,:));
-        xLabel = 'Stimulus Dimension 1';
-        yLabel = 'Stimulus Dimension 3';
-end
-
-zDimToIgnore=find(~ismember([1:3], stimDofInterest));
-
-
-figure
-z = reshape(y{sim}(:,nOfInterest(1)), numel(stimSpace), numel(stimSpace), numel(stimSpace));
-switch mat2str(zDimToIgnore)
-    case '1'
-        newZ = squeeze(z(:,missingDimPlotValue,:));
-    case '2'
-        newZ = squeeze(z(missingDimPlotValue,:,:));
-    case '3'
-        newZ = squeeze(z(:,:,missingDimPlotValue));
-end
-surf(stimDimToPlot1, stimDimToPlot2, newZ)
-hold on
-colormap autumn
-freezeColors;
-
-z = reshape(y{sim}(:,nOfInterest(2)), numel(stimSpace), numel(stimSpace), numel(stimSpace));
-switch mat2str(zDimToIgnore)
-    case '1'
-        newZ = squeeze(z(:,missingDimPlotValue,:));
-    case '2'
-        newZ = squeeze(z(missingDimPlotValue,:,:));
-    case '3'
-        newZ = squeeze(z(:,:,missingDimPlotValue));
-end
-surf(stimDimToPlot1, stimDimToPlot2, newZ)
-colormap summer
-xlabel(xLabel)
-ylabel(yLabel)
-quiver(cent(stimDofInterest(1)),cent(stimDofInterest(2)), A{sim}(stimDofInterest(1),1), A{sim}(stimDofInterest(2),1), 5, 'lineWidth', 2)
-
-
-%% Re-calculate which dimension is irrelevant
-
-for d = 1:3
-    dcor(d,1) = distcorr(stim(:,d), y{sim});
-
+% sim = 1; % which simulation to view
+% nOfInterest = [1,2];
+% stimDofInterest = [2,3];
+% simulationParameters = model{3}.simulationParameters;
+% 
+% sim = 1; % simulation number to plot
+% missingDimPlotValue = find(simulationParameters.stimSpace>=0,1); % which value along the 3rd, unplotted dimension to use
+% cent = mean(simulationParameters.stim);
+% % surf.m is annoying so i have to transform stuff into a specific format
+% stimx= reshape(simulationParameters.stim(:,1), numel(simulationParameters.stimSpace), numel(simulationParameters.stimSpace), numel(simulationParameters.stimSpace));
+% stimy= reshape(simulationParameters.stim(:,2), numel(simulationParameters.stimSpace), numel(simulationParameters.stimSpace), numel(simulationParameters.stimSpace));
+% stimz= reshape(simulationParameters.stim(:,3), numel(simulationParameters.stimSpace), numel(simulationParameters.stimSpace), numel(simulationParameters.stimSpace));
+% 
+% 
+% % controls axis labels and which data to pull based on which dimensions you
+% % want to plot
+% switch mat2str(stimDofInterest)
+%     case {'[1 2]', '[2 1]'}
+%         stimDimToPlot1 = squeeze(stimx(:,:,1));
+%         stimDimToPlot2 = squeeze(stimy(:,1,:));
+%         xLabel = 'Stimulus Dimension 1';
+%         yLabel = 'Stimulus Dimension 2';
+%     case {'[2 3]', '[3 2]'}
+%         stimDimToPlot1 = squeeze(stimx(:,:,1));
+%         stimDimToPlot2 = squeeze(stimy(:,1,:));
+%         xLabel = 'Stimulus Dimension 2';
+%         yLabel = 'Stimulus Dimension 3';
+%     case {'[1 3]', '[3 1]'}
+%         stimDimToPlot2 = squeeze(stimx(:,:,1));
+%         stimDimToPlot1 = squeeze(stimy(:,1,:));
+%         xLabel = 'Stimulus Dimension 1';
+%         yLabel = 'Stimulus Dimension 3';
+% end
+% 
+% zDimToIgnore=find(~ismember([1:3], stimDofInterest));
+% 
+% 
+% figure
+% z = reshape(y{sim}(:,nOfInterest(1)), numel(simulationParameters.stimSpace), numel(simulationParameters.stimSpace), numel(simulationParameters.stimSpace));
+% switch mat2str(zDimToIgnore)
+%     case '1'
+%         newZ = squeeze(z(:,missingDimPlotValue,:));
+%     case '2'
+%         newZ = squeeze(z(missingDimPlotValue,:,:));
+%     case '3'
+%         newZ = squeeze(z(:,:,missingDimPlotValue));
+% end
+% surf(stimDimToPlot1, stimDimToPlot2, newZ)
+% hold on
+% colormap autumn
+% freezeColors;
+% 
+% z = reshape(y{sim}(:,nOfInterest(2)), numel(simulationParameters.stimSpace), numel(simulationParameters.stimSpace), numel(simulationParameters.stimSpace));
+% switch mat2str(zDimToIgnore)
+%     case '1'
+%         newZ = squeeze(z(:,missingDimPlotValue,:));
+%     case '2'
+%         newZ = squeeze(z(missingDimPlotValue,:,:));
+%     case '3'
+%         newZ = squeeze(z(:,:,missingDimPlotValue));
+% end
+% surf(stimDimToPlot1, stimDimToPlot2, newZ)
+% colormap summer
+% xlabel(xLabel)
+% ylabel(yLabel)
+% quiver(cent(stimDofInterest(1)),cent(stimDofInterest(2)), A{sim}(stimDofInterest(1),1), A{sim}(stimDofInterest(2),1), 5, 'lineWidth', 2)
+% 
+% 
 

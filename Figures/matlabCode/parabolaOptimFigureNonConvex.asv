@@ -1,0 +1,43 @@
+function parabolaOptimFigureNonConvex
+
+thesisOptions = thesisParams;
+x = -10:0.01:10;
+y = @(x) 10.*sin(x) + 0.5.*x.^2; % 
+fontSize = 10;
+font = 'helvetica';
+
+%%
+h =figure;
+plot(x, y(x),...
+    "Color",thesisOptions.royalBlue,...
+    'lineWidth', 2); hold on
+
+
+[res,~,~,test] = fminunc(y, -5, optimoptions(@fminunc,'Display','iter','Algorithm','quasi-newton', 'Diagnostics', 'on'));
+
+
+
+
+line([-5,7, -8.5, -7], [y([-5,7, -8.5, -7])],...
+    'color', thesisOptions.gray,...
+    'handlevisibility', 'off')
+
+scatter([-5,7, -8.5, -7], [y([-5,7, -8.5, -7])], 40,...
+    'filled', 'markerfacecolor', thesisOptions.gray)
+
+
+% annotations
+% [x, y, width, height]
+annotation('textbox',[0.5, 0.46  0.1 0.1],'String','\Delta f(x)','FitBoxToText','on',...
+               'EdgeColor', 'none',...
+               'FontName', font,...
+               'FontSize', fontSize);
+
+
+axis square
+boto
+
+
+set(h, 'PaperUnits', 'centimeters');
+set(h, 'PaperPosition', [0 0 8.6 8.6]);
+exportgraphics(h, 'C:\Users\dopeb\Documents\GitHub\Thesis\Figures\nonConvexGradient.pdf')
