@@ -1,0 +1,88 @@
+%% CCA/DCA intuition plot for Chapter 4 of thesis
+
+% x is three random predictor dimensions with 1000 data points
+x = rand(1000,3)*100;
+% y = x plus (various) noise
+y = x.*[1,0,0] + randn(size(x)).*[10, 100, 10];
+
+% randomly rotate y to mess up the correlation
+rotationMatrix = randn(3,3);
+y_r = y*rotationMatrix;
+
+% regain the correlation
+[A, B, r, U, V, stats] = canoncorr(x, y_r);
+
+
+% plot it
+dotSize = 10;
+
+figure
+for plt = 1:9
+    subplot(3,3,plt)
+    if plt<=3 % Top row, original unaltered Data
+        scatter(x(:,plt), y(:,plt), dotSize, 'filled');
+        title(sprintf("r=%.3f", corr(x(:,plt), y(:,plt)) ))
+    elseif plt>3 && plt<=6 % middle row, rotated Data
+        scatter(x(:,plt-3), y_r(:,plt-3), dotSize, 'filled');
+        title(sprintf("r=%.3f", corr(x(:,plt-3), y_r(:,plt-3)) ))
+    else % bottom row, cca rotated data
+        scatter(U(:,plt-6), V(:,plt-6), dotSize, 'filled');
+        title(sprintf("r=%.3f", corr(U(:,plt-6), V(:,plt-6)) ))
+    end
+
+    axis square
+    boto
+    lsline
+end
+
+%% Explanation Figure
+
+
+figure
+subplot(2,2,1)
+scatter(x(:,1)-mean(x(:,1)), x(:,2)-mean(x(:,2)),10, 'filled'); hold on
+limsy = get(gca, 'YLim');
+limsx = get(gca, 'XLim');
+newY = -(A(1,1)*linspace(limsx(1), limsx(2)))/  A(2,1);
+plot(linspace(limsx(1), limsx(2)), newY, 'linewidth', 2 ,'color', params.mahogany, 'HandleVisibility','off')
+ylim(limsy+ [-10, 10])
+xlabel('X_1')
+ylabel('X_2')
+axis square
+boto
+
+subplot(2,2,2)
+scatter(y_r(:,1)-mean(y_r(:,1)), y_r(:,2)-mean(y_r(:,2)),10, 'filled'); hold on
+limsy = get(gca, 'YLim');
+limsx = get(gca, 'XLim');
+newY = -(B(1,1)*linspace(limsx(1), limsx(2)))/  B(2,1);
+plot(linspace(limsx(1), limsx(2)), newY, 'linewidth', 2 ,'color', params.active, 'HandleVisibility','off')
+ylim(limsy)
+xlabel('Y_1')
+ylabel('Y_2')
+axis square
+boto
+
+subplot(2,2,3)
+scatter(x(:,1)-mean(x(:,1)), y_r(:,1)-mean(y_r(:,1)),10,'filled')
+lsline
+title(sprintf("r=%.3f", corr(x(:,1), y_r(:,1)) ))
+xlabel('X_1')
+ylabel('Y_2')
+axis square
+boto
+
+subplot(2,2,4)
+scatter(U(:,1), V(:,1),10,'filled')
+title(sprintf("r=%.3f", corr(U(:,1), V(:,1)) ))
+lsline
+ax = gca;
+ax.YColor = params.active;
+ax.YAxis.LineWidth=2;
+ax.XColor = params.mahogany;
+ax.XAxis.LineWidth=2;
+xlabel('X_{projection}')
+ylabel('Y_{projection}')
+axis square
+boto
+

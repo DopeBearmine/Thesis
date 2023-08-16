@@ -17,23 +17,26 @@
 \endgroup
 
 \datalist[entry]{nyt/global//global/global}
-  \entry{Albright1987}{article}{}
+  \entry{Albright1987}{report}{}
     \name{author}{2}{}{%
       {{hash=ATD}{%
          family={Albright},
          familyi={A\bibinitperiod},
-         given={T.\bibnamedelima D.},
+         given={T\bibnamedelima D},
          giveni={T\bibinitperiod\bibinitdelim D\bibinitperiod},
       }}%
       {{hash=DR}{%
          family={Desimone},
          familyi={D\bibinitperiod},
-         given={R.},
-         giveni={R\bibinitperiod},
+         given={R},
+         giveni={R},
       }}%
     }
-    \keyw{Magnification factor,Modular organization,Point-image size,Receptive
-  field scatter,Receptive field size,Visual area MT}
+    \list{publisher}{1}{%
+      {Springer-Verlag}%
+    }
+    \keyw{Magnification factor-,Modular organization,Point-image
+  size-,Receptive field scatter-,Receptive field size-,Visual area MT-}
     \strng{namehash}{ATDDR1}
     \strng{fullhash}{ATDDR1}
     \field{labelnamesource}{author}
@@ -46,36 +49,30 @@
     The representation of the visual field in the middle temporal area (MT) was
   examined by recording from single neurons in anesthetized, immobilized
   macaques. Measurements of receptive field size, variability of receptive
-  field position (scatter) and magnification factor were obtained within the
-  representation of the central 25°. Over at least short distances (less than
+  field position (scat-ter) and magnification factor were obtained within the
+  representation of the central 25 ~. Over at least short distances (less than
   3 mm), the visual field representation in MT is surprisingly orderly.
   Receptive field size increases as a linear function of eccentricity and is
   about ten times larger than in V1 at all eccentricities. Scatter in receptive
   field position at any point in the visual field representation is equal to
   about one-third of the receptive field size at that location, the same
   relationship that has been found in V1. Magnification factor in MT is only
-  about onefifth that reported in V1 within the central 5° but appears to
+  about one-fifth that reported in V1 within the central 5 ~ but appears to
   decline somewhat less steeply than in V1 with increasing eccentricity.
   Because the smaller magnification factor in MT relative to V1 is complemented
   by larger receptive field size and scatter, the point-image size (the
   diameter of the region of cortex activated by a single point in the visual
   field) is roughly comparable in the two areas. On the basis of these results,
-  as well as on our previous finding that 180° of axis of stimulus motion in
-  MT are represented in about the same amount of tissue as 180° of stimulus
+  as well as on our previous finding that 180 ~ of axis of stimulus motion in
+  MT are represented in about the same amount of tissue as 180 ~ of stimulus
   orientation in V1, we suggest that a stimulus at one point in the visual
-  field activates at least as many functional "modules" in MT as in V1. © 1987
-  Springer-Verlag.%
+  field activates at least as many functional "modules" in MT as in V1.%
     }
-    \verb{doi}
-    \verb 10.1007/BF00235981
-    \endverb
-    \field{issn}{00144819}
-    \field{issue}{3}
     \field{pages}{582\bibrangedash 592}
     \field{title}{Local precision of visuotopic organization in the middle
   temporal area (MT) of the macaque}
     \field{volume}{65}
-    \field{journaltitle}{Experimental Brain Research}
+    \field{journaltitle}{Exp Brain Res}
     \field{year}{1987}
   \endentry
 
@@ -112,6 +109,9 @@
          giveni={R\bibinitperiod},
       }}%
     }
+    \list{publisher}{1}{%
+      {Cell Press}%
+    }
     \strng{namehash}{ARI+1}
     \strng{fullhash}{ARITSDJKAMBR1}
     \field{labelnamesource}{author}
@@ -146,6 +146,7 @@
   with Population Activity Affects Encoded Information}
     \field{volume}{89}
     \field{journaltitle}{Neuron}
+    \field{month}{03}
     \field{year}{2016}
   \endentry
 
@@ -154,8 +155,8 @@
       {{hash=BH}{%
          family={Barbas},
          familyi={B\bibinitperiod},
-         given={H.},
-         giveni={H\bibinitperiod},
+         given={H},
+         giveni={H},
       }}%
     }
     \keyw{corticocortical connections,parallel visual pathways,prefrontal
@@ -297,13 +298,67 @@
     \field{year}{2000}
   \endentry
 
+  \entry{Bashivan2019}{article}{}
+    \name{author}{3}{}{%
+      {{hash=BP}{%
+         family={Bashivan},
+         familyi={B\bibinitperiod},
+         given={Pouya},
+         giveni={P\bibinitperiod},
+      }}%
+      {{hash=KK}{%
+         family={Kar},
+         familyi={K\bibinitperiod},
+         given={Kohitij},
+         giveni={K\bibinitperiod},
+      }}%
+      {{hash=DJJ}{%
+         family={DiCarlo},
+         familyi={D\bibinitperiod},
+         given={James\bibnamedelima J},
+         giveni={J\bibinitperiod\bibinitdelim J\bibinitperiod},
+      }}%
+    }
+    \keyw{HaydenQuals}
+    \strng{namehash}{BPKKDJJ1}
+    \strng{fullhash}{BPKKDJJ1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2019}
+    \field{labeldatesource}{}
+    \field{sortinit}{B}
+    \field{sortinithash}{B}
+    \field{abstract}{%
+    Particular deep artificial neural networks (ANNs) are today's most accurate
+  models of the primate brain's ventral visual stream. Using an ANN-driven
+  image synthesis method, we found that luminous power patterns (i.e., images)
+  can be applied to primate retinae to predictably push the spiking activity of
+  targeted V4 neural sites beyond naturally occurring levels. This method,
+  although not yet perfect, achieves unprecedented independent control of the
+  activity state of entire populations of V4 neural sites, even those with
+  overlapping receptive fields. These results show how the knowledge embedded
+  in today's ANN models might be used to noninvasively set desired internal
+  brain states at neuron-level resolution, and suggest that more accurate ANN
+  models would produce even more accurate control.%
+    }
+    \verb{doi}
+    \verb 10.1126/science.aav9436
+    \endverb
+    \field{issn}{10959203}
+    \field{issue}{6439}
+    \field{title}{Neural population control via deep image synthesis}
+    \field{volume}{364}
+    \field{journaltitle}{Science}
+    \field{year}{2019}
+  \endentry
+
   \entry{Batardiere2002}{article}{}
     \name{author}{1}{}{%
       {{hash=BA}{%
          family={Batardiere},
          familyi={B\bibinitperiod},
-         given={A.},
-         giveni={A\bibinitperiod},
+         given={A},
+         giveni={A},
       }}%
     }
     \strng{namehash}{BA1}
@@ -349,12 +404,12 @@
     \field{year}{2002}
   \endentry
 
-  \entry{Bisley2000a}{article}{}
+  \entry{Bisley2000}{article}{}
     \name{author}{2}{}{%
       {{hash=BJW}{%
          family={Bisley},
          familyi={B\bibinitperiod},
-         given={James\bibnamedelima W.},
+         given={James\bibnamedelima W},
          giveni={J\bibinitperiod\bibinitdelim W\bibinitperiod},
       }}%
       {{hash=PT}{%
@@ -414,7 +469,7 @@
       {{hash=BJW}{%
          family={Bisley},
          familyi={B\bibinitperiod},
-         given={James\bibnamedelima W.},
+         given={James\bibnamedelima W},
          giveni={J\bibinitperiod\bibinitdelim W\bibinitperiod},
       }}%
       {{hash=ZD}{%
@@ -481,7 +536,7 @@
       {{hash=BJW}{%
          family={Bisley},
          familyi={B\bibinitperiod},
-         given={James\bibnamedelima W.},
+         given={James\bibnamedelima W},
          giveni={J\bibinitperiod\bibinitdelim W\bibinitperiod},
       }}%
       {{hash=ZD}{%
@@ -493,7 +548,7 @@
       {{hash=DJA}{%
          family={Droll},
          familyi={D\bibinitperiod},
-         given={Jason\bibnamedelima A.},
+         given={Jason\bibnamedelima A},
          giveni={J\bibinitperiod\bibinitdelim A\bibinitperiod},
       }}%
       {{hash=PT}{%
@@ -553,13 +608,13 @@
       {{hash=BRT}{%
          family={Born},
          familyi={B\bibinitperiod},
-         given={Richard\bibnamedelima T.},
+         given={Richard\bibnamedelima T},
          giveni={R\bibinitperiod\bibinitdelim T\bibinitperiod},
       }}%
       {{hash=BDC}{%
          family={Bradley},
          familyi={B\bibinitperiod},
-         given={David\bibnamedelima C.},
+         given={David\bibnamedelima C},
          giveni={D\bibinitperiod\bibinitdelim C\bibinitperiod},
       }}%
     }
@@ -637,25 +692,25 @@
       {{hash=BKH}{%
          family={Britten},
          familyi={B\bibinitperiod},
-         given={K.\bibnamedelima H.},
+         given={K\bibnamedelima H},
          giveni={K\bibinitperiod\bibinitdelim H\bibinitperiod},
       }}%
       {{hash=SMN}{%
          family={Shadlen},
          familyi={S\bibinitperiod},
-         given={M.\bibnamedelima N.},
+         given={M\bibnamedelima N},
          giveni={M\bibinitperiod\bibinitdelim N\bibinitperiod},
       }}%
       {{hash=NWT}{%
          family={Newsome},
          familyi={N\bibinitperiod},
-         given={W.\bibnamedelima T.},
+         given={W\bibnamedelima T},
          giveni={W\bibinitperiod\bibinitdelim T\bibinitperiod},
       }}%
       {{hash=MJA}{%
          family={Movshon},
          familyi={M\bibinitperiod},
-         given={J.\bibnamedelima A.},
+         given={J\bibnamedelima A},
          giveni={J\bibinitperiod\bibinitdelim A\bibinitperiod},
       }}%
     }
@@ -702,7 +757,7 @@
     \field{year}{1992}
   \endentry
 
-  \entry{britten1996}{report}{}
+  \entry{Britten1996}{report}{}
     \name{author}{5}{}{%
       {{hash=BKH}{%
          family={Britten},
@@ -737,7 +792,7 @@
     }
     \keyw{Behavior,Discrimination,Extrastriate,Middle temporal,Monkey,Motion
   sensitivity,Psychophysics,Visual cortex}
-    \strng{namehash}{BKH+2}
+    \strng{namehash}{BKH+1}
     \strng{fullhash}{BKHNWTSMNCSMJA1}
     \field{labelnamesource}{author}
     \field{labeltitlesource}{title}
@@ -780,6 +835,41 @@
     \field{volume}{13}
     \field{journaltitle}{Visual Neuroscience}
     \field{year}{1996}
+  \endentry
+
+  \entry{Brown2006}{report}{}
+    \name{author}{2}{}{%
+      {{hash=BWM}{%
+         family={Brown},
+         familyi={B\bibinitperiod},
+         given={W\bibnamedelima Michael},
+         giveni={W\bibinitperiod\bibinitdelim M\bibinitperiod},
+      }}%
+      {{hash=BA}{%
+         family={Bäcker},
+         familyi={B\bibinitperiod},
+         given={Alex},
+         giveni={A\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{BWMBA1}
+    \strng{fullhash}{BWMBA1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labeldatesource}{nodate}
+    \field{sortinit}{B}
+    \field{sortinithash}{B}
+    \field{abstract}{%
+    The efficiency of neuronal encoding in sensory and motor systems has been
+  proposed as a first principle governing response properties within the
+  central nervous system. We present a continuation of a theoretical study
+  presented by Zhang and Sejnowski, where the influence of neu-ronal tuning
+  properties on encoding accuracy is analyzed using information theory. When a
+  finite stimulus space is considered, we show that the encoding accuracy
+  improves with narrow tuning for one-and two-dimensional stimuli. For three
+  dimensions and higher, there is an optimal tuning width.%
+    }
+    \field{title}{Optimal Neuronal Tuning for Finite Stimulus Spaces}
   \endentry
 
   \entry{Butts2006}{article}{}
@@ -825,7 +915,7 @@
       {{hash=HDJ}{%
          family={Heeger},
          familyi={H\bibinitperiod},
-         given={David\bibnamedelima J.},
+         given={David\bibnamedelima J},
          giveni={D\bibinitperiod\bibinitdelim J\bibinitperiod},
       }}%
     }
@@ -979,18 +1069,20 @@
       {{hash=CMR}{%
          family={Cohen},
          familyi={C\bibinitperiod},
-         given={Marlene\bibnamedelima R.},
+         given={Marlene\bibnamedelima R},
          giveni={M\bibinitperiod\bibinitdelim R\bibinitperiod},
       }}%
-      {{hash=MJH}{%
+      {{hash=MJHR}{%
          family={Maunsell},
          familyi={M\bibinitperiod},
-         given={John\bibnamedelima H.R.},
-         giveni={J\bibinitperiod\bibinitdelim H\bibinitperiod},
+         given={John H\bibnamedelima R},
+         giveni={J\bibinitperiod\bibinitdelim H\bibinitperiod\bibinitdelim
+  R\bibinitperiod},
       }}%
     }
-    \strng{namehash}{CMRMJH1}
-    \strng{fullhash}{CMRMJH1}
+    \keyw{HaydenQuals}
+    \strng{namehash}{CMRMJHR1}
+    \strng{fullhash}{CMRMJHR1}
     \field{labelnamesource}{author}
     \field{labeltitlesource}{title}
     \field{labelyear}{2009}
@@ -1032,13 +1124,13 @@
       {{hash=CMR}{%
          family={Cohen},
          familyi={C\bibinitperiod},
-         given={Marlene\bibnamedelima R.},
+         given={Marlene\bibnamedelima R},
          giveni={M\bibinitperiod\bibinitdelim R\bibinitperiod},
       }}%
       {{hash=NWT}{%
          family={Newsome},
          familyi={N\bibinitperiod},
-         given={William\bibnamedelima T.},
+         given={William\bibnamedelima T},
          giveni={W\bibinitperiod\bibinitdelim T\bibinitperiod},
       }}%
     }
@@ -1081,29 +1173,6 @@
     \field{year}{2008}
   \endentry
 
-  \entry{AnimalUse2011}{book}{}
-    \name{author}{1}{}{%
-      {{hash=CNR}{%
-         family={Council},
-         familyi={C\bibinitperiod},
-         given={National\bibnamedelima Research},
-         giveni={N\bibinitperiod\bibinitdelim R\bibinitperiod},
-      }}%
-    }
-    \strng{namehash}{CNR1}
-    \strng{fullhash}{CNR1}
-    \field{labelnamesource}{author}
-    \field{labeltitlesource}{title}
-    \field{labelyear}{2011}
-    \field{labeldatesource}{}
-    \field{sortinit}{C}
-    \field{sortinithash}{C}
-    \field{edition}{8th Editio}
-    \field{isbn}{9780309154000}
-    \field{title}{Guide for the Care and Use of Laboratory Animals}
-    \field{year}{2011}
-  \endentry
-
   \entry{Cowley2017}{article}{}
     \name{author}{5}{}{%
       {{hash=CB}{%
@@ -1137,12 +1206,12 @@
          giveni={B\bibinitperiod\bibinitdelim M\bibinitperiod},
       }}%
     }
+    \keyw{HaydenQuals}
     \strng{namehash}{CB+1}
     \strng{fullhash}{CBWRCKSMYBM1}
     \field{labelnamesource}{author}
     \field{labeltitlesource}{title}
     \field{labelyear}{2017}
-    \field{extradate}{1}
     \field{labeldatesource}{}
     \field{sortinit}{C}
     \field{sortinithash}{C}
@@ -1180,72 +1249,7 @@
     \field{year}{2017}
   \endentry
 
-  \entry{Cowley2017b}{article}{}
-    \name{author}{6}{}{%
-      {{hash=CBR}{%
-         family={Cowley},
-         familyi={C\bibinitperiod},
-         given={Benjamin\bibnamedelima R.},
-         giveni={B\bibinitperiod\bibinitdelim R\bibinitperiod},
-      }}%
-      {{hash=SJD}{%
-         family={Semedo},
-         familyi={S\bibinitperiod},
-         given={João\bibnamedelima D.},
-         giveni={J\bibinitperiod\bibinitdelim D\bibinitperiod},
-      }}%
-      {{hash=ZA}{%
-         family={Zandvakili},
-         familyi={Z\bibinitperiod},
-         given={Amin},
-         giveni={A\bibinitperiod},
-      }}%
-      {{hash=SMA}{%
-         family={Smith},
-         familyi={S\bibinitperiod},
-         given={Matthew\bibnamedelima A.},
-         giveni={M\bibinitperiod\bibinitdelim A\bibinitperiod},
-      }}%
-      {{hash=KA}{%
-         family={Kohn},
-         familyi={K\bibinitperiod},
-         given={Adam},
-         giveni={A\bibinitperiod},
-      }}%
-      {{hash=YBM}{%
-         family={Yu},
-         familyi={Y\bibinitperiod},
-         given={Byron\bibnamedelima M.},
-         giveni={B\bibinitperiod\bibinitdelim M\bibinitperiod},
-      }}%
-    }
-    \strng{namehash}{CBR+1}
-    \strng{fullhash}{CBRSJDZASMAKAYBM1}
-    \field{labelnamesource}{author}
-    \field{labeltitlesource}{title}
-    \field{labelyear}{2017}
-    \field{extradate}{2}
-    \field{labeldatesource}{}
-    \field{sortinit}{C}
-    \field{sortinithash}{C}
-    \field{abstract}{%
-    We propose a dimensionality reduction method to identify linear projections
-  that capture interactions between two or more sets of variables. The method,
-  distance covariance analysis (DCA), can detect both linear and nonlinear
-  relationships, and can take dependent variables into account. On previous
-  testbeds and a new testbed that systematically assesses the ability to detect
-  both linear and nonlinear interactions, DCA performs better than or
-  comparable to existing methods, while being one of the fastest methods. To
-  showcase the versatility of DCA, we also applied it to three different
-  neurophysiological datasets.%
-    }
-    \field{title}{Distance covariance analysis}
-    \field{journaltitle}{Proceedings of the 20th International Conference on
-  Artificial Intelligence and Statistics, AISTATS 2017}
-    \field{year}{2017}
-  \endentry
-
-  \entry{Cross2021a}{article}{}
+  \entry{Cross2021}{article}{}
     \name{author}{4}{}{%
       {{hash=CL}{%
          family={Cross},
@@ -1268,7 +1272,7 @@
       {{hash=OJP}{%
          family={O'Doherty},
          familyi={O\bibinitperiod},
-         given={John\bibnamedelima P.},
+         given={John\bibnamedelima P},
          giveni={J\bibinitperiod\bibinitdelim P\bibinitperiod},
       }}%
     }
@@ -1305,6 +1309,78 @@
     \endverb
     \field{journaltitle}{Neuron}
     \field{year}{2021}
+  \endentry
+
+  \entry{Denfield2018}{article}{}
+    \name{author}{5}{}{%
+      {{hash=DGH}{%
+         family={Denfield},
+         familyi={D\bibinitperiod},
+         given={George\bibnamedelima H},
+         giveni={G\bibinitperiod\bibinitdelim H\bibinitperiod},
+      }}%
+      {{hash=EAS}{%
+         family={Ecker},
+         familyi={E\bibinitperiod},
+         given={Alexander\bibnamedelima S},
+         giveni={A\bibinitperiod\bibinitdelim S\bibinitperiod},
+      }}%
+      {{hash=STJ}{%
+         family={Shinn},
+         familyi={S\bibinitperiod},
+         given={Tori\bibnamedelima J},
+         giveni={T\bibinitperiod\bibinitdelim J\bibinitperiod},
+      }}%
+      {{hash=BM}{%
+         family={Bethge},
+         familyi={B\bibinitperiod},
+         given={Matthias},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=TAS}{%
+         family={Tolias},
+         familyi={T\bibinitperiod},
+         given={Andreas\bibnamedelima S},
+         giveni={A\bibinitperiod\bibinitdelim S\bibinitperiod},
+      }}%
+    }
+    \keyw{HaydenQuals}
+    \strng{namehash}{DGH+1}
+    \strng{fullhash}{DGHEASSTJBMTAS1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2018}
+    \field{labeldatesource}{}
+    \field{sortinit}{D}
+    \field{sortinithash}{D}
+    \field{abstract}{%
+    Variability in neuronal responses to identical stimuli is frequently
+  correlated across a population. Attention is thought to reduce these
+  correlations by suppressing noisy inputs shared by the population. However,
+  even with precise control of the visual stimulus, the subject's attentional
+  state varies across trials. While these state fluctuations are bound to
+  induce some degree of correlated variability, it is currently unknown how
+  strong their effect is, as previous studies generally do not dissociate
+  changes in attentional strength from changes in attentional state
+  variability. We designed a novel paradigm that does so and find both a
+  pronounced effect of attentional fluctuations on correlated variability at
+  long timescales and attention-dependent reductions in correlations at short
+  timescales. These effects predominate in layers 2/3, as expected from a
+  feedback signal such as attention. Thus, significant portions of correlated
+  variability can be attributed to fluctuations in internally generated
+  signals, like attention, rather than noise.%
+    }
+    \verb{doi}
+    \verb 10.1038/s41467-018-05123-6
+    \endverb
+    \field{isbn}{4146701805}
+    \field{issn}{20411723}
+    \field{issue}{1}
+    \field{title}{Attentional fluctuations induce shared variability in macaque
+  primary visual cortex}
+    \field{volume}{9}
+    \field{journaltitle}{Nature Communications}
+    \field{year}{2018}
   \endentry
 
   \entry{Ding2015}{article}{}
@@ -1355,6 +1431,85 @@
     \field{volume}{114}
     \field{journaltitle}{Journal of Neurophysiology}
     \field{year}{2015}
+  \endentry
+
+  \entry{Ecker2016a}{article}{}
+    \name{author}{4}{}{%
+      {{hash=EAS}{%
+         family={Ecker},
+         familyi={E\bibinitperiod},
+         given={Alexander\bibnamedelima S.},
+         giveni={A\bibinitperiod\bibinitdelim S\bibinitperiod},
+      }}%
+      {{hash=DGH}{%
+         family={Denfield},
+         familyi={D\bibinitperiod},
+         given={George\bibnamedelima H.},
+         giveni={G\bibinitperiod\bibinitdelim H\bibinitperiod},
+      }}%
+      {{hash=BM}{%
+         family={Bethge},
+         familyi={B\bibinitperiod},
+         given={Matthias},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=TAS}{%
+         family={Tolias},
+         familyi={T\bibinitperiod},
+         given={Andreas\bibnamedelima S.},
+         giveni={A\bibinitperiod\bibinitdelim S\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Society for Neuroscience}%
+    }
+    \keyw{Attention,Gain modulation,Noise correlation,Population
+  coding,Variability}
+    \strng{namehash}{EAS+1}
+    \strng{fullhash}{EASDGHBMTAS1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2016}
+    \field{labeldatesource}{}
+    \field{sortinit}{E}
+    \field{sortinithash}{E}
+    \field{abstract}{%
+    Attention is commonly thought to improve behavioral performance by
+  increasing response gain and suppressing shared variability in neuronal
+  populations. However, both the focus and the strength of attention are likely
+  to vary from one experimental trial to the next, thereby inducing response
+  variability unknown to the experimenter. Here we study analytically how
+  fluctuations in attentional state affect the structure of population
+  responses in a simple model of spatial and feature attention. In our model,
+  attention acts on the neural response exclusively by modulating each
+  neuron’s gain. Neurons are conditionally independent given the stimulus and
+  the attentional gain, and correlated activity arises only from trial-to-trial
+  fluctuations of the attentional state, which are unknown to the experimenter.
+  We find that this simple model can readily explain many aspects of neural
+  response modulation under attention, such as increased response gain, reduced
+  individual and shared variability, increased correlations with firing rates,
+  limited range correlations, and differential correlations. We therefore
+  suggest that attention may act primarily by increasing response gain of
+  individual neurons without affecting their correlation structure. The
+  experimentally observed reduction in correlations may instead result from
+  reduced variability of the attentional gain when a stimulus is attended.
+  Moreover, we show that attentional gain fluctuations, even if unknown to a
+  downstream readout, do not impair the readout accuracy despite inducing
+  limited-range correlations, whereas fluctuations of the attended feature can
+  in principle limit behavioral performance.%
+    }
+    \verb{doi}
+    \verb 10.1523/JNEUROSCI.2044-15.2016
+    \endverb
+    \field{issn}{15292401}
+    \field{issue}{5}
+    \field{pages}{1775\bibrangedash 1789}
+    \field{title}{On the structure of neuronal population activity under
+  fluctuations in attentional state}
+    \field{volume}{36}
+    \field{journaltitle}{Journal of Neuroscience}
+    \field{month}{02}
+    \field{year}{2016}
   \endentry
 
   \entry{Faisal2008}{misc}{}
@@ -1417,17 +1572,18 @@
       {{hash=FDJ}{%
          family={Felleman},
          familyi={F\bibinitperiod},
-         given={Daniel\bibnamedelima J.},
+         given={Daniel\bibnamedelima J},
          giveni={D\bibinitperiod\bibinitdelim J\bibinitperiod},
       }}%
       {{hash=EDCV}{%
          family={Essen},
          familyi={E\bibinitperiod},
-         given={David C.\bibnamedelima Van},
+         given={David C\bibnamedelima Van},
          giveni={D\bibinitperiod\bibinitdelim C\bibinitperiod\bibinitdelim
   V\bibinitperiod},
       }}%
     }
+    \keyw{HaydenQuals}
     \strng{namehash}{FDJEDCV1}
     \strng{fullhash}{FDJEDCV1}
     \field{labelnamesource}{author}
@@ -1491,7 +1647,7 @@
       {{hash=FDJ}{%
          family={Felleman},
          familyi={F\bibinitperiod},
-         given={Daniel\bibnamedelima J.},
+         given={Daniel\bibnamedelima J},
          giveni={D\bibinitperiod\bibinitdelim J\bibinitperiod},
       }}%
       {{hash=XY}{%
@@ -1566,13 +1722,13 @@
       {{hash=FGD}{%
          family={Field},
          familyi={F\bibinitperiod},
-         given={Greg\bibnamedelima D.},
+         given={Greg\bibnamedelima D},
          giveni={G\bibinitperiod\bibinitdelim D\bibinitperiod},
       }}%
       {{hash=GJL}{%
          family={Gauthier},
          familyi={G\bibinitperiod},
-         given={Jeffrey\bibnamedelima L.},
+         given={Jeffrey\bibnamedelima L},
          giveni={J\bibinitperiod\bibinitdelim L\bibinitperiod},
       }}%
       {{hash=SA}{%
@@ -1590,13 +1746,13 @@
       {{hash=MTA}{%
          family={MacHado},
          familyi={M\bibinitperiod},
-         given={Timothy\bibnamedelima A.},
+         given={Timothy\bibnamedelima A},
          giveni={T\bibinitperiod\bibinitdelim A\bibinitperiod},
       }}%
       {{hash=JLH}{%
          family={Jepson},
          familyi={J\bibinitperiod},
-         given={Lauren\bibnamedelima H.},
+         given={Lauren\bibnamedelima H},
          giveni={L\bibinitperiod\bibinitdelim H\bibinitperiod},
       }}%
       {{hash=SJ}{%
@@ -1608,7 +1764,7 @@
       {{hash=GDE}{%
          family={Gunning},
          familyi={G\bibinitperiod},
-         given={Deborah\bibnamedelima E.},
+         given={Deborah\bibnamedelima E},
          giveni={D\bibinitperiod\bibinitdelim E\bibinitperiod},
       }}%
       {{hash=MK}{%
@@ -1632,13 +1788,13 @@
       {{hash=LAM}{%
          family={Litke},
          familyi={L\bibinitperiod},
-         given={Alan\bibnamedelima M.},
+         given={Alan\bibnamedelima M},
          giveni={A\bibinitperiod\bibinitdelim M\bibinitperiod},
       }}%
       {{hash=CEJ}{%
          family={Chichilnisky},
          familyi={C\bibinitperiod},
-         given={E.\bibnamedelima J.},
+         given={E\bibnamedelima J},
          giveni={E\bibinitperiod\bibinitdelim J\bibinitperiod},
       }}%
     }
@@ -1751,6 +1907,7 @@
          giveni={E\bibinitperiod},
       }}%
     }
+    \keyw{HaydenQuals}
     \strng{namehash}{FISE1}
     \strng{fullhash}{FISE1}
     \field{labelnamesource}{author}
@@ -1778,7 +1935,7 @@
   \entry{Gegenfurtner1996}{article}{}
     \name{author}{3}{}{%
       {{hash=GK}{%
-         family={GegenFurtner},
+         family={Gegenfurtner},
          familyi={G\bibinitperiod},
          given={Karl},
          giveni={K\bibinitperiod},
@@ -1789,15 +1946,15 @@
          given={Daniel},
          giveni={D\bibinitperiod},
       }}%
-      {{hash=FS}{%
-         family={Fenstemaker},
-         familyi={F\bibinitperiod},
-         given={Suzanne},
-         giveni={S\bibinitperiod},
+      {{hash=SF}{%
+         family={Suzanne},
+         familyi={S\bibinitperiod},
+         given={Fenstemaker},
+         giveni={F\bibinitperiod},
       }}%
     }
-    \strng{namehash}{GKKDFS1}
-    \strng{fullhash}{GKKDFS1}
+    \strng{namehash}{GKKDSF1}
+    \strng{fullhash}{GKKDSF1}
     \field{labelnamesource}{author}
     \field{labeltitlesource}{title}
     \field{labelyear}{1996}
@@ -1813,7 +1970,7 @@
       {{hash=GCD}{%
          family={Gilbert},
          familyi={G\bibinitperiod},
-         given={Charles\bibnamedelima D.},
+         given={Charles\bibnamedelima D},
          giveni={C\bibinitperiod\bibinitdelim D\bibinitperiod},
       }}%
       {{hash=LW}{%
@@ -1862,25 +2019,25 @@
       {{hash=HNG}{%
          family={Hatsopoulos},
          familyi={H\bibinitperiod},
-         given={N.\bibnamedelima G.},
+         given={N\bibnamedelima G},
          giveni={N\bibinitperiod\bibinitdelim G\bibinitperiod},
       }}%
       {{hash=OCL}{%
          family={Ojakangas},
          familyi={O\bibinitperiod},
-         given={C.\bibnamedelima L.},
+         given={C\bibnamedelima L},
          giveni={C\bibinitperiod\bibinitdelim L\bibinitperiod},
       }}%
       {{hash=PL}{%
          family={Paninski},
          familyi={P\bibinitperiod},
-         given={L.},
-         giveni={L\bibinitperiod},
+         given={L},
+         giveni={L},
       }}%
       {{hash=DJP}{%
          family={Donoghue},
          familyi={D\bibinitperiod},
-         given={J.\bibnamedelima P.},
+         given={J\bibnamedelima P},
          giveni={J\bibinitperiod\bibinitdelim P\bibinitperiod},
       }}%
     }
@@ -1954,16 +2111,17 @@
       {{hash=HDH}{%
          family={Hubel},
          familyi={H\bibinitperiod},
-         given={David\bibnamedelima H.},
+         given={David\bibnamedelima H},
          giveni={D\bibinitperiod\bibinitdelim H\bibinitperiod},
       }}%
       {{hash=WTN}{%
          family={Wiesel},
          familyi={W\bibinitperiod},
-         given={Torsten\bibnamedelima N.},
+         given={Torsten\bibnamedelima N},
          giveni={T\bibinitperiod\bibinitdelim N\bibinitperiod},
       }}%
     }
+    \keyw{HaydenQuals}
     \strng{namehash}{HDHWTN1}
     \strng{fullhash}{HDHWTN1}
     \field{labelnamesource}{author}
@@ -2074,7 +2232,7 @@
       {{hash=HCR}{%
          family={Hussar},
          familyi={H\bibinitperiod},
-         given={Cory\bibnamedelima R.},
+         given={Cory\bibnamedelima R},
          giveni={C\bibinitperiod\bibinitdelim R\bibinitperiod},
       }}%
       {{hash=PT}{%
@@ -2135,7 +2293,7 @@
       {{hash=HCR}{%
          family={Hussar},
          familyi={H\bibinitperiod},
-         given={Cory\bibnamedelima R.},
+         given={Cory\bibnamedelima R},
          giveni={C\bibinitperiod\bibinitdelim R\bibinitperiod},
       }}%
       {{hash=PT}{%
@@ -2208,8 +2366,8 @@
          giveni={T\bibinitperiod},
       }}%
     }
-    \strng{namehash}{HCRPT1}
-    \strng{fullhash}{HCRPT1}
+    \strng{namehash}{HCRPT2}
+    \strng{fullhash}{HCRPT2}
     \field{labelnamesource}{author}
     \field{labeltitlesource}{title}
     \field{labelyear}{2013}
@@ -2250,7 +2408,274 @@
   motion in the dorsolateral prefrontal cortex}
     \field{volume}{33}
     \field{journaltitle}{Journal of Neuroscience}
+    \field{month}{01}
     \field{year}{2013}
+  \endentry
+
+  \entry{Jun2017}{article}{}
+    \name{author}{35}{}{%
+      {{hash=JJJ}{%
+         family={Jun},
+         familyi={J\bibinitperiod},
+         given={James\bibnamedelima J.},
+         giveni={J\bibinitperiod\bibinitdelim J\bibinitperiod},
+      }}%
+      {{hash=SNA}{%
+         family={Steinmetz},
+         familyi={S\bibinitperiod},
+         given={Nicholas\bibnamedelima A.},
+         giveni={N\bibinitperiod\bibinitdelim A\bibinitperiod},
+      }}%
+      {{hash=SJH}{%
+         family={Siegle},
+         familyi={S\bibinitperiod},
+         given={Joshua\bibnamedelima H.},
+         giveni={J\bibinitperiod\bibinitdelim H\bibinitperiod},
+      }}%
+      {{hash=DDJ}{%
+         family={Denman},
+         familyi={D\bibinitperiod},
+         given={Daniel\bibnamedelima J.},
+         giveni={D\bibinitperiod\bibinitdelim J\bibinitperiod},
+      }}%
+      {{hash=BM}{%
+         family={Bauza},
+         familyi={B\bibinitperiod},
+         given={Marius},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=BB}{%
+         family={Barbarits},
+         familyi={B\bibinitperiod},
+         given={Brian},
+         giveni={B\bibinitperiod},
+      }}%
+      {{hash=LAK}{%
+         family={Lee},
+         familyi={L\bibinitperiod},
+         given={Albert\bibnamedelima K.},
+         giveni={A\bibinitperiod\bibinitdelim K\bibinitperiod},
+      }}%
+      {{hash=ACA}{%
+         family={Anastassiou},
+         familyi={A\bibinitperiod},
+         given={Costas\bibnamedelima A.},
+         giveni={C\bibinitperiod\bibinitdelim A\bibinitperiod},
+      }}%
+      {{hash=AA}{%
+         family={Andrei},
+         familyi={A\bibinitperiod},
+         given={Alexandru},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=�A}{%
+         prefix={Çaǧatay},
+         prefixi={�\bibinitperiod},
+         family={Aydin},
+         familyi={A\bibinitperiod},
+      }}%
+      {{hash=BM}{%
+         family={Barbic},
+         familyi={B\bibinitperiod},
+         given={Mladen},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=BTJ}{%
+         family={Blanche},
+         familyi={B\bibinitperiod},
+         given={Timothy\bibnamedelima J.},
+         giveni={T\bibinitperiod\bibinitdelim J\bibinitperiod},
+      }}%
+      {{hash=BV}{%
+         family={Bonin},
+         familyi={B\bibinitperiod},
+         given={Vincent},
+         giveni={V\bibinitperiod},
+      }}%
+      {{hash=CJ}{%
+         family={Couto},
+         familyi={C\bibinitperiod},
+         given={João},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=DB}{%
+         family={Dutta},
+         familyi={D\bibinitperiod},
+         given={Barundeb},
+         giveni={B\bibinitperiod},
+      }}%
+      {{hash=GSL}{%
+         family={Gratiy},
+         familyi={G\bibinitperiod},
+         given={Sergey\bibnamedelima L.},
+         giveni={S\bibinitperiod\bibinitdelim L\bibinitperiod},
+      }}%
+      {{hash=GDA}{%
+         family={Gutnisky},
+         familyi={G\bibinitperiod},
+         given={Diego\bibnamedelima A.},
+         giveni={D\bibinitperiod\bibinitdelim A\bibinitperiod},
+      }}%
+      {{hash=HM}{%
+         family={Häusser},
+         familyi={H\bibinitperiod},
+         given={Michael},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=KB}{%
+         family={Karsh},
+         familyi={K\bibinitperiod},
+         given={Bill},
+         giveni={B\bibinitperiod},
+      }}%
+      {{hash=LP}{%
+         family={Ledochowitsch},
+         familyi={L\bibinitperiod},
+         given={Peter},
+         giveni={P\bibinitperiod},
+      }}%
+      {{hash=LCM}{%
+         family={Lopez},
+         familyi={L\bibinitperiod},
+         given={Carolina\bibnamedelima Mora},
+         giveni={C\bibinitperiod\bibinitdelim M\bibinitperiod},
+      }}%
+      {{hash=MC}{%
+         family={Mitelut},
+         familyi={M\bibinitperiod},
+         given={Catalin},
+         giveni={C\bibinitperiod},
+      }}%
+      {{hash=MS}{%
+         family={Musa},
+         familyi={M\bibinitperiod},
+         given={Silke},
+         giveni={S\bibinitperiod},
+      }}%
+      {{hash=OM}{%
+         family={Okun},
+         familyi={O\bibinitperiod},
+         given={Michael},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=PM}{%
+         family={Pachitariu},
+         familyi={P\bibinitperiod},
+         given={Marius},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=PJ}{%
+         family={Putzeys},
+         familyi={P\bibinitperiod},
+         given={Jan},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=RPD}{%
+         family={Rich},
+         familyi={R\bibinitperiod},
+         given={P.\bibnamedelima Dylan},
+         giveni={P\bibinitperiod\bibinitdelim D\bibinitperiod},
+      }}%
+      {{hash=RC}{%
+         family={Rossant},
+         familyi={R\bibinitperiod},
+         given={Cyrille},
+         giveni={C\bibinitperiod},
+      }}%
+      {{hash=SWL}{%
+         family={Sun},
+         familyi={S\bibinitperiod},
+         given={Wei\bibnamedelima Lung},
+         giveni={W\bibinitperiod\bibinitdelim L\bibinitperiod},
+      }}%
+      {{hash=SK}{%
+         family={Svoboda},
+         familyi={S\bibinitperiod},
+         given={Karel},
+         giveni={K\bibinitperiod},
+      }}%
+      {{hash=CM}{%
+         family={Carandini},
+         familyi={C\bibinitperiod},
+         given={Matteo},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=HKD}{%
+         family={Harris},
+         familyi={H\bibinitperiod},
+         given={Kenneth\bibnamedelima D.},
+         giveni={K\bibinitperiod\bibinitdelim D\bibinitperiod},
+      }}%
+      {{hash=KC}{%
+         family={Koch},
+         familyi={K\bibinitperiod},
+         given={Christof},
+         giveni={C\bibinitperiod},
+      }}%
+      {{hash=OJ}{%
+         family={O'Keefe},
+         familyi={O\bibinitperiod},
+         given={John},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=HTD}{%
+         family={Harris},
+         familyi={H\bibinitperiod},
+         given={Timothy\bibnamedelima D.},
+         giveni={T\bibinitperiod\bibinitdelim D\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Nature Publishing Group}%
+    }
+    \strng{namehash}{JJJ+1}
+  \strng{fullhash}{JJJSNASJHDDJBMBBLAKACAAAA�BMBTJBVCJDBGSLGDAHMKBLPLCMMCMSOMPMPJRPDRCSWLSKCMHKDKCOJHTD1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2017}
+    \field{labeldatesource}{}
+    \field{sortinit}{J}
+    \field{sortinithash}{J}
+    \field{abstract}{%
+    Sensory, motor and cognitive operations involve the coordinated action of
+  large neuronal populations across multiple brain regions in both superficial
+  and deep structures. Existing extracellular probes record neural activity
+  with excellent spatial and temporal (sub-millisecond) resolution, but from
+  only a few dozen neurons per shank. Optical Ca 2+ imaging offers more
+  coverage but lacks the temporal resolution needed to distinguish individual
+  spikes reliably and does not measure local field potentials. Until now, no
+  technology compatible with use in unrestrained animals has combined high
+  spatiotemporal resolution with large volume coverage. Here we design,
+  fabricate and test a new silicon probe known as Neuropixels to meet this
+  need. Each probe has 384 recording channels that can programmably address 960
+  complementary metal-oxide-semiconductor (CMOS) processing-compatible
+  low-impedance TiN sites that tile a single 10-mm long, 70 × 20-μm
+  cross-section shank. The 6 × 9-mm probe base is fabricated with the shank on
+  a single chip. Voltage signals are filtered, amplified, multiplexed and
+  digitized on the base, allowing the direct transmission of noise-free digital
+  data from the probe. The combination of dense recording sites and high
+  channel count yielded well-isolated spiking activity from hundreds of neurons
+  per probe implanted in mice and rats. Using two probes, more than 700
+  well-isolated single neurons were recorded simultaneously from five brain
+  structures in an awake mouse. The fully integrated functionality and small
+  size of Neuropixels probes allowed large populations of neurons from several
+  brain structures to be recorded in freely moving animals. This combination of
+  high-performance electrode technology and scalable chip fabrication methods
+  opens a path towards recording of brain-wide neural activity during
+  behaviour.%
+    }
+    \verb{doi}
+    \verb 10.1038/nature24636
+    \endverb
+    \field{issn}{14764687}
+    \field{issue}{7679}
+    \field{pages}{232\bibrangedash 236}
+    \field{title}{Fully integrated silicon probes for high-density recording of
+  neural activity}
+    \field{volume}{551}
+    \field{journaltitle}{Nature}
+    \field{month}{11}
+    \field{year}{2017}
   \endentry
 
   \entry{Karras2019}{article}{}
@@ -2311,30 +2736,89 @@
     \field{year}{2019}
   \endentry
 
+  \entry{Katoch2021}{article}{}
+    \name{author}{3}{}{%
+      {{hash=KS}{%
+         family={Katoch},
+         familyi={K\bibinitperiod},
+         given={Sourabh},
+         giveni={S\bibinitperiod},
+      }}%
+      {{hash=CSS}{%
+         family={Chauhan},
+         familyi={C\bibinitperiod},
+         given={Sumit\bibnamedelima Singh},
+         giveni={S\bibinitperiod\bibinitdelim S\bibinitperiod},
+      }}%
+      {{hash=KV}{%
+         family={Kumar},
+         familyi={K\bibinitperiod},
+         given={Vijay},
+         giveni={V\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Springer}%
+    }
+    \keyw{Crossover,Evolution,Genetic
+  algorithm,Metaheuristic,Mutation,Optimization,Selection}
+    \strng{namehash}{KSCSSKV1}
+    \strng{fullhash}{KSCSSKV1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2021}
+    \field{labeldatesource}{}
+    \field{sortinit}{K}
+    \field{sortinithash}{K}
+    \field{abstract}{%
+    In this paper, the analysis of recent advances in genetic algorithms is
+  discussed. The genetic algorithms of great interest in research community are
+  selected for analysis. This review will help the new and demanding
+  researchers to provide the wider vision of genetic algorithms. The well-known
+  algorithms and their implementation are presented with their pros and cons.
+  The genetic operators and their usages are discussed with the aim of
+  facilitating new researchers. The different research domains involved in
+  genetic algorithms are covered. The future research directions in the area of
+  genetic operators, fitness function and hybrid algorithms are discussed. This
+  structured review will be helpful for research and graduate teaching.%
+    }
+    \verb{doi}
+    \verb 10.1007/s11042-020-10139-6
+    \endverb
+    \field{issn}{15737721}
+    \field{issue}{5}
+    \field{pages}{8091\bibrangedash 8126}
+    \field{title}{A review on genetic algorithm: past, present, and future}
+    \field{volume}{80}
+    \field{journaltitle}{Multimedia Tools and Applications}
+    \field{month}{02}
+    \field{year}{2021}
+  \endentry
+
   \entry{Katz2016}{article}{}
     \name{author}{4}{}{%
       {{hash=KLN}{%
          family={Katz},
          familyi={K\bibinitperiod},
-         given={Leor\bibnamedelima N.},
+         given={Leor\bibnamedelima N},
          giveni={L\bibinitperiod\bibinitdelim N\bibinitperiod},
       }}%
       {{hash=YJL}{%
          family={Yates},
          familyi={Y\bibinitperiod},
-         given={Jacob\bibnamedelima L.},
+         given={Jacob\bibnamedelima L},
          giveni={J\bibinitperiod\bibinitdelim L\bibinitperiod},
       }}%
       {{hash=PJW}{%
          family={Pillow},
          familyi={P\bibinitperiod},
-         given={Jonathan\bibnamedelima W.},
+         given={Jonathan\bibnamedelima W},
          giveni={J\bibinitperiod\bibinitdelim W\bibinitperiod},
       }}%
       {{hash=HAC}{%
          family={Huk},
          familyi={H\bibinitperiod},
-         given={Alexander\bibnamedelima C.},
+         given={Alexander\bibnamedelima C},
          giveni={A\bibinitperiod\bibinitdelim C\bibinitperiod},
       }}%
     }
@@ -2391,6 +2875,132 @@
     \field{year}{2016}
   \endentry
 
+  \entry{Kelly2007}{article}{}
+    \name{author}{7}{}{%
+      {{hash=KRC}{%
+         family={Kelly},
+         familyi={K\bibinitperiod},
+         given={Ryan\bibnamedelima C.},
+         giveni={R\bibinitperiod\bibinitdelim C\bibinitperiod},
+      }}%
+      {{hash=SMA}{%
+         family={Smith},
+         familyi={S\bibinitperiod},
+         given={Matthew\bibnamedelima A.},
+         giveni={M\bibinitperiod\bibinitdelim A\bibinitperiod},
+      }}%
+      {{hash=SJM}{%
+         family={Samonds},
+         familyi={S\bibinitperiod},
+         given={Jason\bibnamedelima M.},
+         giveni={J\bibinitperiod\bibinitdelim M\bibinitperiod},
+      }}%
+      {{hash=KA}{%
+         family={Kohn},
+         familyi={K\bibinitperiod},
+         given={Adam},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=BAB}{%
+         family={Bonds},
+         familyi={B\bibinitperiod},
+         given={A.\bibnamedelima B.},
+         giveni={A\bibinitperiod\bibinitdelim B\bibinitperiod},
+      }}%
+      {{hash=MJA}{%
+         family={Movshon},
+         familyi={M\bibinitperiod},
+         given={J.\bibnamedelima Anthony},
+         giveni={J\bibinitperiod\bibinitdelim A\bibinitperiod},
+      }}%
+      {{hash=TSL}{%
+         family={Tai},
+         familyi={T\bibinitperiod},
+         given={Sing\bibnamedelima Lee},
+         giveni={S\bibinitperiod\bibinitdelim L\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{KRC+1}
+    \strng{fullhash}{KRCSMASJMKABABMJATSL1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2007}
+    \field{labeldatesource}{}
+    \field{sortinit}{K}
+    \field{sortinithash}{K}
+    \verb{doi}
+    \verb 10.1523/JNEUROSCI.4906-06.2007
+    \endverb
+    \field{issn}{02706474}
+    \field{issue}{2}
+    \field{pages}{261\bibrangedash 264}
+    \field{title}{Comparison of recordings from microelectrode arrays and
+  single electrodes in the visual cortex}
+    \field{volume}{27}
+    \field{journaltitle}{Journal of Neuroscience}
+    \field{month}{01}
+    \field{year}{2007}
+  \endentry
+
+  \entry{Kim2019}{article}{}
+    \name{author}{3}{}{%
+      {{hash=KT}{%
+         family={Kim},
+         familyi={K\bibinitperiod},
+         given={Taekjun},
+         giveni={T\bibinitperiod},
+      }}%
+      {{hash=BW}{%
+         family={Bair},
+         familyi={B\bibinitperiod},
+         given={Wyeth},
+         giveni={W\bibinitperiod},
+      }}%
+      {{hash=PA}{%
+         family={Pasupathy},
+         familyi={P\bibinitperiod},
+         given={Anitha},
+         giveni={A\bibinitperiod},
+      }}%
+    }
+    \keyw{HaydenQuals,Monkey,Object recognition,Rhesus
+  macaque,Shape,Texture,Ventral visual pathway}
+    \strng{namehash}{KTBWPA1}
+    \strng{fullhash}{KTBWPA1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2019}
+    \field{labeldatesource}{}
+    \field{sortinit}{K}
+    \field{sortinithash}{K}
+    \field{abstract}{%
+    The distinct visual sensations of shape and texture have been studied
+  separately in cortex; therefore, it remains unknown whether separate neuronal
+  populations encode each of these properties or one population carries a joint
+  encoding. We directly compared shape and texture selectivity of individual V4
+  neurons in awake macaques (1 male, 1 female) and found that V4 neurons lie
+  along a continuum from strong tuning for boundary curvature of shapes to
+  strong tuning for perceptual dimensions of texture. Among neurons tuned to
+  both attributes, tuning for shape and texture were largely separable, with
+  the latter delayed by ~30 ms. We also found that shape stimuli typically
+  evoked stronger, more selective responses than did texture patches,
+  regardless of whether the latter were contained within or extended beyond the
+  receptive field. These results suggest that there are separate
+  specializations in mid-level cortical processing for visual attributes of
+  shape and texture.%
+    }
+    \verb{doi}
+    \verb 10.1523/JNEUROSCI.3073-18.2019
+    \endverb
+    \field{issn}{15292401}
+    \field{issue}{24}
+    \field{pages}{4760\bibrangedash 4774}
+    \field{title}{Neural coding for shape and texture in macaque area V4}
+    \field{volume}{39}
+    \field{journaltitle}{Journal of Neuroscience}
+    \field{year}{2019}
+  \endentry
+
   \entry{Kohn2003}{article}{}
     \name{author}{2}{}{%
       {{hash=KA}{%
@@ -2402,7 +3012,7 @@
       {{hash=MJA}{%
          family={Movshon},
          familyi={M\bibinitperiod},
-         given={J.\bibnamedelima Anthony},
+         given={J\bibnamedelima Anthony},
          giveni={J\bibinitperiod\bibinitdelim A\bibinitperiod},
       }}%
     }
@@ -2441,6 +3051,54 @@
     \field{volume}{39}
     \field{journaltitle}{Neuron}
     \field{year}{2003}
+  \endentry
+
+  \entry{Kole2012}{misc}{}
+    \name{author}{2}{}{%
+      {{hash=KMH}{%
+         family={Kole},
+         familyi={K\bibinitperiod},
+         given={Maarten\bibnamedelima H.P.},
+         giveni={M\bibinitperiod\bibinitdelim H\bibinitperiod},
+      }}%
+      {{hash=SGJ}{%
+         family={Stuart},
+         familyi={S\bibinitperiod},
+         given={Greg\bibnamedelima J.},
+         giveni={G\bibinitperiod\bibinitdelim J\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{KMHSGJ1}
+    \strng{fullhash}{KMHSGJ1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2012}
+    \field{labeldatesource}{}
+    \field{sortinit}{K}
+    \field{sortinithash}{K}
+    \field{abstract}{%
+    The axon initial segment (AIS) is a specialized membrane region in the axon
+  of neurons where action potentials are initiated. Crucial to the function of
+  the AIS is the presence of specific voltage-gated channels clustered at high
+  densities, giving the AIS unique electrical properties. Here we review recent
+  data on the physiology of the AIS. These data indicate that the role of the
+  AIS is far richer than originally thought, leading to the idea that it
+  represents a dynamic signal processing unit within neurons, regulating the
+  integration of synaptic inputs, intrinsic excitability, and transmitter
+  release. Furthermore, these observations point toa critical role of the AIS
+  in disease. © 2012 Elsevier Inc.%
+    }
+    \verb{doi}
+    \verb 10.1016/j.neuron.2012.01.007
+    \endverb
+    \field{issn}{08966273}
+    \field{issue}{2}
+    \field{pages}{235\bibrangedash 247}
+    \field{title}{Signal Processing in the Axon Initial Segment}
+    \field{volume}{73}
+    \field{journaltitle}{Neuron}
+    \field{month}{01}
+    \field{year}{2012}
   \endentry
 
   \entry{Kriegeskorte2021}{article}{}
@@ -2504,22 +3162,23 @@
       {{hash=LP}{%
          family={Lennie},
          familyi={L\bibinitperiod},
-         given={P.},
-         giveni={P\bibinitperiod},
+         given={P},
+         giveni={P},
       }}%
       {{hash=KJ}{%
          family={Krauskopf},
          familyi={K\bibinitperiod},
-         given={J.},
-         giveni={J\bibinitperiod},
+         given={J},
+         giveni={J},
       }}%
       {{hash=SG}{%
          family={Sclar},
          familyi={S\bibinitperiod},
-         given={G.},
-         giveni={G\bibinitperiod},
+         given={G},
+         giveni={G},
       }}%
     }
+    \keyw{HaydenQuals}
     \strng{namehash}{LPKJSG1}
     \strng{fullhash}{LPKJSG1}
     \field{labelnamesource}{author}
@@ -2681,7 +3340,7 @@
     \endverb
     \field{issn}{10974199}
     \field{issue}{3}
-    \field{pages}{538\bibrangedash 550.e5}
+    \field{pages}{538–550.e5}
     \field{title}{Hierarchical Representation for Chromatic Processing across
   Macaque V1, V2, and V4}
     \field{volume}{108}
@@ -2694,7 +3353,7 @@
       {{hash=LSJ}{%
          family={Luck},
          familyi={L\bibinitperiod},
-         given={Steven\bibnamedelima J.},
+         given={Steven\bibnamedelima J},
          giveni={S\bibinitperiod\bibinitdelim J\bibinitperiod},
       }}%
       {{hash=CL}{%
@@ -2706,7 +3365,7 @@
       {{hash=HSA}{%
          family={Hillyard},
          familyi={H\bibinitperiod},
-         given={Steven\bibnamedelima A.},
+         given={Steven\bibnamedelima A},
          giveni={S\bibinitperiod\bibinitdelim A\bibinitperiod},
       }}%
       {{hash=DR}{%
@@ -2758,11 +3417,15 @@
     \verb{doi}
     \verb 10.1152/jn.1997.77.1.24
     \endverb
+    \field{isbn}{0022-3077}
     \field{issn}{00223077}
     \field{issue}{1}
     \field{pages}{24\bibrangedash 42}
     \field{title}{Neural mechanisms of spatial selective attention in areas V1,
   V2, and V4 of macaque visual cortex}
+    \verb{url}
+    \verb http://www.physiology.org/doi/10.1152/jn.1997.77.1.24
+    \endverb
     \field{volume}{77}
     \field{journaltitle}{Journal of Neurophysiology}
     \field{year}{1997}
@@ -2773,7 +3436,7 @@
       {{hash=LLL}{%
          family={Lui},
          familyi={L\bibinitperiod},
-         given={Leo\bibnamedelima L.},
+         given={Leo\bibnamedelima L},
          giveni={L\bibinitperiod\bibinitdelim L\bibinitperiod},
       }}%
       {{hash=PT}{%
@@ -2878,23 +3541,23 @@
       {{hash=MJF}{%
          family={Mitchell},
          familyi={M\bibinitperiod},
-         given={Jude\bibnamedelima F.},
+         given={Jude\bibnamedelima F},
          giveni={J\bibinitperiod\bibinitdelim F\bibinitperiod},
       }}%
       {{hash=SKA}{%
          family={Sundberg},
          familyi={S\bibinitperiod},
-         given={Kristy\bibnamedelima A.},
+         given={Kristy\bibnamedelima A},
          giveni={K\bibinitperiod\bibinitdelim A\bibinitperiod},
       }}%
       {{hash=RJH}{%
          family={Reynolds},
          familyi={R\bibinitperiod},
-         given={John\bibnamedelima H.},
+         given={John\bibnamedelima H},
          giveni={J\bibinitperiod\bibinitdelim H\bibinitperiod},
       }}%
     }
-    \keyw{SYSNEURO}
+    \keyw{HaydenQuals,SYSNEURO}
     \strng{namehash}{MJFSKARJH1}
     \strng{fullhash}{MJFSKARJH1}
     \field{labelnamesource}{author}
@@ -2935,7 +3598,7 @@
     \field{year}{2007}
   \endentry
 
-  \entry{Moreno-Bote2014a}{article}{}
+  \entry{Moreno-Bote2014}{article}{}
     \name{author}{6}{}{%
       {{hash=MBR}{%
          family={Moreno-Bote},
@@ -3010,6 +3673,7 @@
     \field{title}{Information-limiting correlations}
     \field{volume}{17}
     \field{journaltitle}{Nature Neuroscience}
+    \field{month}{10}
     \field{year}{2014}
   \endentry
 
@@ -3173,7 +3837,7 @@
       {{hash=NNS}{%
          family={Narayanan},
          familyi={N\bibinitperiod},
-         given={Nandakumar\bibnamedelima S.},
+         given={Nandakumar\bibnamedelima S},
          giveni={N\bibinitperiod\bibinitdelim S\bibinitperiod},
       }}%
     }
@@ -3213,6 +3877,61 @@
     \field{volume}{8}
     \field{journaltitle}{Current Opinion in Behavioral Sciences}
     \field{year}{2016}
+  \endentry
+
+  \entry{Nigam2021}{article}{}
+    \name{author}{3}{}{%
+      {{hash=NS}{%
+         family={Nigam},
+         familyi={N\bibinitperiod},
+         given={Sunny},
+         giveni={S\bibinitperiod},
+      }}%
+      {{hash=PS}{%
+         family={Pojoga},
+         familyi={P\bibinitperiod},
+         given={Sorin},
+         giveni={S\bibinitperiod},
+      }}%
+      {{hash=DV}{%
+         family={Dragoi},
+         familyi={D\bibinitperiod},
+         given={Valentin},
+         giveni={V\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{NSPSDV1}
+    \strng{fullhash}{NSPSDV1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2021}
+    \field{labeldatesource}{}
+    \field{sortinit}{N}
+    \field{sortinithash}{N}
+    \field{abstract}{%
+    Color is a key feature of natural environments that higher mammals
+  routinely use to detect food, avoid predators, and interpret social signals.
+  The distribution of color signals in natural scenes is widely variable,
+  ranging from uniform patches to highly nonuniform regions in which different
+  colors lie in close proximity. Whether individual neurons are tuned to this
+  high degree of variability of color signals is unknown. Here, we identified a
+  distinct population of cells in macaque visual cortex (area V4) that have a
+  heterogeneous receptive field (RF) structure in which individual subfields
+  are tuned to different colors even though the full RF is only weakly tuned.
+  This spatial heterogeneity in color tuning indicates a higher degree of
+  complexity of color-encoding mechanisms in visual cortex than previously
+  believed to efficiently extract chromatic information from the environment.%
+    }
+    \verb{doi}
+    \verb 10.1126/sciadv.abc5837
+    \endverb
+    \field{issn}{23752548}
+    \field{issue}{8}
+    \field{title}{A distinct population of heterogeneously color-tuned neurons
+  in macaque visual cortex}
+    \field{volume}{7}
+    \field{journaltitle}{Science Advances}
+    \field{year}{2021}
   \endentry
 
   \entry{Paninski2010}{article}{}
@@ -3266,8 +3985,8 @@
          giveni={W\bibinitperiod},
       }}%
     }
-    \keyw{Hidden Markov model,Neural coding,State-space models,Tridiagonal
-  matrix}
+    \keyw{HaydenQuals,Hidden Markov model,Neural coding,State-space
+  models,Tridiagonal matrix}
     \strng{namehash}{PL+1}
     \strng{fullhash}{PLAYFDGKSRKRVMVJWW1}
     \field{labelnamesource}{author}
@@ -3372,10 +4091,11 @@
       {{hash=CCE}{%
          family={Connor},
          familyi={C\bibinitperiod},
-         given={Charles\bibnamedelima E.},
+         given={Charles\bibnamedelima E},
          giveni={C\bibinitperiod\bibinitdelim E\bibinitperiod},
       }}%
     }
+    \keyw{HaydenQuals}
     \strng{namehash}{PACCE1}
     \strng{fullhash}{PACCE1}
     \field{labelnamesource}{author}
@@ -3417,13 +4137,13 @@
       {{hash=PM}{%
          family={Petrides},
          familyi={P\bibinitperiod},
-         given={M.},
-         giveni={M\bibinitperiod},
+         given={M},
+         giveni={M},
       }}%
       {{hash=PDN}{%
          family={Pandya},
          familyi={P\bibinitperiod},
-         given={D.\bibnamedelima N.},
+         given={D\bibnamedelima N},
          giveni={D\bibinitperiod\bibinitdelim N\bibinitperiod},
       }}%
     }
@@ -3452,7 +4172,7 @@
       {{hash=PCR}{%
          family={Ponce},
          familyi={P\bibinitperiod},
-         given={Carlos\bibnamedelima R.},
+         given={Carlos\bibnamedelima R},
          giveni={C\bibinitperiod\bibinitdelim R\bibinitperiod},
       }}%
       {{hash=XW}{%
@@ -3464,13 +4184,13 @@
       {{hash=SPF}{%
          family={Schade},
          familyi={S\bibinitperiod},
-         given={Peter\bibnamedelima F.},
+         given={Peter\bibnamedelima F},
          giveni={P\bibinitperiod\bibinitdelim F\bibinitperiod},
       }}%
       {{hash=HTS}{%
          family={Hartmann},
          familyi={H\bibinitperiod},
-         given={Till\bibnamedelima S.},
+         given={Till\bibnamedelima S},
          giveni={T\bibinitperiod\bibinitdelim S\bibinitperiod},
       }}%
       {{hash=KG}{%
@@ -3482,7 +4202,7 @@
       {{hash=LMS}{%
          family={Livingstone},
          familyi={L\bibinitperiod},
-         given={Margaret\bibnamedelima S.},
+         given={Margaret\bibnamedelima S},
          giveni={M\bibinitperiod\bibinitdelim S\bibinitperiod},
       }}%
     }
@@ -3519,7 +4239,7 @@
     \endverb
     \field{issn}{10974172}
     \field{issue}{4}
-    \field{pages}{999\bibrangedash 1009.e10}
+    \field{pages}{999–1009.e10}
     \field{title}{Evolving Images for Visual Neurons Using a Deep Generative
   Network Reveals Coding Principles and Neuronal Preferences}
     \verb{url}
@@ -3600,10 +4320,78 @@
     \field{volume}{110}
     \field{journaltitle}{Proceedings of the National Academy of Sciences of the
   United States of America}
+    \field{month}{08}
     \field{year}{2013}
   \endentry
 
-  \entry{QuianQuiroga2009}{article}{}
+  \entry{Prenger2004}{article}{}
+    \name{author}{4}{}{%
+      {{hash=PR}{%
+         family={Prenger},
+         familyi={P\bibinitperiod},
+         given={Ryan},
+         giveni={R\bibinitperiod},
+      }}%
+      {{hash=WMC}{%
+         family={Wu},
+         familyi={W\bibinitperiod},
+         given={Michael\bibnamedelima C.K.},
+         giveni={M\bibinitperiod\bibinitdelim C\bibinitperiod},
+      }}%
+      {{hash=DSV}{%
+         family={David},
+         familyi={D\bibinitperiod},
+         given={Stephen\bibnamedelima V.},
+         giveni={S\bibinitperiod\bibinitdelim V\bibinitperiod},
+      }}%
+      {{hash=GJL}{%
+         family={Gallant},
+         familyi={G\bibinitperiod},
+         given={Jack\bibnamedelima L.},
+         giveni={J\bibinitperiod\bibinitdelim L\bibinitperiod},
+      }}%
+    }
+    \keyw{Multi-layer perceptron,Natural vision,Nonparametric
+  model,Prediction,Receptive field,Reverse correlation,Striate cortex}
+    \strng{namehash}{PR+1}
+    \strng{fullhash}{PRWMCDSVGJL1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2004}
+    \field{labeldatesource}{}
+    \field{sortinit}{P}
+    \field{sortinithash}{P}
+    \field{abstract}{%
+    A key goal in the study of visual processing is to obtain a comprehensive
+  description of the relationship between visual stimuli and neuronal
+  responses. One way to guide the search for models is to use a general
+  nonparametric regression algorithm, such as a neural network. We have
+  developed a multilayer feed-forward network algorithm that can be used to
+  characterize nonlinear stimulus-response mapping functions of neurons in
+  primary visual cortex (area V1) using natural image stimuli. The network is
+  capable of extracting several known V1 response properties such as:
+  orientation and spatial frequency tuning, the spatial phase invariance of
+  complex cells, and direction selectivity. We present details of a method for
+  training networks and visualizing their properties. We also compare how well
+  conventional explicit models and those developed using neural networks can
+  predict novel responses to natural scenes. © 2004 Elsevier Ltd. All rights
+  reserved.%
+    }
+    \verb{doi}
+    \verb 10.1016/j.neunet.2004.03.008
+    \endverb
+    \field{issn}{08936080}
+    \field{issue}{5-6}
+    \field{pages}{663\bibrangedash 679}
+    \field{title}{Nonlinear V1 responses to natural scenes revealed by neural
+  network analysis}
+    \field{volume}{17}
+    \field{journaltitle}{Neural Networks}
+    \field{month}{06}
+    \field{year}{2004}
+  \endentry
+
+  \entry{QuianQuiroga2009}{misc}{}
     \name{author}{2}{}{%
       {{hash=QRQ}{%
          family={Quiroga},
@@ -3649,6 +4437,7 @@
   theory and decoding approaches}
     \field{volume}{10}
     \field{journaltitle}{Nature Reviews Neuroscience}
+    \field{month}{03}
     \field{year}{2009}
   \endentry
 
@@ -3657,20 +4446,20 @@
       {{hash=RK}{%
          family={Rajdl},
          familyi={R\bibinitperiod},
-         given={K.},
-         giveni={K\bibinitperiod},
+         given={K},
+         giveni={K},
       }}%
       {{hash=LP}{%
          family={Lansky},
          familyi={L\bibinitperiod},
-         given={P.},
-         giveni={P\bibinitperiod},
+         given={P},
+         giveni={P},
       }}%
       {{hash=KL}{%
          family={Kostal},
          familyi={K\bibinitperiod},
-         given={L.},
-         giveni={L\bibinitperiod},
+         given={L},
+         giveni={L},
       }}%
     }
     \list{publisher}{1}{%
@@ -3723,7 +4512,7 @@
       {{hash=MCK}{%
          family={Machens},
          familyi={M\bibinitperiod},
-         given={Christian\bibnamedelima K.},
+         given={Christian\bibnamedelima K},
          giveni={C\bibinitperiod\bibinitdelim K\bibinitperiod},
       }}%
     }
@@ -3763,7 +4552,7 @@
     \field{year}{2014}
   \endentry
 
-  \entry{Rudolph1999a}{article}{}
+  \entry{Rudolph1999}{article}{}
     \name{author}{2}{}{%
       {{hash=RK}{%
          family={Rudolph},
@@ -3871,7 +4660,7 @@
       {{hash=RNC}{%
          family={Rust},
          familyi={R\bibinitperiod},
-         given={Nicole\bibnamedelima C.},
+         given={Nicole\bibnamedelima C},
          giveni={N\bibinitperiod\bibinitdelim C\bibinitperiod},
       }}%
       {{hash=MV}{%
@@ -3883,13 +4672,13 @@
       {{hash=SEP}{%
          family={Simoncelli},
          familyi={S\bibinitperiod},
-         given={Eero\bibnamedelima P.},
+         given={Eero\bibnamedelima P},
          giveni={E\bibinitperiod\bibinitdelim P\bibinitperiod},
       }}%
       {{hash=MJA}{%
          family={Movshon},
          familyi={M\bibinitperiod},
-         given={J.\bibnamedelima Anthony},
+         given={J\bibnamedelima Anthony},
          giveni={J\bibinitperiod\bibinitdelim A\bibinitperiod},
       }}%
     }
@@ -3933,25 +4722,25 @@
       {{hash=SCD}{%
          family={Salzman},
          familyi={S\bibinitperiod},
-         given={C.\bibnamedelima D.},
+         given={C\bibnamedelima D},
          giveni={C\bibinitperiod\bibinitdelim D\bibinitperiod},
       }}%
       {{hash=MCM}{%
          family={Murasugi},
          familyi={M\bibinitperiod},
-         given={C.\bibnamedelima M.},
+         given={C\bibnamedelima M},
          giveni={C\bibinitperiod\bibinitdelim M\bibinitperiod},
       }}%
       {{hash=BKH}{%
          family={Britten},
          familyi={B\bibinitperiod},
-         given={K.\bibnamedelima H.},
+         given={K\bibnamedelima H},
          giveni={K\bibinitperiod\bibinitdelim H\bibinitperiod},
       }}%
       {{hash=NWT}{%
          family={Newsome},
          familyi={N\bibinitperiod},
-         given={W.\bibnamedelima T.},
+         given={W\bibnamedelima T},
          giveni={W\bibinitperiod\bibinitdelim T\bibinitperiod},
       }}%
     }
@@ -4007,19 +4796,19 @@
       {{hash=SCD}{%
          family={Salzman},
          familyi={S\bibinitperiod},
-         given={C.\bibnamedelima Daniel},
+         given={C\bibnamedelima Daniel},
          giveni={C\bibinitperiod\bibinitdelim D\bibinitperiod},
       }}%
       {{hash=BKH}{%
          family={Britten},
          familyi={B\bibinitperiod},
-         given={Kenneth\bibnamedelima H.},
+         given={Kenneth\bibnamedelima H},
          giveni={K\bibinitperiod\bibinitdelim H\bibinitperiod},
       }}%
       {{hash=NWT}{%
          family={Newsome},
          familyi={N\bibinitperiod},
-         given={William\bibnamedelima T.},
+         given={William\bibnamedelima T},
          giveni={W\bibinitperiod\bibinitdelim T\bibinitperiod},
       }}%
     }
@@ -4280,6 +5069,7 @@
   efficiency and the impact of correlations}
     \field{volume}{7}
     \field{journaltitle}{Nature Neuroscience}
+    \field{month}{10}
     \field{year}{2004}
   \endentry
 
@@ -4288,13 +5078,13 @@
       {{hash=SMN}{%
          family={Shadlen},
          familyi={S\bibinitperiod},
-         given={Michael\bibnamedelima N.},
+         given={Michael\bibnamedelima N},
          giveni={M\bibinitperiod\bibinitdelim N\bibinitperiod},
       }}%
       {{hash=NWT}{%
          family={Newsome},
          familyi={N\bibinitperiod},
-         given={William\bibnamedelima T.},
+         given={William\bibnamedelima T},
          giveni={W\bibinitperiod\bibinitdelim T\bibinitperiod},
       }}%
     }
@@ -4307,46 +5097,53 @@
     \field{sortinit}{S}
     \field{sortinithash}{S}
     \field{abstract}{%
-    We recorded the activity of single neurons in the posterior parietal cortex
-  (area LIP) of two rhesus monkeys while they discriminated the direction of
-  motion in random-dot visual stimuli. The visual task was similar to a motion
-  discrimination task that has been used in previous investigations of
-  motion-sensitive regions of the extrastriate cortex. The monkeys were trained
-  to decide whether the direction of motion was toward one of two choice
-  targets that appeared on either side of the random-dot stimulus. At the end
-  of the trial, the monkeys reported their direction judgment by making an eye
-  movement to the appropriate target. We studied neurons in LIP that exhibited
-  spatially selective persistent activity during delayed saccadic eye movement
-  tasks. These neurons are thought to carry high-level signals appropriate for
-  identifying salient visual targets and for guiding saccadic eye movements. We
-  arranged the motion discrimination task so that one of the choice targets was
-  in the LIP neuron's response field (RF) while the other target was positioned
-  well away from the RF. During motion viewing, neurons in LIP altered their
-  firing rate in a manner that predicted the saccadic eye movement that the
-  monkey would make at the end of the trial. The activity thus predicted the
-  monkey's judgment of motion direction. This predictive activity began early
-  in the motion-viewing period and became increasingly reliable as the monkey
-  viewed the random-dot motion. The neural activity predicted the monkey's
-  direction judgment on both easy and difficult trials (strong and weak
-  motion), whether or not the judgment was correct. In addition, the timing and
-  magnitude of the response was affected by the strength of the motion signal
-  in the stimulus. When the direction of motion was toward the RF, stronger
-  motion led to larger neural responses earlier in the motion-viewing period.
-  When motion was away from the RF, stronger motion led to greater suppression
-  of ongoing activity. Thus the activity of single neurons in area LIP reflects
-  both the direction of an impending gaze shift and the quality of the sensory
-  information that instructs such a response. The time course of the neural
-  response suggests that LIP accumulates sensory signals relevant to the
-  selection of a target for an eye movement.%
+    Shadlen, Michael N. and William T. Newsome. Neural Basis of a Perceptual
+  Decision in the Parietal Cortex (Area LIP) of the Rhesus Monkey. J.
+  Neurophysiol. 86: 1916-1936, 2001. We recorded the activity of single neurons
+  in the posterior parietal cortex (area LIP) of two rhesus monkeys while they
+  discriminated the direction of motion in random-dot visual stimuli. The
+  visual task was similar to a motion discrimination task that has been used in
+  previous investigations of motion-sensitive regions of the extrastriate
+  cortex. The monkeys were trained to decide whether the direction of motion
+  was toward one of two choice targets that appeared on either side of the
+  random-dot stimulus. At the end of the trial, the monkeys reported their
+  direction judgment by making an eye movement to the appropriate target. We
+  studied neurons in LIP that exhibited spatially selective persistent activity
+  during delayed saccadic eye movement tasks. These neurons are thought to
+  carry high-level signals appropriate for identifying salient visual targets
+  and for guiding saccadic eye movements. We arranged the motion discrimination
+  task so that one of the choice targets was in the LIP neuron's response field
+  (RF) while the other target was positioned well away from the RF. During
+  motion viewing, neurons in LIP altered their firing rate in a manner that
+  predicted the saccadic eye movement that the monkey would make at the end of
+  the trial. The activity thus predicted the monkey's judgment of motion
+  direction. This predictive activity began early in the motion-viewing period
+  and became increasingly reliable as the monkey viewed the random-dot motion.
+  The neural activity predicted the monkey's direction judgment on both easy
+  and difficult trials (strong and weak motion), whether or not the judgment
+  was correct. In addition, the timing and magnitude of the response was
+  affected by the strength of the motion signal in the stimulus. When the
+  direction of motion was toward the RF, stronger motion led to larger neural
+  responses earlier in the motion-viewing period. When motion was away from the
+  RF, stronger motion led to greater suppression of ongoing activity. Thus the
+  activity of single neurons in area LIP reflects both the direction of an
+  impending gaze shift and the quality of the sensory information that
+  instructs such a response. The time course of the neural response suggests
+  that LIP accumulates sensory signals relevant to the selection of a target
+  for an eye movement.%
     }
     \verb{doi}
     \verb 10.1152/jn.2001.86.4.1916
     \endverb
-    \field{issn}{00223077}
+    \field{isbn}{0022-3077}
+    \field{issn}{0022-3077}
     \field{issue}{4}
     \field{pages}{1916\bibrangedash 1936}
-    \field{title}{Neural basis of a perceptual decision in the parietal cortex
-  (area LIP) of the rhesus monkey}
+    \field{title}{Neural Basis of a Perceptual Decision in the Parietal Cortex
+  (Area LIP) of the Rhesus Monkey}
+    \verb{url}
+    \verb http://www.physiology.org/doi/10.1152/jn.2001.86.4.1916
+    \endverb
     \field{volume}{86}
     \field{journaltitle}{Journal of Neurophysiology}
     \field{year}{2001}
@@ -4354,35 +5151,36 @@
 
   \entry{Snyder2014}{article}{}
     \name{author}{4}{}{%
-      {{hash=SA}{%
+      {{hash=SAC}{%
          family={Snyder},
          familyi={S\bibinitperiod},
-         given={A.C.},
-         giveni={A\bibinitperiod},
+         given={A\bibnamedelima C},
+         giveni={A\bibinitperiod\bibinitdelim C\bibinitperiod},
       }}%
-      {{hash=MM}{%
+      {{hash=MMJ}{%
          family={Morais},
          familyi={M\bibinitperiod},
-         given={M.J.},
-         giveni={M\bibinitperiod},
+         given={M\bibnamedelima J},
+         giveni={M\bibinitperiod\bibinitdelim J\bibinitperiod},
       }}%
       {{hash=KA}{%
          family={Kohn},
          familyi={K\bibinitperiod},
-         given={A.},
-         giveni={A\bibinitperiod},
+         given={A},
+         giveni={A},
       }}%
-      {{hash=SM}{%
+      {{hash=SMA}{%
          family={Smith},
          familyi={S\bibinitperiod},
-         given={M.A.},
-         giveni={M\bibinitperiod},
+         given={M\bibnamedelima A},
+         giveni={M\bibinitperiod\bibinitdelim A\bibinitperiod},
       }}%
     }
-    \keyw{Electrophysiology,Extra-classical receptive field,Population
-  coding,Spike count correlation,Surround suppression,V1}
-    \strng{namehash}{SA+1}
-    \strng{fullhash}{SAMMKASM1}
+    \keyw{Electrophysiology,Extra-classical receptive
+  field,HaydenQuals,Population coding,Spike count correlation,Surround
+  suppression,V1}
+    \strng{namehash}{SAC+1}
+    \strng{fullhash}{SACMMJKASMA1}
     \field{labelnamesource}{author}
     \field{labeltitlesource}{title}
     \field{labelyear}{2014}
@@ -4424,25 +5222,26 @@
       {{hash=SAC}{%
          family={Snyder},
          familyi={S\bibinitperiod},
-         given={Adam\bibnamedelima C.},
+         given={Adam\bibnamedelima C},
          giveni={A\bibinitperiod\bibinitdelim C\bibinitperiod},
       }}%
       {{hash=YBM}{%
          family={Yu},
          familyi={Y\bibinitperiod},
-         given={Byron\bibnamedelima M.},
+         given={Byron\bibnamedelima M},
          giveni={B\bibinitperiod\bibinitdelim M\bibinitperiod},
       }}%
       {{hash=SMA}{%
          family={Smith},
          familyi={S\bibinitperiod},
-         given={Matthew\bibnamedelima A.},
+         given={Matthew\bibnamedelima A},
          giveni={M\bibinitperiod\bibinitdelim A\bibinitperiod},
       }}%
     }
     \list{publisher}{1}{%
       {Springer US}%
     }
+    \keyw{HaydenQuals}
     \strng{namehash}{SACYBMSMA1}
     \strng{fullhash}{SACYBMSMA1}
     \field{labelnamesource}{author}
@@ -4484,19 +5283,19 @@
       {{hash=SAC}{%
          family={Snyder},
          familyi={S\bibinitperiod},
-         given={Adam\bibnamedelima C.},
+         given={Adam\bibnamedelima C},
          giveni={A\bibinitperiod\bibinitdelim C\bibinitperiod},
       }}%
       {{hash=YBM}{%
          family={Yu},
          familyi={Y\bibinitperiod},
-         given={Byron\bibnamedelima M.},
+         given={Byron\bibnamedelima M},
          giveni={B\bibinitperiod\bibinitdelim M\bibinitperiod},
       }}%
       {{hash=SMA}{%
          family={Smith},
          familyi={S\bibinitperiod},
-         given={Matthew\bibnamedelima A.},
+         given={Matthew\bibnamedelima A},
          giveni={M\bibinitperiod\bibinitdelim A\bibinitperiod},
       }}%
     }
@@ -4563,6 +5362,283 @@
     \field{year}{2021}
   \endentry
 
+  \entry{Steinmetz2021}{article}{}
+    \name{author}{39}{}{%
+      {{hash=SNA}{%
+         family={Steinmetz},
+         familyi={S\bibinitperiod},
+         given={Nicholas\bibnamedelima A.},
+         giveni={N\bibinitperiod\bibinitdelim A\bibinitperiod},
+      }}%
+      {{hash=AC}{%
+         family={Aydin},
+         familyi={A\bibinitperiod},
+         given={Cagatay},
+         giveni={C\bibinitperiod},
+      }}%
+      {{hash=LA}{%
+         family={Lebedeva},
+         familyi={L\bibinitperiod},
+         given={Anna},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=OM}{%
+         family={Okun},
+         familyi={O\bibinitperiod},
+         given={Michael},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=PM}{%
+         family={Pachitariu},
+         familyi={P\bibinitperiod},
+         given={Marius},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=BM}{%
+         family={Bauza},
+         familyi={B\bibinitperiod},
+         given={Marius},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=BM}{%
+         family={Beau},
+         familyi={B\bibinitperiod},
+         given={Maxime},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=BJ}{%
+         family={Bhagat},
+         familyi={B\bibinitperiod},
+         given={Jai},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=BC}{%
+         family={Böhm},
+         familyi={B\bibinitperiod},
+         given={Claudia},
+         giveni={C\bibinitperiod},
+      }}%
+      {{hash=BM}{%
+         family={Broux},
+         familyi={B\bibinitperiod},
+         given={Martijn},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=CS}{%
+         family={Chen},
+         familyi={C\bibinitperiod},
+         given={Susu},
+         giveni={S\bibinitperiod},
+      }}%
+      {{hash=CJ}{%
+         family={Colonell},
+         familyi={C\bibinitperiod},
+         given={Jennifer},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=GRJ}{%
+         family={Gardner},
+         familyi={G\bibinitperiod},
+         given={Richard\bibnamedelima J.},
+         giveni={R\bibinitperiod\bibinitdelim J\bibinitperiod},
+      }}%
+      {{hash=KB}{%
+         family={Karsh},
+         familyi={K\bibinitperiod},
+         given={Bill},
+         giveni={B\bibinitperiod},
+      }}%
+      {{hash=KF}{%
+         family={Kloosterman},
+         familyi={K\bibinitperiod},
+         given={Fabian},
+         giveni={F\bibinitperiod},
+      }}%
+      {{hash=KD}{%
+         family={Kostadinov},
+         familyi={K\bibinitperiod},
+         given={Dimitar},
+         giveni={D\bibinitperiod},
+      }}%
+      {{hash=MLC}{%
+         family={Mora-Lopez},
+         familyi={M\bibinithyphendelim L\bibinitperiod},
+         given={Carolina},
+         giveni={C\bibinitperiod},
+      }}%
+      {{hash=OJ}{%
+         family={O’Callaghan},
+         familyi={O\bibinitperiod},
+         given={John},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=PJ}{%
+         family={Park},
+         familyi={P\bibinitperiod},
+         given={Junchol},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=PJ}{%
+         family={Putzeys},
+         familyi={P\bibinitperiod},
+         given={Jan},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=SB}{%
+         family={Sauerbrei},
+         familyi={S\bibinitperiod},
+         given={Britton},
+         giveni={B\bibinitperiod},
+      }}%
+      {{hash=vDRJ}{%
+         prefix={van},
+         prefixi={v\bibinitperiod},
+         family={Daal},
+         familyi={D\bibinitperiod},
+         given={Rik\bibnamedelima J.J.},
+         giveni={R\bibinitperiod\bibinitdelim J\bibinitperiod},
+      }}%
+      {{hash=VAZ}{%
+         family={Vollan},
+         familyi={V\bibinitperiod},
+         given={Abraham\bibnamedelima Z.},
+         giveni={A\bibinitperiod\bibinitdelim Z\bibinitperiod},
+      }}%
+      {{hash=WS}{%
+         family={Wang},
+         familyi={W\bibinitperiod},
+         given={Shiwei},
+         giveni={S\bibinitperiod},
+      }}%
+      {{hash=WM}{%
+         family={Welkenhuysen},
+         familyi={W\bibinitperiod},
+         given={Marleen},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=YZ}{%
+         family={Ye},
+         familyi={Y\bibinitperiod},
+         given={Zhiwen},
+         giveni={Z\bibinitperiod},
+      }}%
+      {{hash=DJT}{%
+         family={Dudman},
+         familyi={D\bibinitperiod},
+         given={Joshua\bibnamedelima T.},
+         giveni={J\bibinitperiod\bibinitdelim T\bibinitperiod},
+      }}%
+      {{hash=DB}{%
+         family={Dutta},
+         familyi={D\bibinitperiod},
+         given={Barundeb},
+         giveni={B\bibinitperiod},
+      }}%
+      {{hash=HAW}{%
+         family={Hantman},
+         familyi={H\bibinitperiod},
+         given={Adam\bibnamedelima W.},
+         giveni={A\bibinitperiod\bibinitdelim W\bibinitperiod},
+      }}%
+      {{hash=HKD}{%
+         family={Harris},
+         familyi={H\bibinitperiod},
+         given={Kenneth\bibnamedelima D.},
+         giveni={K\bibinitperiod\bibinitdelim D\bibinitperiod},
+      }}%
+      {{hash=LAK}{%
+         family={Lee},
+         familyi={L\bibinitperiod},
+         given={Albert\bibnamedelima K.},
+         giveni={A\bibinitperiod\bibinitdelim K\bibinitperiod},
+      }}%
+      {{hash=MEI}{%
+         family={Moser},
+         familyi={M\bibinitperiod},
+         given={Edvard\bibnamedelima I.},
+         giveni={E\bibinitperiod\bibinitdelim I\bibinitperiod},
+      }}%
+      {{hash=OJ}{%
+         family={O’Keefe},
+         familyi={O\bibinitperiod},
+         given={John},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=RA}{%
+         family={Renart},
+         familyi={R\bibinitperiod},
+         given={Alfonso},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=SK}{%
+         family={Svoboda},
+         familyi={S\bibinitperiod},
+         given={Karel},
+         giveni={K\bibinitperiod},
+      }}%
+      {{hash=HM}{%
+         family={Häusser},
+         familyi={H\bibinitperiod},
+         given={Michael},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=HS}{%
+         family={Haesler},
+         familyi={H\bibinitperiod},
+         given={Sebastian},
+         giveni={S\bibinitperiod},
+      }}%
+      {{hash=CM}{%
+         family={Carandini},
+         familyi={C\bibinitperiod},
+         given={Matteo},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=HTD}{%
+         family={Harris},
+         familyi={H\bibinitperiod},
+         given={Timothy\bibnamedelima D.},
+         giveni={T\bibinitperiod\bibinitdelim D\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {American Association for the Advancement of Science}%
+    }
+    \strng{namehash}{SNA+1}
+  \strng{fullhash}{SNAACLAOMPMBMBMBJBCBMCSCJGRJKBKFKDMLCOJPJPJSBDRJvVAZWSWMYZDJTDBHAWHKDLAKMEIOJRASKHMHSCMHTD1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2021}
+    \field{labeldatesource}{}
+    \field{sortinit}{S}
+    \field{sortinithash}{S}
+    \field{abstract}{%
+    Measuring the dynamics of neural processing across time scales requires
+  following the spiking of thousands of individual neurons over milliseconds
+  and months. To address this need, we introduce the Neuropixels 2.0 probe
+  together with newly designed analysis algorithms. The probe has more than
+  5000 sites and is miniaturized to facilitate chronic implants in small
+  mammals and recording during unrestrained behavior. High-quality recordings
+  over long time scales were reliably obtained in mice and rats in six
+  laboratories. Improved site density and arrangement combined with newly
+  created data processing methods enable automatic post hoc correction for
+  brain movements, allowing recording from the same neurons for more than 2
+  months. These probes and algorithms enable stable recordings from thousands
+  of sites during free behavior, even in small animals such as mice.%
+    }
+    \verb{doi}
+    \verb 10.1126/science.abf4588
+    \endverb
+    \field{issn}{10959203}
+    \field{issue}{6539}
+    \field{title}{Neuropixels 2.0: A miniaturized high-density probe for
+  stable, long-term brain recordings}
+    \field{volume}{372}
+    \field{journaltitle}{Science}
+    \field{month}{04}
+    \field{year}{2021}
+  \endentry
+
   \entry{Tanigawa2010}{article}{}
     \name{author}{3}{}{%
       {{hash=TH}{%
@@ -4574,19 +5650,20 @@
       {{hash=LHD}{%
          family={Lu},
          familyi={L\bibinitperiod},
-         given={Haidong\bibnamedelima D.},
+         given={Haidong\bibnamedelima D},
          giveni={H\bibinitperiod\bibinitdelim D\bibinitperiod},
       }}%
       {{hash=RAW}{%
          family={Roe},
          familyi={R\bibinitperiod},
-         given={Anna\bibnamedelima W.},
+         given={Anna\bibnamedelima W},
          giveni={A\bibinitperiod\bibinitdelim W\bibinitperiod},
       }}%
     }
     \list{publisher}{1}{%
       {Nature Publishing Group}%
     }
+    \keyw{HaydenQuals}
     \strng{namehash}{THLHDRAW1}
     \strng{fullhash}{THLHDRAW1}
     \field{labelnamesource}{author}
@@ -4625,12 +5702,85 @@
     \field{year}{2010}
   \endentry
 
+  \entry{Touryan2015}{article}{}
+    \name{author}{2}{}{%
+      {{hash=TJ}{%
+         family={Touryan},
+         familyi={T\bibinitperiod},
+         given={Jon},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=MJA}{%
+         family={Mazer},
+         familyi={M\bibinitperiod},
+         given={James\bibnamedelima A.},
+         giveni={J\bibinitperiod\bibinitdelim A\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Frontiers Research Foundation}%
+    }
+    \keyw{Extra-striate visual cortex,Feature selectivity,Gaussian
+  bubbles,Natural scenes,Receptive field}
+    \strng{namehash}{TJMJA1}
+    \strng{fullhash}{TJMJA1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2015}
+    \field{labeldatesource}{}
+    \field{sortinit}{T}
+    \field{sortinithash}{T}
+    \field{abstract}{%
+    Extrastriate area V4 is a critical component of visual form processing in
+  both humans and non-human primates. Previous studies have shown that the
+  tuning properties of V4 neurons demonstrate an intermediate level of
+  complexity that lies between the narrow band orientation and spatial
+  frequency tuning of neurons in primary visual cortex and the highly complex
+  object selectivity seen in inferotemporal neurons. However, the nature of
+  feature selectivity within this cortical area is not well understood,
+  especially in the context of natural stimuli. Specifically, little is known
+  about how the tuning properties of V4 neurons, measured in isolation,
+  translate to feature selectivity within natural scenes. In this study, we
+  assessed the degree to which preferences for natural image components can
+  readily be inferred from classical orientation and spatial frequency tuning
+  functions. Using a psychophysically-inspired method we isolated and
+  identified the specific visual “driving features” occurring in natural
+  scene photographs that reliably elicited spiking activity from single V4
+  neurons. We then compared the measured driving features to those predicted
+  based on the spectral receptive field (SRF), estimated from responses to
+  narrowband sinusoidal grating stimuli. This approach provided a quantitative
+  framework for assessing the degree to which linear feature selectivity was
+  preserved during natural vision. First, we found evidence of both spectrally
+  and spatially tuned suppression within the receptive field, neither of which
+  were present in the linear SRF. Second, we found driving features that were
+  stable during translation of the image across the receptive field (due to
+  small fixational eye movements). The degree of translation invariance fell
+  along a continuum, with some cells showing nearly complete invariance across
+  the receptive field and others exhibiting little to no position invariance.
+  This form of limited translation invariance could indicate that a subset of
+  V4 neurons are insensitive to small fixational eye movements, supporting
+  perceptual stability during natural vision.%
+    }
+    \verb{doi}
+    \verb 10.3389/fnsys.2015.00082
+    \endverb
+    \field{issn}{16625137}
+    \field{issue}{MAY}
+    \field{pages}{1\bibrangedash 12}
+    \field{title}{Linear and non-linear properties of feature selectivity in V4
+  neurons}
+    \field{volume}{9}
+    \field{journaltitle}{Frontiers in Systems Neuroscience}
+    \field{month}{05}
+    \field{year}{2015}
+  \endentry
+
   \entry{Ungerleider1986}{article}{}
     \name{author}{2}{}{%
       {{hash=ULG}{%
          family={Ungerleider},
          familyi={U\bibinitperiod},
-         given={Leslie\bibnamedelima G.},
+         given={Leslie\bibnamedelima G},
          giveni={L\bibinitperiod\bibinitdelim G\bibinitperiod},
       }}%
       {{hash=DR}{%
@@ -4715,7 +5865,7 @@
       {{hash=WTN}{%
          family={Wiesel},
          familyi={W\bibinitperiod},
-         given={Torsten\bibnamedelima N.},
+         given={Torsten\bibnamedelima N},
          giveni={T\bibinitperiod\bibinitdelim N\bibinitperiod},
       }}%
     }
@@ -4736,29 +5886,40 @@
   \endentry
 
   \entry{Wimmer2016}{article}{}
-    \name{author}{3}{}{%
+    \name{author}{4}{}{%
       {{hash=WK}{%
          family={Wimmer},
          familyi={W\bibinitperiod},
-         given={Klaus},
-         giveni={K\bibinitperiod},
+         given={K},
+         giveni={K},
       }}%
-      {{hash=SP}{%
-         family={Spinelli},
-         familyi={S\bibinitperiod},
-         given={Philip},
-         giveni={P\bibinitperiod},
+      {{hash=RM}{%
+         family={Ramon},
+         familyi={R\bibinitperiod},
+         given={M},
+         giveni={M},
       }}%
       {{hash=PT}{%
          family={Pasternak},
          familyi={P\bibinitperiod},
-         given={Tatiana},
-         giveni={T\bibinitperiod},
+         given={T},
+         giveni={T},
+      }}%
+      {{hash=CA}{%
+         family={Compte},
+         familyi={C\bibinitperiod},
+         given={A},
+         giveni={A},
       }}%
     }
-    \keyw{Direction selectivity,Hemifields,Working memory}
-    \strng{namehash}{WKSPPT1}
-    \strng{fullhash}{WKSPPT1}
+    \keyw{and coordinate this activity,attention,brain state,but
+  also,cally,communicate through electrical impulses,decision making,from sleep
+  to waking,in ensembles that pulsate,instruments in an orchestra,motion
+  discrimination,neurons in the brain,prefrontal,rhythmi-,significance
+  statement,these rhythms change with,very much like musical,visual
+  perception,working memory}
+    \strng{namehash}{WK+1}
+    \strng{fullhash}{WKRMPTCA1}
     \field{labelnamesource}{author}
     \field{labeltitlesource}{title}
     \field{labelyear}{2016}
@@ -4766,40 +5927,55 @@
     \field{sortinit}{W}
     \field{sortinithash}{W}
     \field{abstract}{%
-    Visual decisions often involve comparisons of sequential stimuli that can
-  appear at any location in the visual field. The lateral prefrontal cortex
-  (LPFC) in nonhuman primates, shown to play an important role in such
-  comparisons, receives information about contralateral stimuli directly from
-  sensory neurons in the same hemisphere, and about ipsilateral stimuli
-  indirectly from neurons in the opposite hemisphere. This asymmetry of sensory
-  inputs into the LPFC poses the question of whether and how its neurons
-  incorporate sensory information arriving from the two hemispheres during
-  memory-guided comparisons of visual motion. We found that, although responses
-  of individual LPFC neurons to contralateral stimuli were stronger and emerged
-  40 ms earlier, they carried remarkably similar signals about motion direction
-  in the two hemifields, with comparable direction selectivity and similar
-  direction preferences. This similarity was also apparent around the time of
-  the comparison between the current and remembered stimulus because both
-  ipsilateral and contralateral responses showed similar signals reflecting the
-  remembered direction. However, despite availability in the LPFC of motion
-  information from across the visual field, these “comparison effects”
-  required for the comparison stimuli to appear at the same retinal location.
-  This strict dependence on spatial overlap of the comparison stimuli suggests
-  participation of neurons with localized receptive fields in the comparison
-  process. These results suggest that while LPFC incorporates many key aspects
-  of the information arriving from sensory neurons residing in opposite
-  hemispheres, it continues relying on the interactions with these neurons at
-  the time of generating signals leading to successful perceptual decisions.%
+    UNLABELLED Neuronal activity in the lateral prefrontal cortex (LPFC)
+  reflects the structure and cognitive demands of memory-guided sensory
+  discrimination tasks. However, we still do not know how neuronal activity
+  articulates in network states involved in perceiving, remembering, and
+  comparing sensory information during such tasks. Oscillations in local field
+  potentials (LFPs) provide fingerprints of such network dynamics. Here, we
+  examined LFPs recorded from LPFC of macaques while they compared the
+  directions or the speeds of two moving random-dot patterns, S1 and S2,
+  separated by a delay. LFP activity in the theta, beta, and gamma bands
+  tracked consecutive components of the task. In response to motion stimuli,
+  LFP theta and gamma power increased, and beta power decreased, but showed
+  only weak motion selectivity. In the delay, LFP beta power modulation
+  anticipated the onset of S2 and encoded the task-relevant S1 feature,
+  suggesting network dynamics associated with memory maintenance. After S2
+  onset the difference between the current stimulus S2 and the remembered S1
+  was strongly reflected in broadband LFP activity, with an early
+  sensory-related component proportional to stimulus difference and a later
+  choice-related component reflecting the behavioral decision buildup. Our
+  results demonstrate that individual LFP bands reflect both sensory and
+  cognitive processes engaged independently during different stages of the
+  task. This activation pattern suggests that during elementary cognitive
+  tasks, the prefrontal network transitions dynamically between states and that
+  these transitions are characterized by the conjunction of LFP rhythms rather
+  than by single LFP bands. SIGNIFICANCE STATEMENT Neurons in the brain
+  communicate through electrical impulses and coordinate this activity in
+  ensembles that pulsate rhythmically, very much like musical instruments in an
+  orchestra. These rhythms change with "brain state," from sleep to waking, but
+  also signal with different oscillation frequencies rapid changes between
+  sensory and cognitive processing. Here, we studied rhythmic electrical
+  activity in the monkey prefrontal cortex, an area implicated in working
+  memory, decision making, and executive control. Monkeys had to identify and
+  remember a visual motion pattern and compare it to a second pattern. We found
+  orderly transitions between rhythmic activity where the same frequency
+  channels were active in all ongoing prefrontal computations. This supports
+  prefrontal circuit dynamics that transitions rapidly between complex rhythmic
+  patterns during structured cognitive tasks.%
     }
     \verb{doi}
-    \verb 10.1523/JNEUROSCI.0843-16.2016
+    \verb 10.1523/JNEUROSCI.3678-15.2016
     \endverb
-    \field{issn}{15292401}
-    \field{issue}{36}
-    \field{pages}{9351\bibrangedash 9364}
-    \field{title}{Prefrontal neurons represent motion signals from across the
-  visual field but for memory-guided comparisons depend on neurons providing
-  these signals}
+    \field{isbn}{0270-6474}
+    \field{issn}{0270-6474}
+    \field{issue}{2}
+    \field{pages}{489\bibrangedash 505}
+    \field{title}{Transitions between Multiband Oscillatory Patterns
+  Characterize Memory-Guided Perceptual Decisions in Prefrontal Circuits}
+    \verb{url}
+    \verb http://www.jneurosci.org/cgi/doi/10.1523/JNEUROSCI.3678-15.2016
+    \endverb
     \field{volume}{36}
     \field{journaltitle}{Journal of Neuroscience}
     \field{year}{2016}
@@ -4816,13 +5992,13 @@
       {{hash=DBM}{%
          family={Dow},
          familyi={D\bibinitperiod},
-         given={Bruce\bibnamedelima M.},
+         given={Bruce\bibnamedelima M},
          giveni={B\bibinitperiod\bibinitdelim M\bibinitperiod},
       }}%
       {{hash=VRG}{%
          family={Vautin},
          familyi={V\bibinitperiod},
-         given={Robert\bibnamedelima G.},
+         given={Robert\bibnamedelima G},
          giveni={R\bibinitperiod\bibinitdelim G\bibinitperiod},
       }}%
     }
@@ -4878,13 +6054,13 @@
       {{hash=YBM}{%
          family={Yu},
          familyi={Y\bibinitperiod},
-         given={Byron\bibnamedelima M.},
+         given={Byron\bibnamedelima M},
          giveni={B\bibinitperiod\bibinitdelim M\bibinitperiod},
       }}%
       {{hash=CJP}{%
          family={Cunningham},
          familyi={C\bibinitperiod},
-         given={John\bibnamedelima P.},
+         given={John\bibnamedelima P},
          giveni={J\bibinitperiod\bibinitdelim P\bibinitperiod},
       }}%
       {{hash=SG}{%
@@ -4896,13 +6072,13 @@
       {{hash=RSI}{%
          family={Ryu},
          familyi={R\bibinitperiod},
-         given={Stephen\bibnamedelima I.},
+         given={Stephen\bibnamedelima I},
          giveni={S\bibinitperiod\bibinitdelim I\bibinitperiod},
       }}%
       {{hash=SKV}{%
          family={Shenoy},
          familyi={S\bibinitperiod},
-         given={Krishna\bibnamedelima V.},
+         given={Krishna\bibnamedelima V},
          giveni={K\bibinitperiod\bibinitdelim V\bibinitperiod},
       }}%
       {{hash=SM}{%
@@ -4944,8 +6120,8 @@
   extracted trajectories, we directly observed a convergence in neural state
   during motor plan- ning, an effect that was shown indirectly by previous
   studies. We then show how such methods can be a powerful tool for relating
-  the spiking activity across a neural population to the subject’s behavior
-  on a single- trial basis. Finally, to assess how well the proposed methods
+  the spiking activity across a neural population to the subject's behavior on
+  a single- trial basis. Finally, to assess how well the proposed methods
   characterize neural population activity when the underlying time course is
   known, we performed simulations that revealed that GPFA performed tens of
   percent better than the best two-stage method. INTRODUCTION%
