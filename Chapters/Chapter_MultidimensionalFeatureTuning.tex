@@ -31,13 +31,10 @@ We found several strong relationships (linear and nonlinear) between the latent 
 The subject used in this study was one adult male rhesus macaque \textit{(Macacca Mulatta)}, Tw. All surgical and experimental procedures were performed in accordance with the National Institutes of Health \textit{Guide for the Care and Use of Laboratory Animals} and were approved by the University of Rochester Committee for Animal Research.
 
 \subsubsection*{Surgical Procedures.}
-TW was given an initial dose of \textbf{$10 \frac{mg}{kg}$} ketamine i.m. to induce anesthesia. The animal was then maintained on \textbf{suftanil citrate (3– 6g/kg/h, i.v.), isoflurane ($0.5-1\%$), and nitrous oxide 1:2 in oxygen} throughout the experiment. We monitored ECG (electrocardiogram), temperature, expired $CO_2$, and \textbf{BLANK} in order to ensure depth of anesthesia. Craniotomies were made over V1 and V4 in the right hemisphere. The dura was reflected and then the craniotomies filled with \textbf{agaragar details}. Animals were then fit with contact lenses and paralyzed with \textbf{vencuronium bromide (0.2 mg/kg/h, i.v.)} before recording.
+TW was given an initial dose of ketamine (10mg/kg, IM) to induce anesthesia, as well as Atropine (0.05mg/kg, IM) and dexmethazone (1-4ml/kg, IM). The animal was then maintained on fentanyl (10–25micrograms/kg/h, i.v.), isoflurane ($0.25-1.5\%$), and nitrous oxide ()1:2, in oxygen) throughout the experiment. Animals were placed in a steriotaxic frame and body temperature was maintained with a thermostatically controlled heating blanket. Animals were monitored for ECG, temperature, expired $CO_2$, $SPO_2$, and blood pressure to maintain the anesthetic plane. Animals were also given lactated Ringer's with dextrose ($5-20$ml/kg/h, IV) to prevent dehydration, cefazolin (11mg/kg/h, IV) antibiotic. The scalp was first incised and retracted to uncover the right hemisphere from V1 to V4. Craniotomies were made over V1 and V4 in the right hemisphere. The dura was reflected and then the craniotomies filled with agar ($1\%$ in sterile saline). Animals were then fit with contact lenses and paralyzed with vencuronium bromide (0.1-0.6mg/kg/h, IV) before recording. After neurophysiological recordings were complete at 100 hours post initial anesthesia, animals were euthanized by an injection of sodium pentobarbital (80mg/kg, IV).
 
 \subsubsection*{Neural Recordings.}
-Neurophysiological recordings were done using steriotactic implantation of Phase 3B neuropixels \parencite{Jun2017} connected to \textbf{amplifier details} before being recorded using SpikeGLX. Neuropixels were lowered normal to the surface of the cortex in V4 and allowed to baseline for around 30 minutes prior to recording. Following several sessions in V4, we recorded from V1 neurons 
-
-\subsubsection*{Receptive Field Mapping.}
-Receptive fields were mapped by hand on a whiteboard and listening for spikes. Stimuli were then sized to best cover the conglomerate receptive fields of simultaneously recorded neurons.
+Neurophysiological recordings were done using steriotactic implantation of Phase 3B neuropixels \parencite{Jun2017} and recorded using SpikeGLX. Neuropixels were lowered normal to the surface of the cortex in V4 and allowed to baseline for around 30 minutes prior to recording. Following several sessions in V4, we recorded from V1 following the same procedures. Receptive fields were mapped by hand on a whiteboard and listening for spikes. Stimuli were then sized to best cover the conglomerate receptive fields of simultaneously recorded neurons.
 
 \subsubsection*{Visual Stimuli.}
 Naturalistic full-color images (as described in \ref{methods:gan}) were displayed on a gamma-calibrated 100Hz CRT monitor (ViewSonic, Brea, CA) placed 50-60cm from the animals' eyes. Stimulus control was done with ViSaGe system (Cambridge Research Systems, Rochester, UK) using crs 24-bit color mode in coordination with custom-written Matlab (Mathworks, Natick, MA; for optimization and display) and Python (GAN image generation) routines. Images were displayed on a grey background for 500ms with 1000ms inter-stimulus-intervals. 
@@ -65,12 +62,12 @@ A initial automatic step of maximum likelihood estimation of gaussian distributi
 All analyses were done with custom routines for Matlab 2022b (The MathWorks, Inc). Due to limitations in real-time spike sorting, a simplified definition of neural response was used during optimization. During the experiment, a neuron's response was defined as the number of threshold crossings (-4 standard deviations below the median noise) that occurred in a 500ms window from stimulus onset. 
 
 
-\subsection*{Generative Adversarial Network}
+\subsubsection*{Generative Adversarial Network}
 \label{methods:gan}
 \glsreset{gan}
 \Glspl{gan} are a type of artificial neural network that learn low-dimensional representations of higher-dimensional data, such as images \cite{Karras2019}. \glspl{gan} trained to generate images learned to map high-order image statistics onto a set of lower-dimensional latent variables. The \gls{gan} used in these experiments had a 128-dimensional input (latent) space, and was trained on the Cifar-10 image data set as described previously \cite{Fruend2018}. 
 
-\subsection{Particle Swarm}
+\subsubsection{Particle Swarm}
 Particle swarm utilizes a hive-mind approach to solve optimization problems. Each `particle’ corresponds to a point in the high dimensional stimulus space (an image), and travels through the space in order to maximize the $L^2$ norm of the population response. By moving through the stimulus space, the images change along latent feature dimensions, resulting in smooth image manipulation. Particles move through the stimulus space by integrating information about local gradients and neural responses to other particles. Particles therefore both compete and collaborate in order to explore the stimulus and response spaces. \\
 \gls{maps} is initialized with three generations of random points for each of 64 particles. This gives the kernel regression a history to estimate gradients. For subsequent generations, each particle takes a step $S_p$ according to three terms: the estimated local gradient $\nabla e_p$,  the weighted sum of vectors towards particles that resulted in better neural responses $G_p$, and a momentum term $M_p$ (Equation 1).
 
@@ -109,7 +106,7 @@ The next component (Equation \ref{globalPart}) is a weighted sum that uses infor
 	G_p = \sum_{k=1}^{u}\frac{(||r_k||-||r_p||)}{\sum_{j=1}^{u}||r_j||-||r_p||} \frac {x_k-x_p}{||x_k-x_p||}\label{globalPart}
 \end{equation}
 
-\subsection{Genetic Algorithm}
+\subsubsection*{Genetic Algorithm}
 Another common optimization algorithm for non-convex problems is the genetic algorithm \parencite{Katoch2021}. This approach draws inspiration from how organisms recombine their DNA to optimize offspring for their environment. The process is quite straightforward and consists of four distinct steps each generation:
 
 \begin{enumerate}
@@ -121,11 +118,11 @@ Another common optimization algorithm for non-convex problems is the genetic alg
 
 The genetic algorithm in this experiment was adapted from the XDREAM algorithm presented by \cite{Ponce2019}. Briefly, the algorithm is initiated with a random set of 64 stimuli and neural responses to each were recorded. Individual stimuli were then evaluated for optimality during the selection step by z-scoring neural responses within generation and then passing through a softmax function to turn them into probabilities. These are then used as the probability of being a parent during the next step, crossover. The top ten best stimuli are kept unaltered and shown again in the next generation along with 54 generated children. Once parents are selected from the probability distribution defined during selection, they contribute to the child in a $75\%/25\%$ ratio. During the final step, $25\%$ of the childrens' latents (genes) are randomly mutated. These mutations are drawn from a 0-centered gaussian with $\sigma=0.75$. Finally these new stimuli are shown to the neural population and the process repeats for the next generation.
 
-\subsection{Individual Neuron Models}
+\subsubsection*{Individual Neuron Models}
 Neurons were modeled using generalized linear regression with various stimulus parameters on spike count responses, assuming a Poisson distribution of responses. Two sets of predictors were considered for each neuron: GAN Latent variables and Pixel value predictors. Due to the difference in variable counts (128 latents and 3072 Pixel values) we first used PCA to reduce the dimensionality to 128 for the pixel predictors. We then used the difference in Akaikan-Information Criterion (AIC) to determine which set of predictors better explain the neural data within neuron.
 Negative values indicate that the GAN latent model was better, where positive values indicate that the pixel model was better. 
 
-\subsection{Relative Linearity}
+\subsubsection*{Relative Linearity}
 \label{methods:relativeLinearity}
 In order to directly compare the linearity of embedding across brain regions and sessions, one must control for the number of neurons recorded and the specific stimuli shown.
 
