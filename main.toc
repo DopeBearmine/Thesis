@@ -26,13 +26,10 @@
 \contentsline {section}{\numberline {4.1}Introduction}{55}{section.111}%
 \contentsline {section}{\numberline {4.2}Methods}{57}{section.112}%
 \contentsline {subsection}{\numberline {4.2.1}Anesthetized Experiment}{57}{subsection.113}%
-\contentsline {subsection}{\numberline {4.2.2}Alert Experiment}{59}{subsection.119}%
-\contentsline {subsection}{\numberline {4.2.3}Data Analysis}{62}{subsection.125}%
-\contentsline {subsection}{\numberline {4.2.4}Particle Swarm}{63}{subsection.127}%
-\contentsline {subsection}{\numberline {4.2.5}Genetic Algorithm}{64}{subsection.134}%
-\contentsline {subsection}{\numberline {4.2.6}Individual Neuron Models}{65}{subsection.139}%
-\contentsline {subsection}{\numberline {4.2.7}Relative Linearity}{66}{subsection.140}%
-\contentsline {section}{\numberline {4.3}Results}{66}{section.142}%
-\contentsline {section}{\numberline {4.4}Discussion}{78}{section.153}%
-\contentsline {section}{\numberline {4.5}Conclusion}{80}{section.154}%
-\contentsline {chapter}{Bibliography}{83}{chapter*.155}%
+\contentsline {subsection}{\numberline {4.2.2}Alert Experiment}{59}{subsection.118}%
+\contentsline {subsection}{\numberline {4.2.3}Data Analysis}{62}{subsection.124}%
+\contentsline {subsubsection}{Particle Swarm}{63}{section*.126}%
+\contentsline {section}{\numberline {4.3}Results}{66}{section.141}%
+\contentsline {section}{\numberline {4.4}Discussion}{77}{section.152}%
+\contentsline {section}{\numberline {4.5}Conclusion}{80}{section.153}%
+\contentsline {chapter}{Bibliography}{81}{chapter*.154}%
