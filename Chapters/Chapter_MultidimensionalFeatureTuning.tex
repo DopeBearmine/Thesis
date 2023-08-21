@@ -27,7 +27,7 @@ We found several strong relationships (linear and nonlinear) between the latent 
 
 \section{Methods}
 
-\subsection{Anesthetized Experiment}
+\subsection*{Anesthetized Experiment}
 The subject used in this study was one adult male rhesus macaque \textit{(Macacca Mulatta)}, Tw. All surgical and experimental procedures were performed in accordance with the National Institutes of Health \textit{Guide for the Care and Use of Laboratory Animals} and were approved by the University of Rochester Committee for Animal Research.
 
 \subsubsection*{Surgical Procedures.}
@@ -37,13 +37,13 @@ TW was given an initial dose of ketamine (10mg/kg, IM) to induce anesthesia, as 
 Neurophysiological recordings were done using steriotactic implantation of Phase 3B neuropixels \parencite{Jun2017} and recorded using SpikeGLX. Neuropixels were lowered normal to the surface of the cortex in V4 and allowed to baseline for around 30 minutes prior to recording. Following several sessions in V4, we recorded from V1 following the same procedures. Receptive fields were mapped by hand on a whiteboard and listening for spikes. Stimuli were then sized to best cover the conglomerate receptive fields of simultaneously recorded neurons.
 
 \subsubsection*{Visual Stimuli.}
-Naturalistic full-color images (as described in \ref{methods:gan}) were displayed on a gamma-calibrated 100Hz CRT monitor (ViewSonic, Brea, CA) placed 50-60cm from the animals' eyes. Stimulus control was done with ViSaGe system (Cambridge Research Systems, Rochester, UK) using crs 24-bit color mode in coordination with custom-written Matlab (Mathworks, Natick, MA; for optimization and display) and Python (GAN image generation) routines. Images were displayed on a grey background for 500ms with 1000ms inter-stimulus-intervals. 
+Naturalistic full-color images (as described in methods section: \hyperref[{methods:gan}]{Generative Adversarial Network}) were displayed on a gamma-calibrated 100Hz CRT monitor (ViewSonic, Brea, CA) placed 50-60cm from the animals' eyes. Stimulus control was done with ViSaGe system (Cambridge Research Systems, Rochester, UK) using crs 24-bit color mode in coordination with custom-written Matlab (Mathworks, Natick, MA; for optimization and display) and Python (GAN image generation) routines. Images were displayed on a grey background for 500ms with 1000ms inter-stimulus-intervals. 
 
 \subsubsection*{Data Preprocessing: Anesthetized.}
 Spiking data was first run through Kilosort \parencite{Steinmetz2021} to extract individual neurons across channels. Neuron quality was then manually evaluated using Phy before being converted to NeuroData without borders prior to further analyses. Neurons were included for analysis if they were identified as clean, independent units by Kilosort, totaling 1084 neurons in V1 from three optimization experiments (PSO, genetic, random) and 588 neurons in V4 from three separate optimization experiments. 
 
 
-\subsection{Alert Experiment}
+\subsection*{Alert Experiment}
 
 \subsubsection*{Surgical Procedures}
 Prior to any electrical recordings, the subject (Ro) was first implanted with a titanium head holder, trained on behavioral tasks, and then implanted with chronic electrode arrays. All surgeries we performed with isoflurane anesthesia, aseptic technique, and perioperative opiate analgesics in accordance with the National Institutes of Health \textit{Guide for the Care and Use of Laboratory Animals} and were approved by the University of Rochester Committee for Animal Research.
@@ -58,7 +58,7 @@ Prior to any electrical recordings, the subject (Ro) was first implanted with a 
 A initial automatic step of maximum likelihood estimation of gaussian distribution parameters. After this automatic step, results were manually refined using custom routines for MatLab \parencite{Kelly2007}
 
 
-\subsection{Data Analysis}
+\subsection*{Data Analysis}
 All analyses were done with custom routines for Matlab 2022b (The MathWorks, Inc). Due to limitations in real-time spike sorting, a simplified definition of neural response was used during optimization. During the experiment, a neuron's response was defined as the number of threshold crossings (-4 standard deviations below the median noise) that occurred in a 500ms window from stimulus onset. 
 
 
@@ -67,7 +67,7 @@ All analyses were done with custom routines for Matlab 2022b (The MathWorks, Inc
 \glsreset{gan}
 \Glspl{gan} are a type of artificial neural network that learn low-dimensional representations of higher-dimensional data, such as images \cite{Karras2019}. \glspl{gan} trained to generate images learned to map high-order image statistics onto a set of lower-dimensional latent variables. The \gls{gan} used in these experiments had a 128-dimensional input (latent) space, and was trained on the Cifar-10 image data set as described previously \cite{Fruend2018}. 
 
-\subsubsection{Particle Swarm}
+\subsubsection*{Particle Swarm}
 Particle swarm utilizes a hive-mind approach to solve optimization problems. Each `particle’ corresponds to a point in the high dimensional stimulus space (an image), and travels through the space in order to maximize the $L^2$ norm of the population response. By moving through the stimulus space, the images change along latent feature dimensions, resulting in smooth image manipulation. Particles move through the stimulus space by integrating information about local gradients and neural responses to other particles. Particles therefore both compete and collaborate in order to explore the stimulus and response spaces. \\
 \gls{maps} is initialized with three generations of random points for each of 64 particles. This gives the kernel regression a history to estimate gradients. For subsequent generations, each particle takes a step $S_p$ according to three terms: the estimated local gradient $\nabla e_p$,  the weighted sum of vectors towards particles that resulted in better neural responses $G_p$, and a momentum term $M_p$ (Equation 1).
 
@@ -142,8 +142,8 @@ Two adult male Rhesus Macaques (\textit{Macaca mulatta}) were shown a series of 
 \begin{figure}
 	\centering
 	\includegraphics[width=172mm]{exampleImagesWreconstruction.png}
-	\caption{Example Stimuli.}{Four example images generated by the 128 GAN latents (top row) and their pixel reconstruction after dimensionality reduction with PCA (bottom row).}
-	\label{fig:exampleReconstructions}
+	{\caption{{\it Example GAN Stimuli.} Four example images generated by the 128 GAN latents (top row) and their pixel reconstruction after dimensionality reduction with PCA (bottom row).}
+	\label{fig:exampleReconstructions}}
 \end{figure}
 
 We first looked at the relationship between stimulus parameters and individual neuron responses. We fit generalized linear models for our 128 GAN latent variables to spike count responses. For each neuron we then also used the actual pixel values shown as predictors for separate models and then compared the AICs in figure \ref{fig:modelAICs}A. As lower AIC indicates a better model, we found that GAN latents are better predictors of neural activity for the majority of neurons (Figure \ref{fig:modelAICs}B).
@@ -151,8 +151,8 @@ We first looked at the relationship between stimulus parameters and individual n
 \begin{figure}
 	\centering
 	\includegraphics[width=80mm]{LatentVsPixelGLM.png}
-	\caption{Individual neuron model fits}{A.) AIC for GLMs using the GAN latents as predictors (x-axis) and the pixel predictors (y-axis) on neuron spike counts. B.) Relative change in AIC across models for individual neurons. Negative values indicate that the GAN latents are better predictors of neural data while positive values indicate that the pixel model was better. The latent model was better on average in both brain regions (V1: $t=-10.26$, $p=1.54 \cdot 10^{-23}$, V4: $t=-6.02$, $p=3.46\cdot 10^{-9}$; t-test).}
-	\label{fig:modelAICs}
+	{\caption{{\it Individual neuron model fits} A.) AIC for GLMs using the GAN latents as predictors (x-axis) and the pixel predictors (y-axis) on neuron spike counts. B.) Relative change in AIC across models for individual neurons. Negative values indicate that the GAN latents are better predictors of neural data while positive values indicate that the pixel model was better. The latent model was better on average in both brain regions (V1: $t=-10.26$, $p=1.54 \cdot 10^{-23}$, V4: $t=-6.02$, $p=3.46\cdot 10^{-9}$; t-test).}
+	\label{fig:modelAICs}}
 \end{figure}
 
 One of the benefits of our approach is the use of high-density electrode recordings afford us population-level analyses of high-dimensional stimuli. The first approach we used to understanding these neural mainfolds is through \gls{cca}. \gls{cca} is a powerful tool in situations where we have high-dimensional predictor variables (latents; Figure \ref{fig:ccaIntuition}A) and high-dimensional response variables (neurons; Figure \ref{fig:ccaIntuition}B). Normally, with a standard basis set, we may find only weak relationships (Figure \ref{fig:ccaIntuition}C). \gls{cca} allows us to take advantage of the dimensionality by rotating and organizing the predictor and response spaces to front-load all linear relationships (Figure \ref{fig:ccaIntuition}D). This demonstrates the principal that while the predictor and response spaces in figure \ref{fig:ccaIntuition} don't appear that related at first glance, a simple change of perspective can clarify much.
@@ -160,8 +160,8 @@ One of the benefits of our approach is the use of high-density electrode recordi
 \begin{figure}
 	\centering
 	\includegraphics[width=160mm]{CCAintuitionFigure.png}
-	\caption{Canonical Correlations in neural data}{A.) Simulated stimulus data where points were randomly selected to span an arbitrary space. The red line indicates the axis chosen by CCA for panel D. B.) Neural state space of stimuli from panel A, where each axis is the firing rate of a neuron. Data was centered for visualization purposes as CCA also centers data. The purple line indicates the axis in neural space chosen by CCA for panel D. C.) Original correlation between neuron 1 (panel B) and latent 1 (panel A). D.) First canonical variable pair from the data in panels A and B. The X and Y axes are now linear combinations of the latent and neural dimensions respectively. }
-	\label{fig:ccaIntuition}
+	{\caption{{\it Canonical Correlations in neural data} A.) Simulated stimulus data where points were randomly selected to span an arbitrary space. The red line indicates the axis chosen by CCA for panel D. B.) Neural state space of stimuli from panel A, where each axis is the firing rate of a neuron. Data was centered for visualization purposes as CCA also centers data. The purple line indicates the axis in neural space chosen by CCA for panel D. C.) Original correlation between neuron 1 (panel B) and latent 1 (panel A). D.) First canonical variable pair from the data in panels A and B. The X and Y axes are now linear combinations of the latent and neural dimensions respectively. }
+	\label{fig:ccaIntuition}}
 \end{figure}
 
 We solved the problem of which stimuli to show using one of three optimization algorithms: \gls{pso}, genetic algorithm, or randomly selected stimuli. We then used \gls{cca} on 6 sessions, one for each algorithm in each brain area, and calculated the correlation between neural activity and GAN latent variables. Directly comparing these values poses a problem though, as \gls{cca} is sensitive to the original dimensionality. So if one session has more or fewer neurons, their correlations wont be comparable. To correct for this we boostrapped \gls{cca} on permuted data within session 100 times and subtracted out what correlations would be expected at chance (Figure \ref{fig:ccaR}). In both V1 and V4, the genetic algorithm outperformed both \gls{pso} and random in finding significantly tuned latent dimensions. Linear stimulus tuning was uncovered even when no optimization was performed, lending credence to the idea that this tuning to GAN latent dimensions is real and not an artifact of optimization.
@@ -169,8 +169,8 @@ We solved the problem of which stimuli to show using one of three optimization a
 \begin{figure}
 	\centering
 	\includegraphics[width=130mm]{CCArValuesByAlgorithm.png}
-	\caption{Baseline-Corrected R values}{The baseline-corrected r values for each canonical variable pair across brain region and algorithm. Baseline correction was calculated by subtracting out the distribution of r values calculated from randomly permuting predictors and calculating CCA 100 times. The number of significant CCA pairs was calculated using Rao's approximate F statistic.}
-	\label{fig:ccaR}
+	{\caption{{\it Baseline-Corrected R values} The baseline-corrected r values for each canonical variable pair across brain region and algorithm. Baseline correction was calculated by subtracting out the distribution of r values calculated from randomly permuting predictors and calculating CCA 100 times. The number of significant CCA pairs was calculated using Rao's approximate F statistic.}
+	\label{fig:ccaR}}
 \end{figure}
 
 We next wanted to take a closer look at the specific neuron-focused stimulus dimensions that were uncovered in these experiments. In figure \ref{fig:cca1V1}, we show the strongest linear relationships between neurons and \gls{gan} latents across the algorithms. Interestingly, both optimization algorithms found similar ideal dimensions characterized by high contrast dark patches on yellow-green backgrounds (Figure \ref{fig:cca1V1}G\&H). We also see that randomly presenting stimuli results in a much more coarse feature dimension that is largely just light vs dark patches (Figure \ref{fig:cca1V1}I). This is in line with previous studies in V1, and our understanding of simple cells responding best to monochromatic, high-contrast gabors. As for how the algorithm explored the neural manifolds, \gls{pso} transitioned much more smoothly (Figure \ref{fig:cca1V1}D) while the genetic algorithm jumped around more sporadically (Figure \ref{fig:cca1V1}E). Despite the different approaches, it is reassuring to see similar features arise across algorithms that tie in neatly to prior studies in V1.
@@ -178,8 +178,8 @@ We next wanted to take a closer look at the specific neuron-focused stimulus dim
 \begin{figure}
 	\centering
 	\includegraphics[width=172mm]{CCA1acrossAlgorithmsV1.png}
-	\caption{Linear Relationships in V1}{A.) Top CCA pair for a PSO session in V1. Each point is one stimulus and color indicates the normalized $L^2$ norm of the population response vector to that image. B.) Same as panel A for a session optimized with the genetic algorithm. C.) Same as panels A\&B for a session in which no optimization was performed, and instead random images were shown. D-F.) Same as panels A-C except the color now indicates the order of stimuli in the session. G-I.) The GAN latent dimension that CCA found was most linearly related to neural activity for each algorithm. These dimensions correspond to the X-axes in panels A-F.}
-	\label{fig:cca1V1}
+	{\caption{{\it Linear Relationships in V1} A.) Top CCA pair for a PSO session in V1. Each point is one stimulus and color indicates the normalized $L^2$ norm of the population response vector to that image. B.) Same as panel A for a session optimized with the genetic algorithm. C.) Same as panels A\&B for a session in which no optimization was performed, and instead random images were shown. D-F.) Same as panels A-C except the color now indicates the order of stimuli in the session. G-I.) The GAN latent dimension that CCA found was most linearly related to neural activity for each algorithm. These dimensions correspond to the X-axes in panels A-F.}
+	\label{fig:cca1V1}}
 \end{figure}
 
 Similar to V1, our experiment found strong linear relationships between the \gls{gan} latent space and neural responses. Again, \gls{pso} and genetic algorithms found starkly similar feature dimensions (Figure \ref{fig:cca1V1}G\&H), while random stimulus presentations found low-contrast global color patches, this time from yellow to blue (Figure \ref{fig:cca1V4}I).
@@ -187,8 +187,8 @@ Similar to V1, our experiment found strong linear relationships between the \gls
 \begin{figure}
 	\centering
 	\includegraphics[width=172mm]{CCA1acrossAlgorithmsV4.png}
-	\caption{Linear Relationshipsin V4}{A.) Top CCA pair for a PSO session in V4. Each point is one stimulus and color indicates the normalized $L^2$ norm of the population response vector to that image. B.) Same as panel A for a session optimized with the genetic algorithm. C.) Same as panels A\&B for a session in which no optimization was performed, and instead random images were shown. D-F.) Same as panels A-C except the color now indicates the order of stimuli in the session. G-I.) The GAN latent dimension that CCA found was most linearly related to neural activity for each algorithm. These dimensions correspond to the X-axes in panels A-F.}
-	\label{fig:cca1V4}
+	{\caption{{\it Linear Relationshipsin V4} A.) Top CCA pair for a PSO session in V4. Each point is one stimulus and color indicates the normalized $L^2$ norm of the population response vector to that image. B.) Same as panel A for a session optimized with the genetic algorithm. C.) Same as panels A\&B for a session in which no optimization was performed, and instead random images were shown. D-F.) Same as panels A-C except the color now indicates the order of stimuli in the session. G-I.) The GAN latent dimension that CCA found was most linearly related to neural activity for each algorithm. These dimensions correspond to the X-axes in panels A-F.}
+	\label{fig:cca1V4}}
 \end{figure}
 
 
@@ -197,38 +197,38 @@ Similar to V1, our experiment found strong linear relationships between the \gls
 \begin{figure}
 	\centering
 	\includegraphics[width=172mm]{cca1ProjectionsCombined.png}
-	\caption{Projections onto CCA1}{The value of projections onto Canonical variable pair 1 for each stimulus shown. PSO tends to pick one side of the latent space that it knows has strong optimization evaluations, whereas the genetic algorithm explores more.}
-	\label{fig:ccaProjections}
+	{\caption{{\it Projections onto CCA1}The value of projections onto Canonical variable pair 1 for each stimulus shown. PSO tends to pick one side of the latent space that it knows has strong optimization evaluations, whereas the genetic algorithm explores more.}
+	\label{fig:ccaProjections}}
 \end{figure}
 
- In addition to linear stimulus-response functions, it is well known that mid-level visual areas like V4 demonstrate nonlinear tuning. We decided to use an approach similar to \gls{cca}, \gls{dca}. Instead of maximizing the correlation between pairs of stimulus/response dimensions, \gls{dca} maximizes the distance covariance. One of the drawbacks of pearson correlation is that a value of 0 does not necessarily mean the variables are independent, a drawback that distance correlation does not share. In this way, \gls{dca} can be conceptualized as a version of \gls{cca} where both linear and nonlinear relationships are taken into account. We ran \gls{dca} on the same sessions as \gls{cca} and calculated the distance correlation and significance following \cite{Shen2021}. All three session in both brain areas resulted in significant relationships between the \gls{gan} and neural responses, though to different degrees.
+ In addition to linear stimulus-response functions, it is well known that mid-level visual areas like V4 demonstrate nonlinear tuning. We decided to use an approach similar to \gls{cca}, \gls{dca}. Instead of maximizing the correlation between pairs of stimulus/response dimensions, \gls{dca} maximizes the distance covariance. One of the drawbacks of pearson correlation is that a value of 0 does not necessarily mean the variables are independent, a drawback that distance correlation does not share. In this way, \gls{dca} can be conceptualized as a version of \gls{cca} where both linear and nonlinear relationships are taken into account. We ran \gls{dca} on the same sessions as \gls{cca} and calculated the distance correlation and significance following \cite{Shen2022}. All three session in both brain areas resulted in significant relationships between the \gls{gan} and neural responses, though to different degrees.
  
 \begin{figure}
 	\centering
 	\includegraphics[width=172mm]{DCA1acrossAlgorithmsV1.png}
-	\caption{DCA pair 1 in V1 across Algorithms}{Very insightful caption}
-	\label{fig:dca1V1}
+	{\caption{{\it DCA pair 1 in V1 across Algorithms} A.) Top DCA pair for a PSO session in V4. Each point is one stimulus and color indicates the normalized $L^2$ norm of the population response vector to that image. B.) Same as panel A for a session optimized with the genetic algorithm. C.) Same as panels A\&B for a session in which no optimization was performed, and instead random images were shown. D-F.) Same as panels A-C except the color now indicates the order of stimuli in the session. G-I.) The GAN latent dimension that DCA found was most strongly related to neural activity for each algorithm. These dimensions correspond to the X-axes in panels A-F.}
+	\label{fig:dca1V1}}
 \end{figure}
 
 
 \begin{figure}
 	\centering
 	\includegraphics[width=172mm]{DCA1acrossAlgorithmsV4.png}
-	\caption{DCA pair 1 in V4 across Algorithms}{A.) Top DCA pair for a PSO session in V4. Each point is one stimulus and color indicates the normalized $L^2$ norm of the population response vector to that image. B.) Same as panel A for a session optimized with the genetic algorithm. C.) Same as panels A\&B for a session in which no optimization was performed, and instead random images were shown. D-F.) Same as panels A-C except the color now indicates the order of stimuli in the session. G-I.) The GAN latent dimension that DCA found was most strongly related to neural activity for each algorithm. These dimensions correspond to the X-axes in panels A-F.}
-	\label{fig:dca1V4}
+	{\caption{{\it DCA pair 1 in V4 across Algorithms} A.) Top DCA pair for a PSO session in V4. Each point is one stimulus and color indicates the normalized $L^2$ norm of the population response vector to that image. B.) Same as panel A for a session optimized with the genetic algorithm. C.) Same as panels A\&B for a session in which no optimization was performed, and instead random images were shown. D-F.) Same as panels A-C except the color now indicates the order of stimuli in the session. G-I.) The GAN latent dimension that DCA found was most strongly related to neural activity for each algorithm. These dimensions correspond to the X-axes in panels A-F.}
+	\label{fig:dca1V4}}
 \end{figure}
 
-Another question we had was how linear the stimulus-response relationship was across brain region. In order to test this we calculated relative linearity (Methods: section \ref{methods:relativeLinearity}). This metric calculate the distance covariance for the data and the residuals from \gls{cca}, and provides a single number $x \in [-1,1]$ that parses out the contribution of linearity to the distance covariance for each dimension found with \gls{dca}. We did this for both \gls{gan} and pixel predictors in V1 and V4, and found that regardless of algorithm and predictors, V1 maintained consistently linear whereas V4 had a much more nonlinear contribution to the stimulus-response function (Figure \ref{fig:dcaLinearity}).
+Another question we had was how linear the stimulus-response relationship was across brain region. In order to test this we calculated relative linearity (\hyperref[{methods:relativeLinearity}]{Methods}). This metric calculate the distance covariance for the data and the residuals from \gls{cca}, and provides a single number $x \in [-1,1]$ that parses out the contribution of linearity to the distance covariance for each dimension found with \gls{dca}. We did this for both \gls{gan} and pixel predictors in V1 and V4, and found that regardless of algorithm and predictors, V1 maintained consistently linear whereas V4 had a much more nonlinear contribution to the stimulus-response function (Figure \ref{fig:dcaLinearity}).
 	
 \begin{figure}
 	\centering
 	\includegraphics[width=172mm]{DCAresidualDCAbyBrainRegion.png}
-	\caption{Relative Linearity by Brain region}{A.) Linearity of neural/stimulus relationships by DCA dimension pairs. Stimulus parameters used were the GAN latent variables. DCA dimensoin pairs are organized by descending distance covariance and relative linearity was calculated as described in methods section \ref{methods:relativeLinearity}. Each line represents one session, and is colored according to brain area. B.) Same as panel A for pixel predictors.}
-	\label{fig:dcaLinearity}
+	{\caption{{\it Relative Linearity by Brain region} A.) Linearity of neural/stimulus relationships by DCA dimension pairs. Stimulus parameters used were the GAN latent variables. DCA dimensoin pairs are organized by descending distance covariance and relative linearity was calculated as described in \hyperref[{methods:relativeLinearity}]{Methods}. Each line represents one session, and is colored according to brain area. B.) Same as panel A for pixel predictors.}
+	\label{fig:dcaLinearity}}
 \end{figure}
 	
 
-	
+
 \section{Discussion}
 \glsresetall
 In this paper we sought to investigate the relationship between neural population activity and the high-dimensional naturalistic stimulus space generated by a \gls{gan}. Our goal was to develop a pipeline for one-stop-shopping tuning analyses that removed assumptions about brain area, stimulus parameters, and optimization approach. We presented procedurally-generated stimuli to subjects while recording in either V1 or V4, using optimization on the $L^2$ norm of the population response vector to search the neural response manifold. Stimuli were generated using one of three approaches: \gls{pso}, a genetic algorithm, or random stimuli. We found strong linear and nonlinear relationships between the \gls{gan} latent space and neural response space in both V1 and V4, and the \gls{gan} was an even better model for neural activity than the actual pixel values shown.

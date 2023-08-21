@@ -315,11 +315,13 @@
       {{hash=DJJ}{%
          family={DiCarlo},
          familyi={D\bibinitperiod},
-         given={James\bibnamedelima J},
+         given={James\bibnamedelima J.},
          giveni={J\bibinitperiod\bibinitdelim J\bibinitperiod},
       }}%
     }
-    \keyw{HaydenQuals}
+    \list{publisher}{1}{%
+      {American Association for the Advancement of Science}%
+    }
     \strng{namehash}{BPKKDJJ1}
     \strng{fullhash}{BPKKDJJ1}
     \field{labelnamesource}{author}
@@ -329,17 +331,17 @@
     \field{sortinit}{B}
     \field{sortinithash}{B}
     \field{abstract}{%
-    Particular deep artificial neural networks (ANNs) are today's most accurate
-  models of the primate brain's ventral visual stream. Using an ANN-driven
-  image synthesis method, we found that luminous power patterns (i.e., images)
-  can be applied to primate retinae to predictably push the spiking activity of
-  targeted V4 neural sites beyond naturally occurring levels. This method,
-  although not yet perfect, achieves unprecedented independent control of the
-  activity state of entire populations of V4 neural sites, even those with
-  overlapping receptive fields. These results show how the knowledge embedded
-  in today's ANN models might be used to noninvasively set desired internal
-  brain states at neuron-level resolution, and suggest that more accurate ANN
-  models would produce even more accurate control.%
+    Particular deep artificial neural networks (ANNs) are today’s most
+  accurate models of the primate brain’s ventral visual stream. Using an
+  ANN-driven image synthesis method, we found that luminous power patterns
+  (i.e., images) can be applied to primate retinae to predictably push the
+  spiking activity of targeted V4 neural sites beyond naturally occurring
+  levels. This method, although not yet perfect, achieves unprecedented
+  independent control of the activity state of entire populations of V4 neural
+  sites, even those with overlapping receptive fields. These results show how
+  the knowledge embedded in today’s ANN models might be used to noninvasively
+  set desired internal brain states at neuron-level resolution, and suggest
+  that more accurate ANN models would produce even more accurate control.%
     }
     \verb{doi}
     \verb 10.1126/science.aav9436
@@ -349,6 +351,7 @@
     \field{title}{Neural population control via deep image synthesis}
     \field{volume}{364}
     \field{journaltitle}{Science}
+    \field{month}{05}
     \field{year}{2019}
   \endentry
 
@@ -856,7 +859,8 @@
     \strng{fullhash}{BWMBA1}
     \field{labelnamesource}{author}
     \field{labeltitlesource}{title}
-    \field{labeldatesource}{nodate}
+    \field{labelyear}{2006}
+    \field{labeldatesource}{}
     \field{sortinit}{B}
     \field{sortinithash}{B}
     \field{abstract}{%
@@ -870,6 +874,7 @@
   dimensions and higher, there is an optimal tuning width.%
     }
     \field{title}{Optimal Neuronal Tuning for Finite Stimulus Spaces}
+    \field{year}{2006}
   \endentry
 
   \entry{Butts2006}{article}{}
@@ -3536,6 +3541,47 @@
     \field{year}{2001}
   \endentry
 
+  \entry{Mirjalili2019}{misc}{}
+    \name{author}{1}{}{%
+      {{hash=MS}{%
+         family={Mirjalili},
+         familyi={M\bibinitperiod},
+         given={Seyedali},
+         giveni={S\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Springer International Publishing}%
+    }
+    \strng{namehash}{MS1}
+    \strng{fullhash}{MS1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2019}
+    \field{labeldatesource}{}
+    \field{sortinit}{M}
+    \field{sortinithash}{M}
+    \field{abstract}{%
+    Genetic Algorithm (GA) is one of the first population-based stochastic
+  algorithm proposed in the history. Similar to other EAs, the main operators
+  of GA are selection, crossover, and mutation. This chapter briefly presents
+  this algorithm and applies it to several case studies to observe its
+  performance.%
+    }
+    \verb{doi}
+    \verb 10.1007/978-3-319-93025-1_4
+    \endverb
+    \field{isbn}{978-3-319-93025-1}
+    \field{pages}{43\bibrangedash 55}
+    \field{title}{Genetic Algorithm}
+    \verb{url}
+    \verb https://doi.org/10.1007/978-3-319-93025-1_4
+    \endverb
+    \field{journaltitle}{Evolutionary Algorithms and Neural Networks: Theory
+  and Applications}
+    \field{year}{2019}
+  \endentry
+
   \entry{Mitchell2007}{article}{}
     \name{author}{3}{}{%
       {{hash=MJF}{%
@@ -5149,6 +5195,73 @@
     \field{year}{2001}
   \endentry
 
+  \entry{Shen2022}{article}{}
+    \name{author}{3}{}{%
+      {{hash=SC}{%
+         family={Shen},
+         familyi={S\bibinitperiod},
+         given={Cencheng},
+         giveni={C\bibinitperiod},
+      }}%
+      {{hash=PS}{%
+         family={Panda},
+         familyi={P\bibinitperiod},
+         given={Sambit},
+         giveni={S\bibinitperiod},
+      }}%
+      {{hash=VJT}{%
+         family={Vogelstein},
+         familyi={V\bibinitperiod},
+         given={Joshua\bibnamedelima T.},
+         giveni={J\bibinitperiod\bibinitdelim T\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {American Statistical Association}%
+    }
+    \keyw{Centered chi-squared distribution,Nonparametric test,Testing
+  independence,Unbiased distance covariance}
+    \strng{namehash}{SCPSVJT1}
+    \strng{fullhash}{SCPSVJT1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2022}
+    \field{labeldatesource}{}
+    \field{sortinit}{S}
+    \field{sortinithash}{S}
+    \field{abstract}{%
+    Distance correlation has gained much recent attention in the data science
+  community: the sample statistic is straightforward to compute and
+  asymptotically equals zero if and only if independence, making it an ideal
+  choice to discover any type of dependency structure given sufficient sample
+  size. One major bottleneck is the testing process: because the null
+  distribution of distance correlation depends on the underlying random
+  variables and metric choice, it typically requires a permutation test to
+  estimate the null and compute the p-value, which is very costly for large
+  amount of data. To overcome the difficulty, in this article, we propose a
+  chi-squared test for distance correlation. Method-wise, the chi-squared test
+  is nonparametric, extremely fast, and applicable to bias-corrected distance
+  correlation using any strong negative type metric or characteristic kernel.
+  The test exhibits a similar testing power as the standard permutation test,
+  and can be used for K-sample and partial testing. Theory-wise, we show that
+  the underlying chi-squared distribution well approximates and dominates the
+  limiting null distribution in upper tail, prove the chi-squared test can be
+  valid and universally consistent for testing independence, and establish a
+  testing power inequality with respect to the permutation test. Supplementary
+  files for this article are available online.%
+    }
+    \verb{doi}
+    \verb 10.1080/10618600.2021.1938585
+    \endverb
+    \field{issn}{15372715}
+    \field{issue}{1}
+    \field{pages}{254\bibrangedash 262}
+    \field{title}{The Chi-Square Test of Distance Correlation}
+    \field{volume}{31}
+    \field{journaltitle}{Journal of Computational and Graphical Statistics}
+    \field{year}{2022}
+  \endentry
+
   \entry{Snyder2014}{article}{}
     \name{author}{4}{}{%
       {{hash=SAC}{%
@@ -5283,30 +5396,28 @@
       {{hash=SAC}{%
          family={Snyder},
          familyi={S\bibinitperiod},
-         given={Adam\bibnamedelima C},
+         given={Adam\bibnamedelima C.},
          giveni={A\bibinitperiod\bibinitdelim C\bibinitperiod},
       }}%
       {{hash=YBM}{%
          family={Yu},
          familyi={Y\bibinitperiod},
-         given={Byron\bibnamedelima M},
+         given={Byron\bibnamedelima M.},
          giveni={B\bibinitperiod\bibinitdelim M\bibinitperiod},
       }}%
       {{hash=SMA}{%
          family={Smith},
          familyi={S\bibinitperiod},
-         given={Matthew\bibnamedelima A},
+         given={Matthew\bibnamedelima A.},
          giveni={M\bibinitperiod\bibinitdelim A\bibinitperiod},
       }}%
     }
-    \keyw{and visual cortical areas,are distributed between
-  prefrontal,attention,attention requires maintaining
-  a,extrastriate,monkey,population,prefrontal,respectively,significance
-  statement,simultaneously improving perceptual sensitivity,stability and
-  sensitivity,stable mental state while,that these two demands,vision,we
-  hypothesized}
-    \strng{namehash}{SACYBMSMA1}
-    \strng{fullhash}{SACYBMSMA1}
+    \list{publisher}{1}{%
+      {Society for Neuroscience}%
+    }
+    \keyw{Attention,Extrastriate,Monkey,Population,Prefrontal,Vision}
+    \strng{namehash}{SACYBMSMA2}
+    \strng{fullhash}{SACYBMSMA2}
     \field{labelnamesource}{author}
     \field{labeltitlesource}{title}
     \field{labelyear}{2021}
@@ -5328,37 +5439,26 @@
   visual cortical area V4 in rhesus macaque monkeys performing an endogenous
   spatial selective attention task. Using a decoding approach, we found that
   the neural code for attention states in PFC was substantially more stable
-  over time compared with the attention code in V4 on a moment-by-moment basis,
+  over time compared with the attention code in V4 on a moment-bymoment basis,
   in line with our guiding thesis. Moreover, attention signals in PFC predicted
   the future attention state of V4 better than vice versa, consistent with a
   top-down role for PFC in attention. These results suggest a functional
   specialization of attention mechanisms across cortical areas with a division
   of labor. PFC signals the cognitive state and maintains this state stably
   over time, whereas V4 responds to sensory input in a manner dynamically
-  modulated by that cognitive state. SIGNIFICANCE STATEMENT Attention requires
-  maintaining a stable mental state while simultaneously improving perceptual
-  sensitivity. We hypothesized that these two demands (stability and
-  sensitivity) are distributed between prefrontal and visual cortical areas,
-  respectively. Specifically, we predicted attention signals in visual cortex
-  would be less stable than in prefrontal cortex, and furthermore prefrontal
-  cortical signals would predict attention signals in visual cortex in line
-  with the hypothesized role of prefrontal cortex in top-down executive
-  control. Our results are consistent with suggestions deriving from previous
-  work using separate recordings in the two brain areas in different animals
-  performing different tasks and represent the first direct evidence in support
-  of this hypothesis with simultaneous multiarea recordings within individual
-  animals.%
+  modulated by that cognitive state.%
     }
     \verb{doi}
-    \verb 10.1523/jneurosci.0608-21.2021
+    \verb 10.1523/JNEUROSCI.0608-21.2021
     \endverb
-    \field{issn}{0270-6474}
+    \field{issn}{15292401}
     \field{issue}{44}
     \field{pages}{9163\bibrangedash 9176}
-    \field{title}{A Stable Population Code for Attention in Prefrontal Cortex
-  Leads a Dynamic Attention Code in Visual Cortex}
+    \field{title}{A stable population code for attention in prefrontal cortex
+  leads a dynamic attention code in visual cortex}
     \field{volume}{41}
-    \field{journaltitle}{The Journal of Neuroscience}
+    \field{journaltitle}{Journal of Neuroscience}
+    \field{month}{11}
     \field{year}{2021}
   \endentry
 
@@ -5858,6 +5958,39 @@
     \field{volume}{248}
     \field{journaltitle}{Journal of Comparative Neurology}
     \field{year}{1986}
+  \endentry
+
+  \entry{Whitley1994}{report}{}
+    \name{author}{1}{}{%
+      {{hash=WD}{%
+         family={Whitley},
+         familyi={W\bibinitperiod},
+         given={Darrell},
+         giveni={D\bibinitperiod},
+      }}%
+    }
+    \keyw{Genetic algorithms,parallel algorithms,search}
+    \strng{namehash}{WD1}
+    \strng{fullhash}{WD1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{1994}
+    \field{labeldatesource}{}
+    \field{sortinit}{W}
+    \field{sortinithash}{W}
+    \field{abstract}{%
+    This tutorial covers the canonical genetic algorithm as well as more
+  experimental forms of genetic algorithms, including parallel island models
+  and parallel cellular genetic algorithms. The tutorial also illustrates
+  genetic search by hyperplane sampling. The theoretical foundations of genetic
+  algorithms are reviewed, include the schema theorem as well as recently
+  developed exact models of the canonical genetic algorithm.%
+    }
+    \field{isbn}{0960317491994}
+    \field{pages}{65\bibrangedash 85}
+    \field{title}{A genetic algorithm tutorial}
+    \field{volume}{4}
+    \field{year}{1994}
   \endentry
 
   \entry{Wiesel1959}{article}{}

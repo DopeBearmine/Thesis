@@ -215,44 +215,56 @@ headsepline, % Uncomment to get a line under the header
 
 
 \include{Biosketch}
-\addchaptertocentry{\color{thesisBlue} Biosketch}
+%\addchaptertocentry{\color{thesisBlue} Biosketch}
 
 %----------------------------------------------------------------------------------
 %	ACKNOWLEDGEMENTS
 %----------------------------------------------------------------------------------
 
 \begin{acknowledgements}
-	%\addchaptertocentry{\color{thesisBlue} \acknowledgementname} % Add the acknowledgements to the table of contents
-	A special thanks to everyone who helped me get here\\
+	A special thanks to everyone who helped me get here:\\
+	\underline{Advisor:} \\
 	Adam Snyder \\
+	\\
+	\underline{Collaborators:} \\
 	Tania Pasternak \\
 	Farran Briggs \\
 	Klaus Wimmer \\
+	Allison Murphey \\
+	\\
+	\underline{Lab Members:} \\
 	Ellie Sachse \\
 	Megan Conley \\
 	Chad Dekdebrun \\
-	Allison Murphey \\
+	Bikash Sahoo \\
+	Dennis Jung \\
+	Shizhao Liu \\
+	Jay Gonzolez-Ramirez \\
+	\\
+	\underline{Other:}\\
 	Ryan Burke \\
 	Rolo \\
 	Twizzler \\
 	Gremlin \\
 \end{acknowledgements}
 
-
+\addchaptertocentry{\color{thesisBlue} \acknowledgementname}
 %----------------------------------------------------------------------------------
 %	ABSTRACT PAGE
 %----------------------------------------------------------------------------------
 
 \begin{abstract}
-	\addchaptertocentry{\color{thesisBlue} \abstractname} % Add the abstract to the table of contents
-	One central goal of the field of neuroscience is to understand the neural code. How do neural systems process information, and what information is being conveyed across neural populations? Visual science in particular has been addressing these questions for decades, looking into the stimulus-response function of neurons throughout the visual hierarchy. In the early years, the goal was to record one neuron, manipulate one stimulus feature, and quantify what information is being processed. As the field moves towards more natural settings, such as neural populations and natural images, a new framework is needed to relate high-dimensional neural and stimulus data. In this thesis I will address the problem of high-dimensional neural tuning using techniques pulled from neuroscience, machine learning, and artificial intelligence.
+	
+	One central goal of the field of neuroscience is to understand the neural code. How do neural systems process information, and what information is being conveyed across neural populations? Visual science in particular has been addressing these questions for decades, looking into the stimulus-response function of neurons throughout the visual hierarchy. In the early years, the goal was to record one neuron, manipulate one stimulus feature, and quantify what information is being processed. As the field moves towards more natural settings, such as neural populations and natural images, a new framework is needed to relate high-dimensional neural and stimulus data during behavioral tasks. In this thesis I will address the problem of complex and flexible feature tuning that aids behavioral goals using techniques pulled from neuroscience, information theory, and artificial intelligence.
 \end{abstract}
+\addchaptertocentry{\color{thesisBlue} \abstractname} % Add the abstract to the table of contents
 
 % for whatever reason I need an extra call of \addchaptertocentry for the prior one to count
-\addchaptertocentry{\color{thesisBlue}}
+%\addchaptertocentry{\color{thesisBlue}}
 %---------------------------------------------------------------------------------
 %	List of Tables, List of Figures
 %---------------------------------------------------------------------------------
+
 
 
 \listoftables % Prints the list of tables
@@ -265,14 +277,24 @@ headsepline, % Uncomment to get a line under the header
 %----------------------------------------------------------------------------------
 
 \begin{symbols}{lll} % Include a list of Symbols (a three column table)
-	
+
 	%Symbol & Name & Unit \\
 	
 %	\addlinespace % Gap to separate the Roman symbols from the Greek
 	
-%	$\omega$ & angular frequency & \si{\radian} \\
-	$\lambda$ & rate parameter & $\frac{spikes}{second}$ \\
-	$\theta$ & stimulus orientation & $deg^\circ$ \\
+	Information Theory:\\
+	$H$ & entropy & $nats$\\
+	$MI$ & mutual information & $bits$\\
+	\\
+	Neuron Simulations: \\
+	$\harpoon\theta$ & Parameter values for stimulus $\theta$ & a.u. \\
+	$f_n(\harpoon\theta)$ & Response for neuron $n$ to stimulus $\harpoon\theta$ &  $\frac{spk}{s}$ \\
+	$R_{max}$ & Maximum response & $\frac{spikes}{second}$\\
+	$\tau_{n}$ & Tuning matrix for neuron $n$ & a.u.\\
+	$\lambda$ & Rate parameter & $\frac{spikes}{second}$ \\
+	$D_n(\harpoon\theta)$ & Decay term for neuron $n$ & a.u. \\
+	$\harpoon\rho_{n}$ & Preferred stimulus for neuron $n$ & a.u.\\
+	
 	
 \end{symbols}
 
@@ -290,7 +312,17 @@ headsepline, % Uncomment to get a line under the header
 \textbf{RGC} & \textbf{R}etinal \textbf{G}anglion \textbf{C}ells\\
 \textbf{LGN} & \textbf{L}ateral \textbf{G}eniculate \textbf{N}ucleus\\
 \textbf{IT} & \textbf{I}nferior \textbf{T}emporal cortex\\
+\textbf{V1} & \textbf{V}isual area \textbf{1}\\
+\textbf{V4} & \textbf{V}isual area \textbf{4}\\
 \textbf{MT} & \textbf{M}iddle \textbf{T}emporal area\\
+\textbf{LPFC} & \textbf{L}ateral \textbf{P}re\textbf{f}rontal \textbf{C}ortex\\
+\textbf{SF} & \textbf{S}patial \textbf{F}requency\\
+\textbf{PCA} & \textbf{P}rincipal \textbf{C}omponent \textbf{A}nalysis\\
+\textbf{DVA} & \textbf{D}egree of \textbf{V}isual \textbf{A}ngle\\
+\textbf{CCA} & \textbf{C}anonical \textbf{C}orrelations \textbf{A}nalysis\\
+\textbf{DCA} & \textbf{D}istance \textbf{C}ovariance \textbf{A}nalysis\\
+\textbf{PSO} & \textbf{P}article \textbf{S}warm \textbf{O}ptimization\\
+\textbf{AUC} & \textbf{A}rea \textbf{U}nder the \textbf{C}urve of receiver operating characteristic\\
 
 
 \end{abbreviations}
@@ -318,14 +350,11 @@ headsepline, % Uncomment to get a line under the header
 % Ch2. stimulus optimization for neural populations (simulations)
 \include{Chapters/Chapter_NeuralOptimization}
 
-
 % Ch3. Tuning for Image statistics in V4/V1 (MAPS)
 \include{Chapters/Chapter_MultidimensionalFeatureTuning} 
 
-
-
 % Discussion/conclusion
-
+\include{Chapters/Chapter_generalDiscussion}
 
 %----------------------------------------------------------------------------------
 %	BIBLIOGRAPHY

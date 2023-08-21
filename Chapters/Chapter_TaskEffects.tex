@@ -226,9 +226,7 @@ The cognitive signals we considered were anticipatory ramping of firing rates an
 			During S1, stimuli moved in one of 8 directions ($0^\circ, 45^\circ, 90^\circ, 135^\circ, 180^\circ, 225^\circ, 270^\circ, 315^\circ$), followed by the S2 that moved either in the same direction, or $90^\circ$ off of S1 (rotated left or right). B.) PSTHs of an example neuron recorded in both tasks. Solid line represents the neuron’s response to its preferred direction while dashed lines indicate 180◦ away from preferred (“anti-preferred”). C.) Receptive fields (grey) of each simultaneously recorded neuron from one example session, along with the location and size of the stimuli (red). Black curve corresponds to example neuron in B. Contours represent isointensity contours at $50\%$ of the peak response.}
 		\label{fig:fig1}
 	\end{figure*}
-	\addtocounter{page}{-1}
-	\thispagestyle{empty}
-	\clearpage
+
 
 Neurons were recorded between $2^\circ$ and $25^\circ$ eccentricity, with receptive field sizes proportional to distance from the fovea. A linear fit to receptive field size vs. eccentricity resulted in an intercept of $2.37^\circ$ and a slope of $0.44$, comparable with previous results from this lab \parencite{Bisley2004} and other studies in MT \parencite{Albright1987}. Neurons were included for analysis if: 1.) Their 50\% isointensity response field (see \hyperref[{sec:methods}]{Methods}) was at least 30\% covered by the stimuli, 2.) the subject did at least 10 trials in each direction condition, and 3.) they were confidently recorded across both tasks (see \hyperref[{sec:methods}]{Methods}). This resulted in 254 well-defined neurons included for analysis. 
 
@@ -249,9 +247,7 @@ To test this, we measured the \gls{mi} between neural firing rates and the motio
 		\caption{{\it Example Mutual Information Time-Courses.} A.) Mutual information between motion direction and firing rate for an example neuron in the active and passive tasks. B-C.) Same as A for two more example neurons. D.) Task effect on motion information (i.e., MI during active minus MI during passive) during the course of the trial for the three example neurons. Pearson Distance was calculated on these time courses for each pair of neurons. Distance values close to 0 mean similar task effects, whereas distance values close to 1 indicate opposite task effects. We then used the set of pair-wise Pearson distances to cluster neurons based on their task effects for MI.}
 		\label{fig:clustering}
 	\end{figure}
-	\addtocounter{page}{-1}
-	\thispagestyle{empty}
-	\clearpage
+
 
 
 Task-dependent selectivity would be consistent with the role of MT as a mid-level sensory area. That is, switching from passive viewing to a task requiring judgment of motion direction might have a particularly strong effect on neurons strongly signaling motion direction compared to neurons that did not signal that information so strongly. To test this hypothesis, we calculated the task effect of motion information for each neuron by subtracting the MI during the passive task from the active task (Figure \ref{fig:clustering} for examples).
@@ -271,9 +267,7 @@ We found that mutual information between neuron firing rates and motion directio
 		\caption{{\it Motion Information Clustering.} A.) Time series for active minus passive motion information (\gls{mi}) for each neuron. Rows correspond to neurons and color represents the difference in information. See \hyperref[{sec:methods}]{Methods} for the clustering algorithm. B.) Within-cluster averages from panel A.}
 		\label{fig:MI}
 	\end{figure}
-	\addtocounter{page}{-1}
-	\thispagestyle{empty}
-	\clearpage
+
 
 
 	\begin{figure}
@@ -283,9 +277,7 @@ We found that mutual information between neuron firing rates and motion directio
 		\caption{{\it Effects of task demands differed depending on how informative a neuron was about task-relevant information.} A.) Average raw tuning curves for \enhanced\ neurons during the active (purple) and passive (green) tasks. Both curves contain the same neurons. Error bars are $\pm SEM$ across neurons. B-C.) Same as A for \suppressed\ and \consistent\ groups respectively. D.) Average trial-to-trial variability during S1 quantified with \gls{hf} (See \hyperref[{sec:methods}]{Methods}). E-F.) Same as panel D for \suppressed\ neurons and \consistent\ groups respectively. G.) Slope of a linear fit to \enhanced\ neurons' firing rates vs time during a 1s interval before S2 onset in the Active vs Passive tasks. There was a significantly higher ramping during the active task (***: $p=5.66\cdot10^{-5}$, t-test). H-I.) Same as panel G for \suppressed\ (ns) and \consistent\ (**: $p=0.0098$) groups respectively. J.) Task effect of the width parameter of gaussian fits vs $\Delta MI$ during \sample. For each cross validation fold, we fit a gaussian to the 50\% of trials not used for the calculation of \gls{mi} (i.e. the X and Y axes use different trials). We then averaged across folds, and subtracted across task to get a task effect of tuning width. We found no significant relationship between tuning width and $\Delta MI$ ($R^2=0.038, p=0.552$). K.) Same as J but for the height parameter of the gaussian fits ($R^2=0.859, p=3.505 \cdot 10^{-75}$). }
 		\label{fig:interaction}
 	\end{figure}
-	\addtocounter{page}{-1}
-	\thispagestyle{empty}
-	\clearpage
+
 
 
 We tested for differences in responses to motion for each group by calculating the average firing rate for each neuron, and compared effects of task, direction condition, and stimulus epoch with 3-way ANOVAs.
@@ -330,9 +322,7 @@ We next turned our attention to the effects of varying task demands on \gls{mt} 
 		\caption{{\it \suppressed\ and \consistent\ neurons have different comparison effects across the active and passive tasks.} A.) Time course of comparison effects (AUC between same and different trials within stimulus type) for the \enhanced\ neurons with significant $S>D$ in either task. B.) Same as panel A but for \enhanced\ neurons with $D>S$ signal. C-D.) Same as A-B but for \suppressed\ neurons. E-F.) Same as A-B but for \consistent\ neurons. **: $p<0.01$, ***: $p<0.001$, n.s.: not significant t-test for the difference between tasks over the indicated interval. We did not find significant CEs or task effects during the S2 (gray shading) for any group of neurons, but we did see effects during the post-S2 interval for DDI neurons (C-D), and for SDI neurons with $S>D$ CEs (E). }
 		\label{fig:CEtimecourses}
 	\end{figure}
-	\addtocounter{page}{-1}
-	\thispagestyle{empty}
-	\clearpage
+
 
 
 Next, we examined the pattern of activity during the delay separating \sample\ and \test. Because the duration of this delay was also highly predictable (always 1.5 s) animals could anticipate the appearance of \test.
@@ -349,14 +339,11 @@ We next asked how these CEs were affected by changing task demands. We expected 
 Thus, neurons with stronger motion direction signals in the active task would not also increase comparison effects in the active task; whereas neurons that did not increase signaling of motion direction in the active task would be more likely to show increased comparison effects.\label{rev:ceLogicRes}
 
 
-	\addtocounter{page}{-1}
-	\thispagestyle{empty}
 	\begin{figure}
+		\label{fig:CEproportions}}
+		\includegraphics[width=146mm]{fig6CEproportions.pdf}
 		{\caption{{\it Proportion of neurons with significant comparison signals during active and passive tasks} A.) Proportion of neurons within each information group with significant $S>D$ signal during the \test. B.) Same as panel A for the post-\test\ interval. C) Same as in panel A for the $D>S$ neurons. D) Same as in panel B for the $D>S$ neurons. (***: $p<0.001$, $\chi^2$ test). E.) Comparison Effects (absolute difference from 0.5 AUC) vs mutual information for each task. Neurons with the largest CE in the active task also conveyed the least direction information. Error bars = 95\% binomial confidence intervals.}
-			\label{fig:CEproportions}}
-		{\includegraphics[width=146mm]{fig6CEproportions.pdf}}
 	\end{figure}
-	\clearpage
 
 
 In line with this prediction, we found that \suppressed\ and \consistent\ groups showed significantly stronger $S>D$ CEs during the post-S2 period in the active task, the period immediately preceding the monkeys' report (Figure \ref{fig:CEtimecourses}C,E; \suppressed: \kst\ test: $p=4.46 \cdot 10^{-4}$, \consistent: \kst\ test: $p=0.0019$ on average CE in window) and a higher proportion of neurons with significant CEs (Figure \ref{fig:CEproportions}B; \suppressed: $\chi^2=11.14$, $p=8.43\cdot 10^{-4}$, \consistent: $\chi^2=14.23, p=1.61 \cdot 10^{-4}$).
@@ -431,7 +418,7 @@ Finally, in earlier studies decisions were reported with a manual button press \
 	\clearpage
 
 
-\section*{\color{sectionBlue} Conclusion}
+\section{Conclusion}
 We investigated the effects of task demands on information processing in area MT of the macaque. We found a diversity of neurons that were affected in different ways in the active compared to the passive task. 
 Neurons that increased their signaling of task-relevant sensory information (\enhanced\ neurons) did not show changes in comparison effects, which reflect more cognitive memory and comparison processes, whereas neurons that either decreased (\suppressed) or did not change (\consistent) direction information in the active task showed changes in their comparison signals.
 These results suggest a distributed allocation of labor of cognitive and perceptual processes across a population of neurons in \gls{mt} and highlight the role of MT populations in all phases of memory-guided comparisons of visual motion direction.\label{rev:het4}
