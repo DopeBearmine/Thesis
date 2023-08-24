@@ -656,6 +656,67 @@
     \field{year}{2005}
   \endentry
 
+  \entry{Bouchacourt2019}{article}{}
+    \name{author}{2}{}{%
+      {{hash=BF}{%
+         family={Bouchacourt},
+         familyi={B\bibinitperiod},
+         given={Flora},
+         giveni={F\bibinitperiod},
+      }}%
+      {{hash=BTJ}{%
+         family={Buschman},
+         familyi={B\bibinitperiod},
+         given={Timothy\bibnamedelima J},
+         giveni={T\bibinitperiod\bibinitdelim J\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Elsevier Inc.}%
+    }
+    \keyw{HaydenQuals,capacity limitations,cognitive control,cognitive
+  flexibility,computational model,excitation-inhibition balance,mixed
+  selectivity,working memory}
+    \strng{namehash}{BFBTJ1}
+    \strng{fullhash}{BFBTJ1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2019}
+    \field{labeldatesource}{}
+    \field{sortinit}{B}
+    \field{sortinithash}{B}
+    \field{abstract}{%
+    Working memory is fundamental to cognition, allowing one to hold
+  information “in mind.” A defining characteristic of working memory is its
+  flexibility: we can hold anything in mind. However, typical models of working
+  memory rely on finely tuned, content-specific attractors to persistently
+  maintain neural activity and therefore do not allow for the flexibility
+  observed in behavior. Here, we present a flexible model of working memory
+  that maintains representations through random recurrent connections between
+  two layers of neurons: a structured “sensory” layer and a randomly
+  connected, unstructured layer. As the interactions are untuned with respect
+  to the content being stored, the network maintains any arbitrary input.
+  However, in our model, this flexibility comes at a cost: the random
+  connections overlap, leading to interference between representations and
+  limiting the memory capacity of the network. Additionally, our model captures
+  several other key behavioral and neurophysiological characteristics of
+  working memory.%
+    }
+    \verb{doi}
+    \verb 10.1016/j.neuron.2019.04.020
+    \endverb
+    \field{issn}{10974199}
+    \field{issue}{1}
+    \field{pages}{147–160.e8}
+    \field{title}{A Flexible Model of Working Memory}
+    \verb{url}
+    \verb https://doi.org/10.1016/j.neuron.2019.04.020
+    \endverb
+    \field{volume}{103}
+    \field{journaltitle}{Neuron}
+    \field{year}{2019}
+  \endentry
+
   \entry{Bredfeldt2002}{article}{}
     \name{author}{2}{}{%
       {{hash=BCE}{%
@@ -1937,6 +1998,70 @@
     \field{year}{2018}
   \endentry
 
+  \entry{Garg2019}{article}{}
+    \name{author}{4}{}{%
+      {{hash=GAK}{%
+         family={Garg},
+         familyi={G\bibinitperiod},
+         given={Anupam\bibnamedelima K},
+         giveni={A\bibinitperiod\bibinitdelim K\bibinitperiod},
+      }}%
+      {{hash=LP}{%
+         family={Li},
+         familyi={L\bibinitperiod},
+         given={Peichao},
+         giveni={P\bibinitperiod},
+      }}%
+      {{hash=RMS}{%
+         family={Rashid},
+         familyi={R\bibinitperiod},
+         given={Mohammad\bibnamedelima S},
+         giveni={M\bibinitperiod\bibinitdelim S\bibinitperiod},
+      }}%
+      {{hash=CEM}{%
+         family={Callaway},
+         familyi={C\bibinitperiod},
+         given={Edward\bibnamedelima M},
+         giveni={E\bibinitperiod\bibinitdelim M\bibinitperiod},
+      }}%
+    }
+    \keyw{HaydenQuals}
+    \strng{namehash}{GAK+1}
+    \strng{fullhash}{GAKLPRMSCEM1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2019}
+    \field{labeldatesource}{}
+    \field{sortinit}{G}
+    \field{sortinithash}{G}
+    \field{abstract}{%
+    Previous studies support the textbook model that shape and color are
+  extracted by distinct neurons in primate primary visual cortex (V1). However,
+  rigorous testing of this model requires sampling a larger stimulus space than
+  previously possible. We used stable GCaMP6f expression and two-photon calcium
+  imaging to probe a very large spatial and chromatic visual stimulus space and
+  map functional microarchitecture of thousands of neurons with single-cell
+  resolution. Notable proportions of V1 neurons strongly preferred equiluminant
+  color over achromatic stimuli and were also orientation selective, indicating
+  that orientation and color in V1 are mutually processed by overlapping
+  circuits. Single neurons could precisely and unambiguously code for both
+  color and orientation. Further analyses revealed systematic spatial
+  relationships between color tuning, orientation selectivity, and cytochrome
+  oxidase histology.%
+    }
+    \verb{doi}
+    \verb 10.1126/science.aaw5868
+    \endverb
+    \field{issn}{10959203}
+    \field{issue}{6447}
+    \field{pages}{1275\bibrangedash 1279}
+    \field{title}{Color and orientation are jointly coded and spatially
+  organized in primate primary visual cortex}
+    \field{volume}{364}
+    \field{journaltitle}{Science}
+    \field{year}{2019}
+  \endentry
+
   \entry{Gegenfurtner1996}{article}{}
     \name{author}{3}{}{%
       {{hash=GK}{%
@@ -2415,6 +2540,48 @@
     \field{journaltitle}{Journal of Neuroscience}
     \field{month}{01}
     \field{year}{2013}
+  \endentry
+
+  \entry{Johnson2008}{article}{}
+    \name{author}{3}{}{%
+      {{hash=JEN}{%
+         family={Johnson},
+         familyi={J\bibinitperiod},
+         given={Elizabeth\bibnamedelima N},
+         giveni={E\bibinitperiod\bibinitdelim N\bibinitperiod},
+      }}%
+      {{hash=HMJ}{%
+         family={Hawken},
+         familyi={H\bibinitperiod},
+         given={Michael\bibnamedelima J},
+         giveni={M\bibinitperiod\bibinitdelim J\bibinitperiod},
+      }}%
+      {{hash=SR}{%
+         family={Shapley},
+         familyi={S\bibinitperiod},
+         given={Robert},
+         giveni={R\bibinitperiod},
+      }}%
+    }
+    \keyw{color vision,contrast,double-opponent,single-opponent,spatial
+  vision,visual cortex}
+    \strng{namehash}{JENHMJSR1}
+    \strng{fullhash}{JENHMJSR1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2008}
+    \field{labeldatesource}{}
+    \field{sortinit}{J}
+    \field{sortinithash}{J}
+    \verb{doi}
+    \verb 10.1523/JNEUROSCI.1404-08.2008
+    \endverb
+    \field{issue}{32}
+    \field{pages}{8096\bibrangedash 8106}
+    \field{title}{The Orientation Selectivity of Color-Responsive Neurons in
+  Macaque V1}
+    \field{volume}{28}
+    \field{year}{2008}
   \endentry
 
   \entry{Jun2017}{article}{}

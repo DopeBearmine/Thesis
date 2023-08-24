@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2023.2.20)  21 AUG 2023 15:18
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2023.2.20)  24 AUG 2023 15:18
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1785,158 +1785,158 @@ Package scrlayer-scrpage Warning: \headheight to low.
 (scrlayer-scrpage)                e.g., setting geometry's option
 (scrlayer-scrpage)                `head=44.00948pt'.
 (scrlayer-scrpage)                I'll also decrease \topmargin on input line 2
-6.
+4.
 
 
 Overfull \vbox (22.00475pt too high) has occurred while \output is active []
 
 
-[60] [61] [62] [63] [64] [65] [66] [67] [68] [69] [70]
+[60] [61] [62] [63] [64] [65] [66] [67] [68] [69] [70] [71]
 <C:/Users/dopeb/Documents/GitHub/Thesis/Figures/Chapter_MAPS/exampleImagesWreco
-nstruction.png, id=2091, 478.9092pt x 234.3957pt>
+nstruction.png, id=2101, 478.9092pt x 234.3957pt>
 File: C:/Users/dopeb/Documents/GitHub/Thesis/Figures/Chapter_MAPS/exampleImages
 Wreconstruction.png Graphic file (type png)
 <use C:/Users/dopeb/Documents/GitHub/Thesis/Figures/Chapter_MAPS/exampleImagesW
 reconstruction.png>
 Package pdftex.def Info: C:/Users/dopeb/Documents/GitHub/Thesis/Figures/Chapter
-_MAPS/exampleImagesWreconstruction.png  used on input line 144.
+_MAPS/exampleImagesWreconstruction.png  used on input line 150.
 (pdftex.def)             Requested size: 489.38739pt x 239.52394pt.
 
-Overfull \hbox (68.57118pt too wide) in paragraph at lines 144--145
+Overfull \hbox (68.57118pt too wide) in paragraph at lines 150--151
  [][] 
  []
 
-[71 <c:/Users/dopeb/Documents/GitHub/Thesis/Figures/Chapter_MAPS/exampleImagesW
-reconstruction.png>]
 <C:/Users/dopeb/Documents/GitHub/Thesis/Figures/Chapter_MAPS/LatentVsPixelGLM.p
-ng, id=2100, 231.5049pt x 448.3149pt>
+ng, id=2105, 231.5049pt x 448.3149pt>
 File: C:/Users/dopeb/Documents/GitHub/Thesis/Figures/Chapter_MAPS/LatentVsPixel
 GLM.png Graphic file (type png)
 <use C:/Users/dopeb/Documents/GitHub/Thesis/Figures/Chapter_MAPS/LatentVsPixelG
 LM.png>
 Package pdftex.def Info: C:/Users/dopeb/Documents/GitHub/Thesis/Figures/Chapter
-_MAPS/LatentVsPixelGLM.png  used on input line 153.
+_MAPS/LatentVsPixelGLM.png  used on input line 159.
 (pdftex.def)             Requested size: 227.62204pt x 440.80266pt.
+[72 <c:/Users/dopeb/Documents/GitHub/Thesis/Figures/Chapter_MAPS/exampleImagesW
+reconstruction.png>] [73 <c:/Users/dopeb/Documents/GitHub/Thesis/Figures/Chapte
+r_MAPS/LatentVsPixelGLM.png>]
 <C:/Users/dopeb/Documents/GitHub/Thesis/Figures/Chapter_MAPS/CCAintuitionFigure
-.png, id=2106, 448.5558pt x 482.5227pt>
+.png, id=2121, 448.5558pt x 482.5227pt>
 File: C:/Users/dopeb/Documents/GitHub/Thesis/Figures/Chapter_MAPS/CCAintuitionF
 igure.png Graphic file (type png)
 <use C:/Users/dopeb/Documents/GitHub/Thesis/Figures/Chapter_MAPS/CCAintuitionFi
 gure.png>
 Package pdftex.def Info: C:/Users/dopeb/Documents/GitHub/Thesis/Figures/Chapter
-_MAPS/CCAintuitionFigure.png  used on input line 162.
+_MAPS/CCAintuitionFigure.png  used on input line 168.
 (pdftex.def)             Requested size: 455.24408pt x 489.73695pt.
 
-Overfull \hbox (34.42787pt too wide) in paragraph at lines 162--163
+Overfull \hbox (34.42787pt too wide) in paragraph at lines 168--169
  [][] 
  []
 
 <C:/Users/dopeb/Documents/GitHub/Thesis/Figures/Chapter_MAPS/CCArValuesByAlgori
-thm.png, id=2108, 364.9635pt x 184.5294pt>
+thm.png, id=2123, 364.9635pt x 184.5294pt>
 File: C:/Users/dopeb/Documents/GitHub/Thesis/Figures/Chapter_MAPS/CCArValuesByA
 lgorithm.png Graphic file (type png)
 <use C:/Users/dopeb/Documents/GitHub/Thesis/Figures/Chapter_MAPS/CCArValuesByAl
 gorithm.png>
 Package pdftex.def Info: C:/Users/dopeb/Documents/GitHub/Thesis/Figures/Chapter
-_MAPS/CCArValuesByAlgorithm.png  used on input line 171.
+_MAPS/CCArValuesByAlgorithm.png  used on input line 177.
 (pdftex.def)             Requested size: 369.88582pt x 187.02927pt.
-[72] [73 <c:/Users/dopeb/Documents/GitHub/Thesis/Figures/Chapter_MAPS/LatentVsP
-ixelGLM.png>] [74 <c:/Users/dopeb/Documents/GitHub/Thesis/Figures/Chapter_MAPS/
-CCAintuitionFigure.png>]
 <C:/Users/dopeb/Documents/GitHub/Thesis/Figures/Chapter_MAPS/CCA1acrossAlgorith
-msV1.png, id=2128, 489.2679pt x 455.301pt>
+msV1.png, id=2129, 489.2679pt x 455.301pt>
 File: C:/Users/dopeb/Documents/GitHub/Thesis/Figures/Chapter_MAPS/CCA1acrossAlg
 orithmsV1.png Graphic file (type png)
 <use C:/Users/dopeb/Documents/GitHub/Thesis/Figures/Chapter_MAPS/CCA1acrossAlgo
 rithmsV1.png>
 Package pdftex.def Info: C:/Users/dopeb/Documents/GitHub/Thesis/Figures/Chapter
-_MAPS/CCA1acrossAlgorithmsV1.png  used on input line 180.
+_MAPS/CCA1acrossAlgorithmsV1.png  used on input line 186.
 (pdftex.def)             Requested size: 489.38739pt x 455.42493pt.
 
-Overfull \hbox (68.57118pt too wide) in paragraph at lines 180--181
+Overfull \hbox (68.57118pt too wide) in paragraph at lines 186--187
  [][] 
  []
 
+[74] [75 <c:/Users/dopeb/Documents/GitHub/Thesis/Figures/Chapter_MAPS/CCAintuit
+ionFigure.png>]
 <C:/Users/dopeb/Documents/GitHub/Thesis/Figures/Chapter_MAPS/CCA1acrossAlgorith
-msV4.png, id=2131, 489.2679pt x 455.301pt>
+msV4.png, id=2141, 489.2679pt x 455.301pt>
 File: C:/Users/dopeb/Documents/GitHub/Thesis/Figures/Chapter_MAPS/CCA1acrossAlg
 orithmsV4.png Graphic file (type png)
 <use C:/Users/dopeb/Documents/GitHub/Thesis/Figures/Chapter_MAPS/CCA1acrossAlgo
 rithmsV4.png>
 Package pdftex.def Info: C:/Users/dopeb/Documents/GitHub/Thesis/Figures/Chapter
-_MAPS/CCA1acrossAlgorithmsV4.png  used on input line 189.
+_MAPS/CCA1acrossAlgorithmsV4.png  used on input line 195.
 (pdftex.def)             Requested size: 489.38739pt x 455.42493pt.
 
-Overfull \hbox (68.57118pt too wide) in paragraph at lines 189--190
+Overfull \hbox (68.57118pt too wide) in paragraph at lines 195--196
  [][] 
  []
 
 <C:/Users/dopeb/Documents/GitHub/Thesis/Figures/Chapter_MAPS/cca1ProjectionsCom
-bined.png, id=2132, 489.5088pt x 244.7544pt>
+bined.png, id=2142, 489.5088pt x 244.7544pt>
 File: C:/Users/dopeb/Documents/GitHub/Thesis/Figures/Chapter_MAPS/cca1Projectio
 nsCombined.png Graphic file (type png)
 <use C:/Users/dopeb/Documents/GitHub/Thesis/Figures/Chapter_MAPS/cca1Projection
 sCombined.png>
 Package pdftex.def Info: C:/Users/dopeb/Documents/GitHub/Thesis/Figures/Chapter
-_MAPS/cca1ProjectionsCombined.png  used on input line 199.
+_MAPS/cca1ProjectionsCombined.png  used on input line 205.
 (pdftex.def)             Requested size: 489.38739pt x 244.69402pt.
 
-Overfull \hbox (68.57118pt too wide) in paragraph at lines 199--200
+Overfull \hbox (68.57118pt too wide) in paragraph at lines 205--206
  [][] 
  []
 
-[75 <c:/Users/dopeb/Documents/GitHub/Thesis/Figures/Chapter_MAPS/CCArValuesByAl
-gorithm.png>] [76 <c:/Users/dopeb/Documents/GitHub/Thesis/Figures/Chapter_MAPS/
-CCA1acrossAlgorithmsV1.png>] [77 <c:/Users/dopeb/Documents/GitHub/Thesis/Figure
+[76 <c:/Users/dopeb/Documents/GitHub/Thesis/Figures/Chapter_MAPS/CCArValuesByAl
+gorithm.png>] [77 <c:/Users/dopeb/Documents/GitHub/Thesis/Figures/Chapter_MAPS/
+CCA1acrossAlgorithmsV1.png>] [78 <c:/Users/dopeb/Documents/GitHub/Thesis/Figure
 s/Chapter_MAPS/CCA1acrossAlgorithmsV4.png>]
 <C:/Users/dopeb/Documents/GitHub/Thesis/Figures/Chapter_MAPS/DCA1acrossAlgorith
-msV1.png, id=2150, 484.9317pt x 442.5333pt>
+msV1.png, id=2162, 484.9317pt x 442.5333pt>
 File: C:/Users/dopeb/Documents/GitHub/Thesis/Figures/Chapter_MAPS/DCA1acrossAlg
 orithmsV1.png Graphic file (type png)
 <use C:/Users/dopeb/Documents/GitHub/Thesis/Figures/Chapter_MAPS/DCA1acrossAlgo
 rithmsV1.png>
 Package pdftex.def Info: C:/Users/dopeb/Documents/GitHub/Thesis/Figures/Chapter
-_MAPS/DCA1acrossAlgorithmsV1.png  used on input line 208.
+_MAPS/DCA1acrossAlgorithmsV1.png  used on input line 214.
 (pdftex.def)             Requested size: 489.38739pt x 446.61746pt.
 
-Overfull \hbox (68.57118pt too wide) in paragraph at lines 208--209
+Overfull \hbox (68.57118pt too wide) in paragraph at lines 214--215
  [][] 
  []
 
 <C:/Users/dopeb/Documents/GitHub/Thesis/Figures/Chapter_MAPS/DCA1acrossAlgorith
-msV4.png, id=2151, 484.9317pt x 442.5333pt>
+msV4.png, id=2163, 484.9317pt x 442.5333pt>
 File: C:/Users/dopeb/Documents/GitHub/Thesis/Figures/Chapter_MAPS/DCA1acrossAlg
 orithmsV4.png Graphic file (type png)
 <use C:/Users/dopeb/Documents/GitHub/Thesis/Figures/Chapter_MAPS/DCA1acrossAlgo
 rithmsV4.png>
 Package pdftex.def Info: C:/Users/dopeb/Documents/GitHub/Thesis/Figures/Chapter
-_MAPS/DCA1acrossAlgorithmsV4.png  used on input line 216.
+_MAPS/DCA1acrossAlgorithmsV4.png  used on input line 222.
 (pdftex.def)             Requested size: 489.38739pt x 446.61746pt.
 
-Overfull \hbox (68.57118pt too wide) in paragraph at lines 216--217
+Overfull \hbox (68.57118pt too wide) in paragraph at lines 222--223
  [][] 
  []
 
-[78 <c:/Users/dopeb/Documents/GitHub/Thesis/Figures/Chapter_MAPS/cca1Projection
-sCombined.png>] [79 <c:/Users/dopeb/Documents/GitHub/Thesis/Figures/Chapter_MAP
-S/DCA1acrossAlgorithmsV1.png>] [80 <c:/Users/dopeb/Documents/GitHub/Thesis/Figu
-res/Chapter_MAPS/DCA1acrossAlgorithmsV4.png>]
 <C:/Users/dopeb/Documents/GitHub/Thesis/Figures/Chapter_MAPS/DCAresidualDCAbyBr
-ainRegion.png, id=2170, 481.5591pt x 238.2501pt>
+ainRegion.png, id=2166, 481.5591pt x 238.2501pt>
 File: C:/Users/dopeb/Documents/GitHub/Thesis/Figures/Chapter_MAPS/DCAresidualDC
 AbyBrainRegion.png Graphic file (type png)
 <use C:/Users/dopeb/Documents/GitHub/Thesis/Figures/Chapter_MAPS/DCAresidualDCA
 byBrainRegion.png>
 Package pdftex.def Info: C:/Users/dopeb/Documents/GitHub/Thesis/Figures/Chapter
-_MAPS/DCAresidualDCAbyBrainRegion.png  used on input line 225.
+_MAPS/DCAresidualDCAbyBrainRegion.png  used on input line 231.
 (pdftex.def)             Requested size: 489.38739pt x 242.13574pt.
 
-Overfull \hbox (68.57118pt too wide) in paragraph at lines 225--226
+Overfull \hbox (68.57118pt too wide) in paragraph at lines 231--232
  [][] 
  []
 
-[81 <c:/Users/dopeb/Documents/GitHub/Thesis/Figures/Chapter_MAPS/DCAresidualDCA
-byBrainRegion.png>] [82] [83]) [84]
+[79 <c:/Users/dopeb/Documents/GitHub/Thesis/Figures/Chapter_MAPS/cca1Projection
+sCombined.png>] [80 <c:/Users/dopeb/Documents/GitHub/Thesis/Figures/Chapter_MAP
+S/DCA1acrossAlgorithmsV1.png>] [81 <c:/Users/dopeb/Documents/GitHub/Thesis/Figu
+res/Chapter_MAPS/DCA1acrossAlgorithmsV4.png>] [82 <c:/Users/dopeb/Documents/Git
+Hub/Thesis/Figures/Chapter_MAPS/DCAresidualDCAbyBrainRegion.png>] [83] [84]
+[85]) [86]
 \openout2 = `Chapters/Chapter_generalDiscussion.aux'.
 
  (./Chapters/Chapter_generalDiscussion.tex
@@ -1946,30 +1946,31 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `\@ifnextchar' on input line 1.
 
 1: section
-[85
-
-
-
-
-]) [86]
-LaTeX Font Info:    Trying to load font information for T1+cmtt on input line 3
-63.
- (c:/texlive/2022/texmf-dist/tex/latex/base/t1cmtt.fd
-File: t1cmtt.fd 2022/07/10 v2.5l Standard LaTeX font definitions
-)
-1: section
 [87
 
 
 
+
+] [88] [89] [90]) [91] [92
+
+
+
 ]
+LaTeX Font Info:    Trying to load font information for T1+cmtt on input line 3
+63.
+
+(c:/texlive/2022/texmf-dist/tex/latex/base/t1cmtt.fd
+File: t1cmtt.fd 2022/07/10 v2.5l Standard LaTeX font definitions
+)
+1: section
+[93]
 Overfull \hbox (2.24564pt too wide) in paragraph at lines 363--363
 \T1/ppl/m/n/10.95 ory for Mo-tion Task^^Q. In: \T1/ppl/m/it/10.95 Jour-nal of N
 eu-ro-phys-i-ol-ogy \T1/ppl/m/n/10.95 91 (1), pp. 286^^U300. \T1/ppl/m/sc/10.95
  issn\T1/ppl/m/n/10.95 : 00223077.
  []
 
-[88]
+[94]
 Overfull \hbox (8.23508pt too wide) in paragraph at lines 363--363
 \T1/ppl/m/n/10.95 Func-tional Cir-cuitry in Vi-sual Area MT^^Q. In: \T1/ppl/m/i
 t/10.95 Neu-ron \T1/ppl/m/n/10.95 60 (1), pp. 162^^U173. \T1/ppl/m/sc/10.95 iss
@@ -1983,41 +1984,42 @@ Overfull \hbox (6.42566pt too wide) in paragraph at lines 363--363
  : / / papers . nips . cc / paper / 6738 -[] adaptive -[]
  []
 
-
+[95]
 Overfull \hbox (4.45203pt too wide) in paragraph at lines 363--363
 \T1/ppl/m/it/10.95 Jour-nal of Neu-ro-science \T1/ppl/m/n/10.95 17 (9), pp. 318
 5^^U3200. \T1/ppl/m/sc/10.95 issn\T1/ppl/m/n/10.95 : 02706474. \T1/ppl/m/sc/10.
 95 doi\T1/ppl/m/n/10.95 : [][]$\T1/cmtt/m/n/10.95 10 . 1523 / jneurosci .
  []
 
-[89]
+
 Overfull \hbox (6.28508pt too wide) in paragraph at lines 363--363
 \T1/ppl/m/n/10.95 syn-chronous ac-tiv-ity of mo-tor cor-ti-cal neu-rons^^Q. In:
  \T1/ppl/m/it/10.95 Pro-ceed-ings of the Na-tional Academy
  []
 
-[90] [91]
+[96] [97]
 Overfull \hbox (13.38672pt too wide) in paragraph at lines 363--363
 [][]\T1/ppl/m/n/10.95 Liu, Ye et al. (2020). ^^P  Hi-er-ar-chi-cal Rep-re-sen-t
 a-tion for Chro-matic Pro-cess-ing across Macaque
  []
 
-[92]
+[98]
 Overfull \hbox (3.96095pt too wide) in paragraph at lines 363--363
 [][]\T1/ppl/m/n/10.95 Mitchell, Jude F, Kristy A Sund-berg, and John H Reynolds
  (2007). ^^P  Dif-fer-en-tial Attention-
  []
 
-[93]
+[99]
 Overfull \hbox (2.46992pt too wide) in paragraph at lines 363--363
 \T1/ppl/m/it/10.95 neu-ronal pop-u-la-tions: In-for-ma-tion the-ory and de-cod-
 ing ap-proaches\T1/ppl/m/n/10.95 . \T1/ppl/m/sc/10.95 doi\T1/ppl/m/n/10.95 : []
 []$\T1/cmtt/m/n/10.95 10 . 1038 / nrn2578$[][]\T1/ppl/m/n/10.95 . 
  []
 
-[94] [95] [96] [97] (./main.aux (./Biosketch.aux) (./Chapters/Introduction.aux)
-(./Chapters/Chapter_TaskEffects.aux) (./Chapters/Chapter_NeuralOptimization.aux
-) (./Chapters/Chapter_MultidimensionalFeatureTuning.aux)
+[100] [101] [102] [103] (./main.aux (./Biosketch.aux)
+(./Chapters/Introduction.aux) (./Chapters/Chapter_TaskEffects.aux)
+(./Chapters/Chapter_NeuralOptimization.aux)
+(./Chapters/Chapter_MultidimensionalFeatureTuning.aux)
 (./Chapters/Chapter_generalDiscussion.aux))
 
 LaTeX Warning: There were undefined references.
@@ -2026,19 +2028,19 @@ LaTeX Warning: There were undefined references.
 LaTeX Warning: There were multiply-defined labels.
 
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: E2693AD7D1D6F44C92F86E65CB309BCD;5921.
+(rerunfilecheck)             Checksum: 7F5DF9CF2ECCCD52A9FD0CE2BDFE45EB;5921.
 Package logreq Info: Writing requests to 'main.run.xml'.
 \openout1 = `main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 38364 strings out of 476029
- 833603 string characters out of 5794164
- 1885340 words of memory out of 5000000
- 57837 multiletter control sequences out of 15000+600000
+ 38404 strings out of 476029
+ 834615 string characters out of 5794164
+ 1886340 words of memory out of 5000000
+ 57867 multiletter control sequences out of 15000+600000
  588195 words of font info for 173 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 96i,20n,93p,4013b,2789s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 96i,20n,93p,4133b,2789s stack positions out of 10000i,1000n,20000p,200000b,200000s
 {c:/texlive/2022/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}{c:/texl
 ive/2022/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}{c:/texlive/2022/
 texmf-dist/fonts/enc/dvips/base/8r.enc}<c:/texlive/2022/texmf-dist/fonts/type1/
@@ -2054,10 +2056,10 @@ c/cm-super/sfrm1095.pfb><c:/texlive/2022/texmf-dist/fonts/type1/public/cm-super
 c:/texlive/2022/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb><c:/texlive/2022
 /texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb><c:/texlive/2022/texmf-dist/fon
 ts/type1/urw/palatino/uplri8a.pfb>
-Output written on main.pdf (124 pages, 17182170 bytes).
+Output written on main.pdf (130 pages, 17192148 bytes).
 PDF statistics:
- 2555 PDF objects out of 2984 (max. 8388607)
- 2053 compressed objects within 21 object streams
- 377 named destinations out of 1000 (max. 500000)
+ 2596 PDF objects out of 2984 (max. 8388607)
+ 2088 compressed objects within 21 object streams
+ 387 named destinations out of 1000 (max. 500000)
  422 words of extra memory for PDF output out of 10000 (max. 10000000)
 

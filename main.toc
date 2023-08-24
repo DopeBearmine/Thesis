@@ -26,8 +26,8 @@
 \contentsline {chapter}{\numberline {4}\color {thesisBlue} Using Generative Models of Natural Images to Define Neural Tuning Manifolds}{59}{chapter.112}%
 \contentsline {section}{\numberline {4.1}Introduction}{59}{section.113}%
 \contentsline {section}{\numberline {4.2}Methods}{61}{section.114}%
-\contentsline {section}{\numberline {4.3}Results}{70}{section.143}%
-\contentsline {section}{\numberline {4.4}Discussion}{81}{section.154}%
-\contentsline {section}{\numberline {4.5}Conclusion}{84}{section.155}%
-\contentsline {chapter}{\numberline {5}\color {thesisBlue} General Discussion}{85}{chapter.156}%
-\contentsline {chapter}{Bibliography}{87}{chapter*.157}%
+\contentsline {section}{\numberline {4.3}Results}{71}{section.144}%
+\contentsline {section}{\numberline {4.4}Discussion}{83}{section.155}%
+\contentsline {section}{\numberline {4.5}Conclusion}{85}{section.156}%
+\contentsline {chapter}{\numberline {5}\color {thesisBlue} General Discussion}{87}{chapter.157}%
+\contentsline {chapter}{Bibliography}{93}{chapter*.158}%
